@@ -1,7 +1,8 @@
 export const SITE_TITLE = 'Nama Bayi Islam';
 export const SITE_DESCRIPTION =
   'Senarai nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan tema. Panduan memilih nama Islam yang indah untuk bayi anda.';
-export const SITE_URL = 'https://namabayiislam.com';
+/** Production domain; override via SITE_URL at build time for GitHub Pages previews. */
+export const SITE_URL = (import.meta.env.SITE || 'https://namabayiislam.com').replace(/\/$/, '');
 export const SITE_LANG = 'ms';
 
 /** Set your AdSense publisher ID after approval, e.g. ca-pub-xxxxxxxx */
