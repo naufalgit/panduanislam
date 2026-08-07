@@ -1,0 +1,8 @@
+# Output directory for Cloudflare Pages
+# Build command: npm run build
+# Framework preset: Astro
+# Node version: 20
+
+name = "namabayiislam"
+compatibility_date = "2026-08-07"
+pages_build_output_dir = "dist"

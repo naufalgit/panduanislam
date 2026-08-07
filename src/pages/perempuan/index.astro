@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NameList from '../../components/NameList.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getNamesByGender } from '../../data/names';
+
+const names = getNamesByGender('perempuan');
+const title = 'Nama Bayi Islam Perempuan';
+const description = `Senarai ${names.length} nama bayi Islam perempuan beserta maksud dan asal usul. Sesuai untuk ibu bapa di Malaysia.`;
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/perempuan/">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> / <span>Perempuan</span>
+  </nav>
+  <h1>{title}</h1>
+  <p class="lead">
+    Koleksi nama bayi Islam untuk anak perempuan — termasuk nama unisex — dengan maksud dalam Bahasa Melayu.
+  </p>
+  <AdSlot slot="perempuan" />
+  <NameList names={names} />
+</BaseLayout>

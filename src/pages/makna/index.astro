@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { THEMES } from '../../consts';
+import { getNamesByTheme } from '../../data/names';
+
+const title = 'Nama Bayi Islam Mengikut Makna';
+const description =
+  'Teroka nama bayi Islam mengikut tema maksud: rezeki, rahmat, soleh, cahaya, cantik dan lagi.';
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/makna/">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> / <span>Makna</span>
+  </nav>
+  <h1>{title}</h1>
+  <p class="lead">{description}</p>
+  <div class="card-grid">
+    {Object.entries(THEMES).map(([slug, theme]) => {
+      const count = getNamesByTheme(slug).length;
+      return (
+        <a class="card" href={`/makna/${slug}/`}>
+          <h3>{theme.title}</h3>
+          <p>{count} nama · {theme.keyword}</p>
+        </a>
+      );
+    })}
+  </div>
+</BaseLayout>

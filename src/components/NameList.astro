@@ -1,0 +1,20 @@
+---
+import { genderLabel, type BabyName } from '../data/names';
+
+interface Props {
+  names: BabyName[];
+}
+
+const { names } = Astro.props;
+---
+
+<ul class="name-list">
+  {names.map((n) => (
+    <li>
+      <a href={`/nama/${n.slug}/`}>
+        <strong>{n.name}</strong>
+        <span>{genderLabel(n.gender)} · {n.meaning}</span>
+      </a>
+    </li>
+  ))}
+</ul>

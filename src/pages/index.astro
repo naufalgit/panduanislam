@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { NAMES, getLettersWithNames, getNamesByTheme } from '../data/names';
+import { SITE_DESCRIPTION, SITE_TITLE, THEMES } from '../consts';
+
+const letters = getLettersWithNames();
+const lelakiCount = NAMES.filter((n) => n.gender === 'lelaki' || n.gender === 'unisex').length;
+const perempuanCount = NAMES.filter((n) => n.gender === 'perempuan' || n.gender === 'unisex').length;
+const featuredThemes = Object.entries(THEMES).slice(0, 8);
+const popular = [...NAMES]
+  .sort((a, b) => a.name.localeCompare(b.name, 'ms'))
+  .slice(0, 12);
+---
+
+<BaseLayout title={`${SITE_TITLE} — Maksud & Senarai Nama`} description={SITE_DESCRIPTION}>
+  <section class="hero">
+    <p class="eyebrow">Malaysia · Bahasa Melayu</p>
+    <h1>Nama Bayi Islam</h1>
+    <p class="lead">
+      Cari nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan tema —
+      rezeki, rahmat, cahaya, soleh dan lagi.
+    </p>
+    <div class="hero-actions">
+      <a class="btn" href="/lelaki/">Nama lelaki</a>
+      <a class="btn btn-ghost" href="/perempuan/">Nama perempuan</a>
+    </div>
+  </section>
+
+  <AdSlot slot="home-top" />
+
+  <section class="grid-stats">
+    <a href="/lelaki/" class="stat-card">
+      <strong>{lelakiCount}</strong>
+      <span>Nama lelaki &amp; unisex</span>
+    </a>
+    <a href="/perempuan/" class="stat-card">
+      <strong>{perempuanCount}</strong>
+      <span>Nama perempuan &amp; unisex</span>
+    </a>
+    <a href="/huruf/a/" class="stat-card">
+      <strong>{NAMES.length}</strong>
+      <span>Jumlah nama dalam pangkalan</span>
+    </a>
+  </section>
+
+  <section>
+    <h2>Cari mengikut huruf</h2>
+    <p>Senarai nama bayi Islam bermula dengan huruf A–Z.</p>
+    <div class="letter-grid">
+      {letters.map((L) => (
+        <a href={`/huruf/${L.toLowerCase()}/`}>{L}</a>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2>Nama mengikut makna</h2>
+    <p>Pilih tema yang anda mahu abadikan dalam nama anak.</p>
+    <div class="card-grid">
+      {featuredThemes.map(([slug, theme]) => {
+        const count = getNamesByTheme(slug).length;
+        return (
+          <a class="card" href={`/makna/${slug}/`}>
+            <h3>{theme.title.replace('Nama Bayi Islam Bermaksud ', '')}</h3>
+            <p>{count} nama · {theme.keyword}</p>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <section>
+    <h2>Nama popular untuk dimulakan</h2>
+    <ul class="name-list">
+      {popular.map((n) => (
+        <li>
+          <a href={`/nama/${n.slug}/`}>
+            <strong>{n.name}</strong>
+            <span>{n.meaning}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Panduan memilih nama</h2>
+    <div class="card-grid">
+      <a class="card" href="/blog/cara-pilih-nama-bayi-islam/">
+        <h3>Cara pilih nama bayi Islam</h3>
+        <p>Panduan ringkas untuk ibu bapa baharu.</p>
+      </a>
+      <a class="card" href="/blog/nama-bayi-islam-trending/">
+        <h3>Nama bayi Islam trending</h3>
+        <p>Trend nama yang sering dicari di Malaysia.</p>
+      </a>
+      <a class="card" href="/blog/elak-nama-bermasalah/">
+        <h3>Elak nama bermasalah</h3>
+        <p>Tips umum — bukan fatwa — semasa memilih nama.</p>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

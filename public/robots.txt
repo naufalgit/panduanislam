@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://namabayiislam.com/sitemap-index.xml

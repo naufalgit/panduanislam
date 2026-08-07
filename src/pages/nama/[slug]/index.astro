@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import { THEMES } from '../../../consts';
+import {
+  genderLabel,
+  getNameBySlug,
+  getRelatedNames,
+  NAMES,
+} from '../../../data/names';
+
+export function getStaticPaths() {
+  return NAMES.map((n) => ({
+    params: { slug: n.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const name = getNameBySlug(slug!);
+
+if (!name) {
+  throw new Error(`Name not found: ${slug}`);
+}
+
+const related = getRelatedNames(name);
+const letter = name.name[0]!.toUpperCase();
+const title = `Nama ${name.name} — Maksud & Asal Usul`;
+const description = `Maksud nama ${name.name}: ${name.meaning}. Asal usul ${name.origin}. Nama bayi Islam ${genderLabel(name.gender).toLowerCase()}.`;
+---
+
+<BaseLayout title={title} description={description} canonicalPath={`/nama/${name.slug}/`}>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> /
+    <a href={name.gender === 'perempuan' ? '/perempuan/' : '/lelaki/'}>
+      {name.gender === 'unisex' ? 'Unisex' : genderLabel(name.gender)}
+    </a>
+    /
+    <span>{name.name}</span>
+  </nav>
+
+  <article>
+    <h1>Nama {name.name}</h1>
+    <p class="lead">
+      <strong>Maksud:</strong> {name.meaning}
+    </p>
+
+    <div class="tag-row">
+      <span class="tag">{genderLabel(name.gender)}</span>
+      <span class="tag">Asal: {name.origin}</span>
+      <a class="tag" href={`/huruf/${letter.toLowerCase()}/`}>Huruf {letter}</a>
+      {name.themes.map((t) =>
+        THEMES[t] ? (
+          <a class="tag" href={`/makna/${t}/`}>{t}</a>
+        ) : null,
+      )}
+    </div>
+
+    <AdSlot slot={`nama-${name.slug}`} />
+
+    <div class="prose">
+      <h2>Tentang nama {name.name}</h2>
+      <p>
+        <strong>{name.name}</strong> ialah nama bayi Islam {genderLabel(name.gender).toLowerCase()}
+        yang berasal daripada bahasa <strong>{name.origin}</strong>. Maksudnya ialah
+        “{name.meaning}”.
+      </p>
+      <p>
+        Ibu bapa di Malaysia sering mencari nama seperti <em>{name.name}</em> kerana bunyinya
+        indah dan maksudnya positif. Semak juga senarai
+        <a href={`/huruf/${letter.toLowerCase()}/`}>nama bermula dengan {letter}</a>
+        dan tema berkaitan di bawah.
+      </p>
+      {name.themes[0] && THEMES[name.themes[0]] && (
+        <p>
+          Jika anda suka tema <strong>{name.themes[0]}</strong>, lihat
+          <a href={`/makna/${name.themes[0]}/`}>{THEMES[name.themes[0]].title.toLowerCase()}</a>.
+        </p>
+      )}
+    </div>
+
+    <section>
+      <h2>Nama berkaitan</h2>
+      <ul class="name-list">
+        {related.map((n) => (
+          <li>
+            <a href={`/nama/${n.slug}/`}>
+              <strong>{n.name}</strong>
+              <span>{n.meaning}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <aside class="affiliate-note">
+      <strong>Tip ibu bapa:</strong> Simpan beberapa pilihan nama, semak sebutan dalam BM,
+      dan pastikan maksudnya sesuai dengan nilai keluarga anda. Ruang afiliasi buku/produk
+      parenting boleh ditambah di sini selepas trafik stabil.
+    </aside>
+  </article>
+</BaseLayout>

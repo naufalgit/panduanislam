@@ -1,0 +1,86 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  type?: 'website' | 'article';
+}
+
+import '../styles/global.css';
+import {
+  ADSENSE_CLIENT,
+  SITE_LANG,
+  SITE_TITLE,
+  SITE_URL,
+} from '../consts';
+
+const {
+  title,
+  description,
+  canonicalPath = Astro.url.pathname,
+  type = 'website',
+} = Astro.props;
+
+const canonical = new URL(canonicalPath, SITE_URL).toString();
+const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}`;
+---
+
+<!doctype html>
+<html lang={SITE_LANG}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="ms_MY" />
+    <meta property="og:site_name" content={SITE_TITLE} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <title>{fullTitle}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {ADSENSE_CLIENT && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+        crossorigin="anonymous"
+      />
+    )}
+  </head>
+  <body>
+    <a class="skip" href="#main">Langkau ke kandungan</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="/">{SITE_TITLE}</a>
+        <nav aria-label="Utama">
+          <a href="/lelaki/">Lelaki</a>
+          <a href="/perempuan/">Perempuan</a>
+          <a href="/huruf/a/">Huruf</a>
+          <a href="/makna/rezeki/">Makna</a>
+          <a href="/blog/cara-pilih-nama-bayi-islam/">Panduan</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          <strong>{SITE_TITLE}</strong> — rujukan nama bayi Islam untuk ibu bapa di Malaysia.
+          Maklumat bersifat umum dan bukan fatwa rasmi.
+        </p>
+        <p class="footer-links">
+          <a href="/lelaki/">Nama lelaki</a>
+          <a href="/perempuan/">Nama perempuan</a>
+          <a href="/sitemap-index.xml">Sitemap</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
