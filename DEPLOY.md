@@ -2,13 +2,13 @@
 
 ## 0. Repo
 
-Source: https://github.com/naufalrazman/namabayiislam
+Source: https://github.com/naufalgit/namabayiislam
 
 ## 1. Deploy (pick one — both free)
 
 ### Option A — Vercel (fastest)
 
-1. Open: https://vercel.com/new/clone?repository-url=https://github.com/naufalrazman/namabayiislam
+1. Open: https://vercel.com/new/clone?repository-url=https://github.com/naufalgit/namabayiislam
 2. Import the repo (Astro is auto-detected)
 3. Deploy
 4. Add custom domain `namabayiislam.com` after purchase (see [DOMAIN.md](DOMAIN.md))
@@ -16,7 +16,7 @@ Source: https://github.com/naufalrazman/namabayiislam
 ### Option B — Cloudflare Pages
 
 1. [Cloudflare Dashboard](https://dash.cloudflare.com/) → Workers & Pages → Create → Pages → Connect Git
-2. Select `naufalrazman/namabayiislam`
+2. Select `naufalgit/namabayiislam`
 3. Build command: `npm run build`
 4. Output directory: `dist`
 5. Node version: `20` or later
