@@ -1,8 +1,8 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import NameList from '../../../components/NameList.astro';
-import AdSlot from '../../../components/AdSlot.astro';
-import { getLettersWithNames, getNamesByLetter } from '../../../data/names';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import NameList from '../../../../components/NameList.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import { getLettersWithNames, getNamesByLetter } from '../../../../data/names';
 
 export function getStaticPaths() {
   return getLettersWithNames().map((letter) => ({
@@ -18,9 +18,9 @@ const title = `Nama Bayi Islam Bermula Dengan ${L}`;
 const description = `Senarai nama bayi Islam yang bermula dengan huruf ${L}. ${names.length} nama beserta maksud dalam Bahasa Melayu.`;
 ---
 
-<BaseLayout title={title} description={description} canonicalPath={`/huruf/${L.toLowerCase()}/`}>
+<BaseLayout title={title} description={description} canonicalPath={`/nama-bayi/huruf/${L.toLowerCase()}/`}>
   <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="/">Laman utama</a> / <span>Huruf {L}</span>
+    <a href="/">Laman utama</a> / <a href="/nama-bayi/">Nama bayi</a> / <span>Huruf {L}</span>
   </nav>
   <h1>{title}</h1>
   <p class="lead">
@@ -30,7 +30,7 @@ const description = `Senarai nama bayi Islam yang bermula dengan huruf ${L}. ${n
     {allLetters.map((item) => (
       <a
         class={item === L ? 'active' : undefined}
-        href={`/huruf/${item.toLowerCase()}/`}
+        href={`/nama-bayi/huruf/${item.toLowerCase()}/`}
       >
         {item}
       </a>

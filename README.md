@@ -1,6 +1,6 @@
-# Namabayiislam.com — Astro site
+# Panduan Islam (panduanislam.my)
 
-Static Bahasa Melayu site for Islamic baby names (maksud, huruf, tema) aimed at Malaysia SEO + AdSense.
+1-year Islamic guides site for Muslim Malaysia. **Year-1 pillar:** Nama Bayi Islam under `/nama-bayi/`.
 
 ## Quick start
 
@@ -18,19 +18,16 @@ npm run preview
 
 ## Structure
 
-- `/` — hub
-- `/lelaki/`, `/perempuan/` — gender hubs
-- `/huruf/[a-z]/` — letter hubs
-- `/makna/[theme]/` — meaning themes
-- `/nama/[slug]/` — individual ranking pages
-- `/blog/...` — guides
+- `/` — Panduan Islam hub
+- `/nama-bayi/` — nama bayi pillar hub
+- `/nama-bayi/lelaki/`, `/nama-bayi/perempuan/`
+- `/nama-bayi/huruf/[a-z]/`, `/nama-bayi/makna/[theme]/`
+- `/nama-bayi/nama/[slug]/` — individual ranking pages
+- `/nama-bayi/blog/...` — guides
 
-Name data lives in `src/data/names.ts`. Site constants (domain, AdSense) in `src/consts.ts`.
+Later pillars (doa, solat, zakat) can live beside `/nama-bayi/` without renaming the brand.
 
-## Domain
+## Domain & deploy
 
-See [DOMAIN.md](DOMAIN.md). Canonical host: `https://namabayiislam.com`.
-
-## Deploy & Search Console
-
-See [DEPLOY.md](DEPLOY.md).
+- Domain: [DOMAIN.md](DOMAIN.md)
+- Deploy / GSC / AdSense: [DEPLOY.md](DEPLOY.md)

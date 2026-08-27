@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://namabayiislam.com/sitemap-index.xml
+Sitemap: https://panduanislam.my/sitemap-index.xml

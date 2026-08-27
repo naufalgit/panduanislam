@@ -1,9 +1,15 @@
-export const SITE_TITLE = 'Nama Bayi Islam';
+export const SITE_TITLE = 'Panduan Islam';
 export const SITE_DESCRIPTION =
-  'Senarai nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan tema. Panduan memilih nama Islam yang indah untuk bayi anda.';
-/** Production domain; override via SITE_URL at build time for GitHub Pages previews. */
-export const SITE_URL = (import.meta.env.SITE || 'https://namabayiislam.com').replace(/\/$/, '');
+  'Panduan Islam untuk Muslim Malaysia — mula dengan nama bayi Islam, maksud, dan tip memilih nama. Panduan lain akan ditambah dari semasa ke semasa.';
+/** Production domain */
+export const SITE_URL = (import.meta.env.SITE || 'https://panduanislam.my').replace(/\/$/, '');
 export const SITE_LANG = 'ms';
+
+/** First content pillar */
+export const NAMA_BAYI_BASE = '/nama-bayi';
+export const NAMA_BAYI_TITLE = 'Nama Bayi Islam';
+export const NAMA_BAYI_DESCRIPTION =
+  'Senarai nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan tema. Panduan memilih nama Islam yang indah untuk bayi anda.';
 
 /** Set your AdSense publisher ID after approval, e.g. ca-pub-xxxxxxxx */
 export const ADSENSE_CLIENT = '';

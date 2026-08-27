@@ -2,46 +2,48 @@
 
 ## 0. Repo
 
-Source: https://github.com/naufalgit/namabayiislam
+Source: https://github.com/naufalgit/panduanislam  
+(temporary current name may still be `namabayiislam` until renamed)
 
-## 1. Deploy (pick one — both free)
+Brand / domain: **Panduan Islam** → `https://panduanislam.my`
 
-### Option A — Vercel (fastest)
+## 1. Deploy
 
-1. Open: https://vercel.com/new/clone?repository-url=https://github.com/naufalgit/namabayiislam
-2. Import the repo (Astro is auto-detected)
-3. Deploy
-4. Add custom domain `namabayiislam.com` after purchase (see [DOMAIN.md](DOMAIN.md))
+### Vercel (current)
 
-### Option B — Cloudflare Pages
+Project may still be named `namabayiislam` internally — rename to `panduanislam` in Vercel settings when convenient.
 
-1. [Cloudflare Dashboard](https://dash.cloudflare.com/) → Workers & Pages → Create → Pages → Connect Git
-2. Select `naufalgit/namabayiislam`
-3. Build command: `npm run build`
-4. Output directory: `dist`
-5. Node version: `20` or later
-6. Add custom domain `namabayiislam.com`
+1. Domain: `panduanislam.my` (see [DOMAIN.md](DOMAIN.md))
+2. Vercel → Project → Settings → Domains → add `panduanislam.my`
+3. Optional: rename the Vercel project to `panduanislam`
 
-`vercel.json` and `wrangler.toml` are included.
+### Cloudflare Pages (alternative)
+
+1. Connect the GitHub repo (`naufalgit/panduanislam`)
+2. Build: `npm run build` · Output: `dist`
+3. Attach `panduanislam.my`
 
 ## 2. Google Search Console
 
-See [GSC.md](GSC.md). Sitemap after go-live: `https://namabayiislam.com/sitemap-index.xml`
+1. Add property: `https://panduanislam.my` (after domain is live)
+2. Submit sitemap: `https://panduanislam.my/sitemap-index.xml`
 
-## 3. Google Analytics (optional)
+See [GSC.md](GSC.md).
 
-Add GA4 measurement ID in `BaseLayout.astro` `<head>` when ready. Search Console alone is enough for month 1–2.
+## 3. AdSense (after traffic)
 
-## 4. Google AdSense (month 3)
-
-1. Apply at [Google AdSense](https://www.google.com/adsense/) after the site is live
-2. Set publisher ID in `src/consts.ts`:
+Set in `src/consts.ts`:
 
 ```ts
 export const ADSENSE_CLIENT = 'ca-pub-xxxxxxxxxxxxxxxx';
 ```
 
-3. Replace `data-ad-slot="0000000000"` in `src/components/AdSlot.astro` with real ad unit IDs
-4. Redeploy
+## 1-year content strategy
 
-Ad + affiliate placeholders are already on home, hubs, name pages, and blog guides.
+| Phase | Focus |
+|-------|--------|
+| Month 1–3 | Nama bayi only (`/nama-bayi/`) — rank long-tails |
+| Month 4–6 | Expand names + start doa pillar |
+| Month 7–12 | Solat / zakat / more guides; grow AdSense |
+
+Do not launch every pillar at once.

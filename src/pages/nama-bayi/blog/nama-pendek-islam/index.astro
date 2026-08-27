@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+
+const title = 'Nama Pendek Islam untuk Bayi';
+const description =
+  'Idea nama pendek Islam (2–3 suku kata) untuk bayi lelaki dan perempuan — mudah disebut dan diguna harian.';
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/nama-bayi/blog/nama-pendek-islam/" type="article">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> / <a href="/nama-bayi/">Nama bayi</a> / <span>Panduan</span>
+  </nav>
+  <article class="prose">
+    <h1>{title}</h1>
+    <AdSlot slot="blog-pendek" />
+    <p>
+      Nama pendek memudahkan panggilan harian, borang rasmi, dan sebutan di sekolah.
+      Beberapa contoh dalam pangkalan kami:
+    </p>
+    <ul>
+      <li><a href="/nama-bayi/nama/ali/">Ali</a></li>
+      <li><a href="/nama-bayi/nama/noor/">Noor</a></li>
+      <li><a href="/nama-bayi/nama/nurul/">Nurul</a></li>
+      <li><a href="/nama-bayi/nama/hana/">Hana</a></li>
+      <li><a href="/nama-bayi/nama/iman/">Iman</a></li>
+      <li><a href="/nama-bayi/nama/saif/">Saif</a></li>
+      <li><a href="/nama-bayi/nama/aya/">Aya</a></li>
+      <li><a href="/nama-bayi/nama/zia/">Zia</a></li>
+    </ul>
+    <p>
+      Teroka lebih banyak melalui <a href="/nama-bayi/huruf/a/">huruf A</a>–Z atau tema
+      <a href="/nama-bayi/makna/tenang/">tenang</a> dan <a href="/nama-bayi/makna/kasih/">kasih</a>.
+    </p>
+  </article>
+</BaseLayout>

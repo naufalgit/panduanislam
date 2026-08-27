@@ -1,34 +1,22 @@
-# Domain setup — Nama Bayi Islam
+# Domain setup — Panduan Islam
 
 ## Primary domain
 
-**Target:** `namabayiislam.com`
+**Target:** `panduanislam.my`
 
-RDAP lookup (Verisign) returned **404 Not Found**, which usually means the `.com` is **available to register**. Confirm and buy before someone else does.
+1-year brand for an Islamic guides hub (Malaysia). First pillar: **Nama Bayi Islam**.
 
-## Buy (cheap route)
+## Buy
 
-1. Register at [Namecheap](https://www.namecheap.com/), [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/), or [Porkbun](https://porkbun.com/) (~RM40–60/year).
-2. Prefer **Cloudflare Registrar** if you will host on Cloudflare Pages (simpler DNS).
-3. Fallbacks if taken: `maknanamabayi.com`, `namaislambayi.com`.
+1. Register `.my` via [exabytes](https://www.exabytes.my/), [Namecheap](https://www.namecheap.com/), or [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) if available for `.my`.
+2. Expect higher cost/process than `.com` (MYNIC rules may apply for `.my`).
+3. Fallback if blocked: `panduanislam.com` (then update `src/consts.ts`).
 
-## DNS → host
+## DNS → Vercel
 
-After buying, point the domain to your host:
-
-### Cloudflare Pages
-
-1. Add site in Cloudflare Pages (connect this GitHub repo).
-2. Pages → Custom domains → add `namabayiislam.com` and `www`.
-3. Cloudflare will set the required DNS records automatically if the domain is on Cloudflare.
-
-### Vercel
-
-1. Project → Settings → Domains → add `namabayiislam.com`.
-2. At your registrar, set:
-   - **A** `@` → `76.76.21.21`
-   - **CNAME** `www` → `cname.vercel-dns.com`
+1. Vercel project → Settings → Domains → add `panduanislam.my` and `www.panduanislam.my`
+2. At registrar, set the DNS records Vercel shows (usually A/CNAME)
 
 ## Site config
 
-Canonical URL is set in `src/consts.ts` as `https://namabayiislam.com`. Update it if you buy a fallback domain.
+Canonical URL is `https://panduanislam.my` in `src/consts.ts` and `astro.config.mjs`.

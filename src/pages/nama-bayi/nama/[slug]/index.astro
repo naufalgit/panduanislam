@@ -1,14 +1,14 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import AdSlot from '../../../components/AdSlot.astro';
-import AffiliateNote from '../../../components/AffiliateNote.astro';
-import { THEMES } from '../../../consts';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import AffiliateNote from '../../../../components/AffiliateNote.astro';
+import { THEMES } from '../../../../consts';
 import {
   genderLabel,
   getNameBySlug,
   getRelatedNames,
   NAMES,
-} from '../../../data/names';
+} from '../../../../data/names';
 
 export function getStaticPaths() {
   return NAMES.map((n) => ({
@@ -29,10 +29,10 @@ const title = `Nama ${name.name} — Maksud & Asal Usul`;
 const description = `Maksud nama ${name.name}: ${name.meaning}. Asal usul ${name.origin}. Nama bayi Islam ${genderLabel(name.gender).toLowerCase()}.`;
 ---
 
-<BaseLayout title={title} description={description} canonicalPath={`/nama/${name.slug}/`}>
+<BaseLayout title={title} description={description} canonicalPath={`/nama-bayi/nama/${name.slug}/`}>
   <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="/">Laman utama</a> /
-    <a href={name.gender === 'perempuan' ? '/perempuan/' : '/lelaki/'}>
+    <a href="/">Laman utama</a> / <a href="/nama-bayi/">Nama bayi</a> /
+    <a href={name.gender === 'perempuan' ? '/nama-bayi/perempuan/' : '/nama-bayi/lelaki/'}>
       {name.gender === 'unisex' ? 'Unisex' : genderLabel(name.gender)}
     </a>
     /
@@ -48,10 +48,10 @@ const description = `Maksud nama ${name.name}: ${name.meaning}. Asal usul ${name
     <div class="tag-row">
       <span class="tag">{genderLabel(name.gender)}</span>
       <span class="tag">Asal: {name.origin}</span>
-      <a class="tag" href={`/huruf/${letter.toLowerCase()}/`}>Huruf {letter}</a>
+      <a class="tag" href={`/nama-bayi/huruf/${letter.toLowerCase()}/`}>Huruf {letter}</a>
       {name.themes.map((t) =>
         THEMES[t] ? (
-          <a class="tag" href={`/makna/${t}/`}>{t}</a>
+          <a class="tag" href={`/nama-bayi/makna/${t}/`}>{t}</a>
         ) : null,
       )}
     </div>
@@ -68,13 +68,13 @@ const description = `Maksud nama ${name.name}: ${name.meaning}. Asal usul ${name
       <p>
         Ibu bapa di Malaysia sering mencari nama seperti <em>{name.name}</em> kerana bunyinya
         indah dan maksudnya positif. Semak juga senarai
-        <a href={`/huruf/${letter.toLowerCase()}/`}>nama bermula dengan {letter}</a>
+        <a href={`/nama-bayi/huruf/${letter.toLowerCase()}/`}>nama bermula dengan {letter}</a>
         dan tema berkaitan di bawah.
       </p>
       {name.themes[0] && THEMES[name.themes[0]] && (
         <p>
           Jika anda suka tema <strong>{name.themes[0]}</strong>, lihat
-          <a href={`/makna/${name.themes[0]}/`}>{THEMES[name.themes[0]].title.toLowerCase()}</a>.
+          <a href={`/nama-bayi/makna/${name.themes[0]}/`}>{THEMES[name.themes[0]].title.toLowerCase()}</a>.
         </p>
       )}
     </div>
@@ -84,7 +84,7 @@ const description = `Maksud nama ${name.name}: ${name.meaning}. Asal usul ${name
       <ul class="name-list">
         {related.map((n) => (
           <li>
-            <a href={`/nama/${n.slug}/`}>
+            <a href={`/nama-bayi/nama/${n.slug}/`}>
               <strong>{n.name}</strong>
               <span>{n.meaning}</span>
             </a>
