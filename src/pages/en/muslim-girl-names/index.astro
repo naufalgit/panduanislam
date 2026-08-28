@@ -25,8 +25,8 @@ const description = `Explore ${names.length} Muslim girl names (and unisex optio
 
   <h1>{title}</h1>
   <p class="lead">
-    Looking for Islamic baby girl names? Start with this sample of Muslim girl names with meanings,
-    then open the full Malay list of {names.length} names.
+    Looking for Islamic baby girl names? Start with this sample of Muslim girl names with English
+    meanings, then open any name for the full entry ({names.length} names in the catalogue).
   </p>
 
   <AdSlot slot="en-muslim-girl-names" />
@@ -39,7 +39,7 @@ const description = `Explore ${names.length} Muslim girl names (and unisex optio
       flows with your family name.
     </p>
     <p>
-      Full list in Malay:
+      Full list (Bahasa Melayu catalogue):
       <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama bayi Islam perempuan</a>
       · Also see
       <a href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>
@@ -50,10 +50,10 @@ const description = `Explore ${names.length} Muslim girl names (and unisex optio
 
   <section>
     <h2>Sample Muslim girl names</h2>
-    <p>Meanings shown in Malay. Open a name for details, or browse the full list.</p>
+    <p>Meanings in English. Open a name for the full entry.</p>
     <NameList names={sample} lang="en" />
     <p style="margin-top: 1.25rem">
-      <a class="btn" href={`${NAMA_BAYI_BASE}/perempuan/`}>See all {names.length} girl names</a>
+      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Browse all Islamic baby names</a>
     </p>
   </section>
 </BaseLayout>

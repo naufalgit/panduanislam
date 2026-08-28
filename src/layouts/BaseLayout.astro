@@ -6,6 +6,8 @@ interface Props {
   type?: 'website' | 'article';
   /** Page language; defaults to site Malay */
   lang?: string;
+  /** Optional hreflang pairs, e.g. [{ lang: 'en', path: '/en/...' }] */
+  alternates?: { lang: string; path: string }[];
 }
 
 import '../styles/global.css';
@@ -24,6 +26,7 @@ const {
   canonicalPath = Astro.url.pathname,
   type = 'website',
   lang = SITE_LANG,
+  alternates = [],
 } = Astro.props;
 
 const canonical = new URL(canonicalPath, SITE_URL).toString();
@@ -43,6 +46,9 @@ const ogLocale = lang === 'en' ? 'en_MY' : 'ms_MY';
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href={canonical} />
+    {alternates.map((a) => (
+      <link rel="alternate" hreflang={a.lang} href={new URL(a.path, SITE_URL).toString()} />
+    ))}
     <meta property="og:type" content={type} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />

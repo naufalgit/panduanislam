@@ -29,8 +29,8 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
     <p class="eyebrow">English guide · Malaysia</p>
     <h1>{title}</h1>
     <p class="lead">
-      Looking for Islamic baby names with beautiful meanings? Start here — then explore our full
-      Malay lists of Muslim boy and girl names used by families in Malaysia.
+      Looking for Islamic baby names with beautiful meanings? Start here with English meanings,
+      then explore boy and girl lists used by Muslim families in Malaysia.
     </p>
     <div class="hero-actions">
       <a class="btn" href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>
@@ -92,7 +92,7 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
         return (
           <a class="card" href={`${NAMA_BAYI_BASE}/makna/${slug}/`}>
             <h3>{theme.title.replace('Nama Bayi Islam Bermaksud ', '')}</h3>
-            <p>{count} names · meanings in Malay</p>
+            <p>{count} names</p>
           </a>
         );
       })}
@@ -101,7 +101,7 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
 
   <section>
     <h2>Popular Islamic baby names to start with</h2>
-    <p>Meanings are shown in Malay — open any name for the full entry.</p>
+    <p>Open any name for the full English entry (Malay meaning included).</p>
     <NameList names={popular} lang="en" />
   </section>
 

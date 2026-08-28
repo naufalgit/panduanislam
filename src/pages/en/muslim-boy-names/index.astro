@@ -25,8 +25,8 @@ const description = `Explore ${names.length} Muslim boy names (and unisex option
 
   <h1>{title}</h1>
   <p class="lead">
-    Looking for Islamic baby boy names? Here is a starter list of Muslim boy names with meanings,
-    plus links to the full Malay catalogue of {names.length} names.
+    Looking for Islamic baby boy names? Here is a starter list of Muslim boy names with English
+    meanings, plus links to the full catalogue of {names.length} names.
   </p>
 
   <AdSlot slot="en-muslim-boy-names" />
@@ -39,7 +39,7 @@ const description = `Explore ${names.length} Muslim boy names (and unisex option
       and on official documents.
     </p>
     <p>
-      Full list in Malay:
+      Full list (Bahasa Melayu catalogue):
       <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Nama bayi Islam lelaki</a>
       · Also see
       <a href={`${EN_BASE}/muslim-girl-names/`}>Muslim girl names</a>
@@ -50,10 +50,10 @@ const description = `Explore ${names.length} Muslim boy names (and unisex option
 
   <section>
     <h2>Sample Muslim boy names</h2>
-    <p>Meanings shown in Malay. Open a name for details, or browse the full list.</p>
+    <p>Meanings in English. Open a name for the full entry.</p>
     <NameList names={sample} lang="en" />
     <p style="margin-top: 1.25rem">
-      <a class="btn" href={`${NAMA_BAYI_BASE}/lelaki/`}>See all {names.length} boy names</a>
+      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Browse all Islamic baby names</a>
     </p>
   </section>
 </BaseLayout>
