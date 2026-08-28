@@ -32,6 +32,14 @@ const {
 const canonical = new URL(canonicalPath, SITE_URL).toString();
 const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}`;
 const ogLocale = lang === 'en' ? 'en_MY' : 'ms_MY';
+
+const path = Astro.url.pathname;
+const onNamaSection =
+  path === NAMA_BAYI_BASE ||
+  path.startsWith(`${NAMA_BAYI_BASE}/`) ||
+  path === EN_BASE ||
+  path.startsWith(`${EN_BASE}/`);
+const isEn = lang === 'en';
 ---
 
 <!doctype html>
@@ -72,19 +80,38 @@ const ogLocale = lang === 'en' ? 'en_MY' : 'ms_MY';
     )}
   </head>
   <body>
-    <a class="skip" href="#main">Langkau ke kandungan</a>
+    <a class="skip" href="#main">{isEn ? 'Skip to content' : 'Langkau ke kandungan'}</a>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="logo" href="/">{SITE_TITLE}</a>
-        <nav aria-label="Utama">
-          <a href={`${NAMA_BAYI_BASE}/`}>Nama bayi</a>
-          <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Lelaki</a>
-          <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Perempuan</a>
-          <a href={`${NAMA_BAYI_BASE}/huruf/a/`}>Huruf</a>
-          <a href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>Makna</a>
-          <a href={`${EN_BASE}/`}>EN</a>
+        <a class="logo" href={isEn ? `${EN_BASE}/` : '/'}>{SITE_TITLE}</a>
+        <nav class="nav-primary" aria-label={isEn ? 'Primary' : 'Utama'}>
+          <a href={isEn ? `${EN_BASE}/islamic-baby-names/` : `${NAMA_BAYI_BASE}/`}>
+            {isEn ? 'Names' : 'Nama-nama'}
+          </a>
+          {isEn ? <a href="/">BM</a> : <a href={`${EN_BASE}/`}>EN</a>}
         </nav>
       </div>
+      {onNamaSection && (
+        <div class="wrap nav-secondary-wrap">
+          <nav class="nav-secondary" aria-label={isEn ? 'Name sections' : 'Bahagian nama'}>
+            {isEn ? (
+              <>
+                <a href={`${EN_BASE}/muslim-boy-names/`}>Boys</a>
+                <a href={`${EN_BASE}/muslim-girl-names/`}>Girls</a>
+                <a href={`${NAMA_BAYI_BASE}/huruf/a/`}>Letters</a>
+                <a href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>Meanings</a>
+              </>
+            ) : (
+              <>
+                <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Lelaki</a>
+                <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Perempuan</a>
+                <a href={`${NAMA_BAYI_BASE}/huruf/a/`}>Huruf</a>
+                <a href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>Makna</a>
+              </>
+            )}
+          </nav>
+        </div>
+      )}
     </header>
     <main id="main" class="wrap">
       <slot />
