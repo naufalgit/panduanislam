@@ -6,7 +6,6 @@ import { getNamesByGender } from '../../../data/names';
 import { EN_BASE, NAMA_BAYI_BASE } from '../../../consts';
 
 const names = getNamesByGender('perempuan');
-const sample = names.slice(0, 24);
 const title = 'Muslim Girl Names with Meaning';
 const description = `${names.length} Muslim girl names (including unisex) with English meanings — for families in Malaysia.`;
 ---
@@ -16,6 +15,11 @@ const description = `${names.length} Muslim girl names (including unisex) with E
   description={description}
   canonicalPath={`${EN_BASE}/muslim-girl-names/`}
   lang="en"
+  alternates={[
+    { lang: 'en', path: `${EN_BASE}/muslim-girl-names/` },
+    { lang: 'ms', path: `${NAMA_BAYI_BASE}/perempuan/` },
+    { lang: 'x-default', path: `${NAMA_BAYI_BASE}/perempuan/` },
+  ]}
 >
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     <a href={`${EN_BASE}/`}>English</a> /
@@ -25,33 +29,21 @@ const description = `${names.length} Muslim girl names (including unisex) with E
 
   <h1>{title}</h1>
   <p class="lead">
-    {names.length} Muslim girl names with English meanings. Sample list below; open a name for
-    details.
+    {names.length} Muslim girl names with English meanings. Use search or letters above to filter.
   </p>
 
   <AdSlot slot="en-muslim-girl-names" />
 
   <section class="prose">
-    <h2>Quick tips</h2>
     <p>
-      Look for a good meaning, easy pronunciation in Malay and English, and a full name that
-      sounds right with your family name.
-    </p>
-    <p>
-      Full Malay list:
+      Malay list:
       <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama bayi Islam perempuan</a>
       ·
       <a href={`${EN_BASE}/muslim-boy-names/`}>Boy names</a>
       ·
-      <a href={`${EN_BASE}/islamic-baby-names/`}>All Islamic baby names</a>
+      <a href={`${EN_BASE}/categories/`}>Name categories</a>
     </p>
   </section>
 
-  <section>
-    <h2>Sample girl names</h2>
-    <NameList names={sample} lang="en" />
-    <p style="margin-top: 1.25rem">
-      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>All Islamic baby names</a>
-    </p>
-  </section>
+  <NameList names={names} lang="en" />
 </BaseLayout>

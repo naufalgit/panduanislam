@@ -60,8 +60,8 @@ const allNames = [...NAMES].sort((a, b) => a.name.localeCompare(b.name, 'ms'));
         const count = getNamesByTheme(slug).length;
         return (
           <a class="card" href={`${NAMA_BAYI_BASE}/makna/${slug}/`}>
-            <h3>{theme.title.replace('Nama Bayi Islam Bermaksud ', '')}</h3>
-            <p>{count} nama · {theme.keyword}</p>
+            <h3>{theme.label}</h3>
+            <p>{count} nama · {theme.blurb}</p>
           </a>
         );
       })}

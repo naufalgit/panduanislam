@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { NAMES } from '../../data/names';
-import { EN_BASE, NAMA_BAYI_BASE, SITE_TITLE } from '../../consts';
+import { EN_BASE, NAMA_BAYI_BASE, SITE_TITLE, THEMES } from '../../consts';
 
 const title = `${SITE_TITLE} — English`;
 const description =
@@ -22,8 +22,7 @@ const description =
     </p>
     <div class="hero-actions">
       <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a>
-      <a class="btn btn-ghost" href={`${EN_BASE}/muslim-boy-names/`}>Boy names</a>
-      <a class="btn btn-ghost" href={`${EN_BASE}/muslim-girl-names/`}>Girl names</a>
+      <a class="btn btn-ghost" href={`${EN_BASE}/categories/`}>Name categories</a>
     </div>
   </section>
 
@@ -42,13 +41,17 @@ const description =
         <h3>Girl names</h3>
         <p>Muslim girl names with meaning.</p>
       </a>
+      <a class="card" href={`${EN_BASE}/categories/`}>
+        <h3>Name categories</h3>
+        <p>{Object.keys(THEMES).length} categories such as Provision, Mercy, and Light.</p>
+      </a>
     </div>
   </section>
 
   <section class="prose">
     <h2>Bahasa Melayu</h2>
     <p>
-      Most pages are in Malay —
+      Malay site:
       <a href="/">homepage</a>
       or
       <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.

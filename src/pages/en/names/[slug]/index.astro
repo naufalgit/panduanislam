@@ -63,7 +63,7 @@ const enPath = `${EN_BASE}/names/${name.slug}/`;
       <a class="tag" href={`${NAMA_BAYI_BASE}/?huruf=${letter.toLowerCase()}`}>Letter {letter}</a>
       {name.themes.map((t) =>
         THEMES[t] ? (
-          <a class="tag" href={`${NAMA_BAYI_BASE}/makna/${t}/`}>{t}</a>
+          <a class="tag" href={`${EN_BASE}/categories/${t}/`}>{THEMES[t].labelEn}</a>
         ) : null,
       )}
     </div>

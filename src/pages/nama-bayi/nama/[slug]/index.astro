@@ -65,7 +65,7 @@ const enPath = `/en/names/${name.slug}/`;
       <a class="tag" href={`/nama-bayi/?huruf=${letter.toLowerCase()}`}>Huruf {letter}</a>
       {name.themes.map((t) =>
         THEMES[t] ? (
-          <a class="tag" href={`/nama-bayi/makna/${t}/`}>{t}</a>
+          <a class="tag" href={`/nama-bayi/makna/${t}/`}>{THEMES[t].label}</a>
         ) : null,
       )}
     </div>
@@ -85,10 +85,10 @@ const enPath = `/en/names/${name.slug}/`;
         {name.themes[0] && THEMES[name.themes[0]] && (
           <>
             {' '}
-            dan
+            dan kategori
             <a href={`/nama-bayi/makna/${name.themes[0]}/`}>
               {' '}
-              {THEMES[name.themes[0]].title.toLowerCase()}
+              {THEMES[name.themes[0]].label}
             </a>
           </>
         )}

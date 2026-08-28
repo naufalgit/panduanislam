@@ -1,34 +1,44 @@
 ---
-import { NAMA_BAYI_BASE } from '../consts';
+import { EN_BASE, NAMA_BAYI_BASE } from '../consts';
 import { NAMES, getLettersWithNames } from '../data/names';
 
+interface Props {
+  lang?: 'ms' | 'en';
+}
+
+const { lang = 'ms' } = Astro.props;
+const isEn = lang === 'en';
 const letters = getLettersWithNames();
+const nameBase = isEn ? `${EN_BASE}/names` : `${NAMA_BAYI_BASE}/nama`;
 const index = NAMES.map((n) => ({
   name: n.name,
   slug: n.slug,
-  meaning: n.meaning,
+  meaning: isEn ? n.meaningEn : n.meaning,
   letter: n.name[0]!.toUpperCase(),
 }));
 ---
 
 <section
   class="nama-toolbar"
-  aria-label="Cari nama bayi"
+  aria-label={isEn ? 'Search baby names' : 'Cari nama bayi'}
   data-nama-toolbar
-  data-nama-base={NAMA_BAYI_BASE}
+  data-nama-base={nameBase}
+  data-lang={lang}
 >
-  <label class="nama-search-label" for="nama-search">Cari nama</label>
+  <label class="nama-search-label" for="nama-search">{isEn ? 'Search names' : 'Cari nama'}</label>
   <input
     id="nama-search"
     class="nama-search"
     type="search"
     name="q"
-    placeholder="Cari nama atau maksud…"
+    placeholder={isEn ? 'Search name or meaning…' : 'Cari nama atau maksud…'}
     autocomplete="off"
     enterkeyhint="search"
   />
-  <div class="letter-grid nama-letters" role="group" aria-label="Tapis mengikut huruf">
-    <button type="button" class="letter-btn" data-letter="" aria-pressed="true">Semua</button>
+  <div class="letter-grid nama-letters" role="group" aria-label={isEn ? 'Filter by letter' : 'Tapis mengikut huruf'}>
+    <button type="button" class="letter-btn" data-letter="" aria-pressed="true">
+      {isEn ? 'All' : 'Semua'}
+    </button>
     {letters.map((L) => (
       <button type="button" class="letter-btn" data-letter={L.toLowerCase()} aria-pressed="false">
         {L}
@@ -46,7 +56,8 @@ const index = NAMES.map((n) => ({
     const toolbar = document.querySelector('[data-nama-toolbar]');
     if (!toolbar) return;
 
-    const namaBase = toolbar.getAttribute('data-nama-base') || '/nama-bayi';
+    const namaBase = toolbar.getAttribute('data-nama-base') || '/nama-bayi/nama';
+    const isEn = toolbar.getAttribute('data-lang') === 'en';
     const input = toolbar.querySelector('#nama-search');
     const results = toolbar.querySelector('[data-search-results]');
     const meta = toolbar.querySelector('[data-filter-meta]');
@@ -61,8 +72,8 @@ const index = NAMES.map((n) => ({
 
     let activeLetter = '';
     const params = new URLSearchParams(window.location.search);
-    if (params.get('huruf')) {
-      activeLetter = String(params.get('huruf')).toLowerCase();
+    if (params.get('huruf') || params.get('letter')) {
+      activeLetter = String(params.get('huruf') || params.get('letter')).toLowerCase();
     }
 
     function pageItems() {
@@ -113,10 +124,13 @@ const index = NAMES.map((n) => ({
         results.innerHTML = '';
         if (activeLetter || q) {
           meta.hidden = false;
-          meta.textContent =
-            visible +
-            ' nama pada halaman ini' +
-            (activeLetter ? ' · huruf ' + activeLetter.toUpperCase() : '');
+          meta.textContent = isEn
+            ? visible +
+              ' names on this page' +
+              (activeLetter ? ' · letter ' + activeLetter.toUpperCase() : '')
+            : visible +
+              ' nama pada halaman ini' +
+              (activeLetter ? ' · huruf ' + activeLetter.toUpperCase() : '');
         } else {
           meta.hidden = true;
           meta.textContent = '';
@@ -144,7 +158,7 @@ const index = NAMES.map((n) => ({
           return (
             '<li><a href="' +
             namaBase +
-            '/nama/' +
+            '/' +
             encodeURIComponent(n.slug) +
             '/"><strong>' +
             escapeHtml(n.name) +
@@ -156,19 +170,27 @@ const index = NAMES.map((n) => ({
         .join('');
       results.hidden = shown.length === 0;
       meta.hidden = false;
-      meta.textContent =
-        matched.length +
-        ' nama' +
-        (activeLetter ? ' · huruf ' + activeLetter.toUpperCase() : '') +
-        (matched.length > shown.length ? ' (tunjuk ' + shown.length + ' dahulu)' : '');
+      meta.textContent = isEn
+        ? matched.length +
+          ' names' +
+          (activeLetter ? ' · letter ' + activeLetter.toUpperCase() : '') +
+          (matched.length > shown.length ? ' (showing ' + shown.length + ')' : '')
+        : matched.length +
+          ' nama' +
+          (activeLetter ? ' · huruf ' + activeLetter.toUpperCase() : '') +
+          (matched.length > shown.length ? ' (tunjuk ' + shown.length + ' dahulu)' : '');
     }
 
     function apply() {
       setPressed();
       renderSearchResults(input.value);
       const url = new URL(window.location.href);
-      if (activeLetter) url.searchParams.set('huruf', activeLetter);
-      else url.searchParams.delete('huruf');
+      const key = isEn ? 'letter' : 'huruf';
+      if (activeLetter) url.searchParams.set(key, activeLetter);
+      else {
+        url.searchParams.delete('huruf');
+        url.searchParams.delete('letter');
+      }
       window.history.replaceState({}, '', url);
     }
 

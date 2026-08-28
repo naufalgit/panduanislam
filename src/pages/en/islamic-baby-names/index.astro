@@ -2,14 +2,13 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import NameList from '../../../components/NameList.astro';
 import AdSlot from '../../../components/AdSlot.astro';
-import { NAMES, getLettersWithNames, getNamesByTheme } from '../../../data/names';
+import { NAMES, getNamesByTheme } from '../../../data/names';
 import { EN_BASE, NAMA_BAYI_BASE, THEMES } from '../../../consts';
 
-const letters = getLettersWithNames();
 const boyCount = NAMES.filter((n) => n.gender === 'lelaki' || n.gender === 'unisex').length;
 const girlCount = NAMES.filter((n) => n.gender === 'perempuan' || n.gender === 'unisex').length;
 const featuredThemes = Object.entries(THEMES).slice(0, 6);
-const popular = [...NAMES].sort((a, b) => a.name.localeCompare(b.name, 'en')).slice(0, 12);
+const allNames = [...NAMES].sort((a, b) => a.name.localeCompare(b.name, 'en'));
 
 const title = 'Islamic Baby Names with Meaning';
 const description = `${NAMES.length}+ Islamic baby names for boys and girls, with meanings in English — for Muslim parents in Malaysia.`;
@@ -29,12 +28,12 @@ const description = `${NAMES.length}+ Islamic baby names for boys and girls, wit
     <p class="eyebrow">English · Malaysia</p>
     <h1>{title}</h1>
     <p class="lead">
-      Muslim baby names with English meanings. Use the boy and girl lists below, or jump by letter
-      and theme.
+      Islamic baby names for boys and girls — meanings, origins, and categories such as provision,
+      mercy, light, and righteousness.
     </p>
     <div class="hero-actions">
-      <a class="btn" href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>
-      <a class="btn btn-ghost" href={`${EN_BASE}/muslim-girl-names/`}>Muslim girl names</a>
+      <a class="btn" href={`${EN_BASE}/muslim-boy-names/`}>Boy names</a>
+      <a class="btn btn-ghost" href={`${EN_BASE}/muslim-girl-names/`}>Girl names</a>
     </div>
   </section>
 
@@ -49,76 +48,42 @@ const description = `${NAMES.length}+ Islamic baby names for boys and girls, wit
       <strong>{girlCount}</strong>
       <span>Girl &amp; unisex names</span>
     </a>
-    <a href={`${NAMA_BAYI_BASE}/`} class="stat-card">
+    <a href={`${EN_BASE}/categories/`} class="stat-card">
       <strong>{NAMES.length}</strong>
       <span>Names in the database</span>
     </a>
   </section>
 
-  <section class="prose">
-    <h2>Choosing a name</h2>
-    <p>
-      Check that the meaning is good, that you can say the name easily in Malay and English, and
-      that it fits with your family name. Many people in Malaysia search in English first, then
-      confirm the Malay meaning before deciding.
-    </p>
-    <ul>
-      <li>Good meanings: blessing, light, piety, wisdom, kindness.</li>
-      <li>Say the full name out loud — at home and on forms.</li>
-      <li>Keep a short list of a few options before the birth.</li>
-    </ul>
-    <p>
-      Malay version:
-      <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.
-    </p>
-  </section>
-
   <section>
-    <h2>By letter</h2>
-    <p>Filter on the Malay hub — letters A–Z.</p>
-    <div class="letter-grid">
-      {letters.map((L) => (
-        <a href={`${NAMA_BAYI_BASE}/?huruf=${L.toLowerCase()}`}>{L}</a>
-      ))}
-    </div>
-  </section>
-
-  <section>
-    <h2>By category</h2>
-    <p>Common themes when picking a Muslim baby name.</p>
+    <h2>Name categories</h2>
+    <p>Pick a meaning theme for your child’s name.</p>
     <div class="card-grid">
       {featuredThemes.map(([slug, theme]) => {
         const count = getNamesByTheme(slug).length;
         return (
-          <a class="card" href={`${NAMA_BAYI_BASE}/makna/${slug}/`}>
-            <h3>{theme.title.replace('Nama Bayi Islam Bermaksud ', '')}</h3>
-            <p>{count} names</p>
+          <a class="card" href={`${EN_BASE}/categories/${slug}/`}>
+            <h3>{theme.labelEn}</h3>
+            <p>{count} names · {theme.blurbEn}</p>
           </a>
         );
       })}
     </div>
+    <p style="margin-top: 1rem">
+      <a href={`${EN_BASE}/categories/`}>All name categories →</a>
+    </p>
   </section>
 
   <section>
-    <h2>Example names</h2>
-    <NameList names={popular} lang="en" />
+    <h2>All names</h2>
+    <p>Use the search box or letter filters above to narrow the list.</p>
+    <NameList names={allNames} lang="en" />
   </section>
 
-  <section>
-    <h2>More</h2>
-    <div class="card-grid">
-      <a class="card" href={`${EN_BASE}/muslim-boy-names/`}>
-        <h3>Muslim boy names</h3>
-        <p>Boy names with English meanings.</p>
-      </a>
-      <a class="card" href={`${EN_BASE}/muslim-girl-names/`}>
-        <h3>Muslim girl names</h3>
-        <p>Girl names with English meanings.</p>
-      </a>
-      <a class="card" href={`${NAMA_BAYI_BASE}/blog/cara-pilih-nama-bayi-islam/`}>
-        <h3>How to choose (Malay)</h3>
-        <p>Short tips for new parents.</p>
-      </a>
-    </div>
+  <section class="prose">
+    <h2>Bahasa Melayu</h2>
+    <p>
+      Malay hub:
+      <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.
+    </p>
   </section>
 </BaseLayout>

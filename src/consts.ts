@@ -17,68 +17,96 @@ export const EN_BASE = '/en';
 /** Set your AdSense publisher ID after approval, e.g. ca-pub-xxxxxxxx */
 export const ADSENSE_CLIENT = '';
 
+/** Name categories — short MECE labels (no repeated “Nama Bayi Islam Bermaksud …”) */
 export const THEMES: Record<
   string,
-  { title: string; description: string; keyword: string }
+  {
+    label: string;
+    labelEn: string;
+    blurb: string;
+    blurbEn: string;
+    description: string;
+    descriptionEn: string;
+  }
 > = {
   rezeki: {
-    title: 'Nama Bayi Islam Bermaksud Rezeki',
-    description:
-      'Koleksi nama bayi Islam yang membawa maksud rezeki, kelimpahan dan kemakmuran.',
-    keyword: 'nama bayi islam bermaksud rezeki',
+    label: 'Rezeki',
+    labelEn: 'Provision',
+    blurb: 'Kelimpahan dan kemakmuran',
+    blurbEn: 'Abundance and prosperity',
+    description: 'Nama bayi Islam berkaitan rezeki, kelimpahan dan kemakmuran.',
+    descriptionEn: 'Islamic baby names related to provision, abundance, and prosperity.',
   },
   rahmat: {
-    title: 'Nama Bayi Islam Bermaksud Rahmat',
-    description:
-      'Senarai nama bayi Islam yang bermaksud rahmat, kasih sayang dan kelembutan.',
-    keyword: 'nama bayi islam bermaksud rahmat',
+    label: 'Rahmat',
+    labelEn: 'Mercy',
+    blurb: 'Kasih sayang dan kelembutan',
+    blurbEn: 'Compassion and gentleness',
+    description: 'Nama bayi Islam berkaitan rahmat, kasih sayang dan kelembutan.',
+    descriptionEn: 'Islamic baby names related to mercy, compassion, and gentleness.',
   },
   soleh: {
-    title: 'Nama Bayi Islam Bermaksud Soleh',
-    description:
-      'Nama-nama Islam yang dikaitkan dengan kesolehan, kebaikan dan ketakwaan.',
-    keyword: 'nama bayi islam bermaksud soleh',
+    label: 'Soleh',
+    labelEn: 'Righteous',
+    blurb: 'Kesolehan dan kebaikan',
+    blurbEn: 'Piety and goodness',
+    description: 'Nama bayi Islam berkaitan kesolehan, kebaikan dan ketakwaan.',
+    descriptionEn: 'Islamic baby names related to righteousness, goodness, and piety.',
   },
   bijak: {
-    title: 'Nama Bayi Islam Bermaksud Bijak',
-    description:
-      'Nama bayi Islam yang membawa maksud bijaksana, pintar dan berilmu.',
-    keyword: 'nama bayi islam bermaksud bijak',
+    label: 'Bijak',
+    labelEn: 'Wisdom',
+    blurb: 'Bijaksana dan berilmu',
+    blurbEn: 'Wise and knowledgeable',
+    description: 'Nama bayi Islam berkaitan kebijaksanaan, kepintaran dan ilmu.',
+    descriptionEn: 'Islamic baby names related to wisdom, intelligence, and knowledge.',
   },
   cantik: {
-    title: 'Nama Bayi Islam Bermaksud Cantik',
-    description:
-      'Nama bayi Islam perempuan dan unisex yang bermaksud cantik, indah dan elok.',
-    keyword: 'nama bayi islam bermaksud cantik',
+    label: 'Cantik',
+    labelEn: 'Beauty',
+    blurb: 'Indah dan elok',
+    blurbEn: 'Beauty and grace',
+    description: 'Nama bayi Islam berkaitan kecantikan, keindahan dan keelokan.',
+    descriptionEn: 'Islamic baby names related to beauty, grace, and elegance.',
   },
   kuat: {
-    title: 'Nama Bayi Islam Bermaksud Kuat',
-    description:
-      'Nama bayi Islam yang bermaksud kuat, gagah dan berani.',
-    keyword: 'nama bayi islam bermaksud kuat',
+    label: 'Kuat',
+    labelEn: 'Strength',
+    blurb: 'Gagah dan berani',
+    blurbEn: 'Strength and courage',
+    description: 'Nama bayi Islam berkaitan kekuatan, kegagahan dan keberanian.',
+    descriptionEn: 'Islamic baby names related to strength, courage, and bravery.',
   },
   tenang: {
-    title: 'Nama Bayi Islam Bermaksud Tenang',
-    description:
-      'Nama bayi Islam yang membawa maksud ketenangan, damai dan lembut.',
-    keyword: 'nama bayi islam bermaksud tenang',
+    label: 'Tenang',
+    labelEn: 'Calm',
+    blurb: 'Damai dan lembut',
+    blurbEn: 'Peace and gentleness',
+    description: 'Nama bayi Islam berkaitan ketenangan, kedamaian dan kelembutan.',
+    descriptionEn: 'Islamic baby names related to calm, peace, and gentleness.',
   },
   cahaya: {
-    title: 'Nama Bayi Islam Bermaksud Cahaya',
-    description:
-      'Nama bayi Islam yang bermaksud cahaya, sinar dan penerang.',
-    keyword: 'nama bayi islam bermaksud cahaya',
+    label: 'Cahaya',
+    labelEn: 'Light',
+    blurb: 'Sinar dan penerang',
+    blurbEn: 'Light and radiance',
+    description: 'Nama bayi Islam berkaitan cahaya, sinar dan penerangan.',
+    descriptionEn: 'Islamic baby names related to light, radiance, and illumination.',
   },
   mulia: {
-    title: 'Nama Bayi Islam Bermaksud Mulia',
-    description:
-      'Nama bayi Islam yang dikaitkan dengan kemuliaan, kehormatan dan martabat.',
-    keyword: 'nama bayi islam bermaksud mulia',
+    label: 'Mulia',
+    labelEn: 'Nobility',
+    blurb: 'Kehormatan dan martabat',
+    blurbEn: 'Honour and dignity',
+    description: 'Nama bayi Islam berkaitan kemuliaan, kehormatan dan martabat.',
+    descriptionEn: 'Islamic baby names related to nobility, honour, and dignity.',
   },
   kasih: {
-    title: 'Nama Bayi Islam Bermaksud Kasih',
-    description:
-      'Nama bayi Islam yang bermaksud kasih sayang, cinta dan belas kasihan.',
-    keyword: 'nama bayi islam bermaksud kasih',
+    label: 'Kasih',
+    labelEn: 'Love',
+    blurb: 'Cinta dan belas kasihan',
+    blurbEn: 'Love and compassion',
+    description: 'Nama bayi Islam berkaitan kasih sayang, cinta dan belas kasihan.',
+    descriptionEn: 'Islamic baby names related to love, affection, and compassion.',
   },
 };

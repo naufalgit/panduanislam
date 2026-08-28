@@ -97,15 +97,15 @@ const isEn = lang === 'en';
           <nav class="nav-secondary" aria-label={isEn ? 'Name sections' : 'Bahagian nama'}>
             {isEn ? (
               <>
+                <a href={`${EN_BASE}/categories/`}>Name categories</a>
                 <a href={`${EN_BASE}/muslim-boy-names/`}>Boys</a>
                 <a href={`${EN_BASE}/muslim-girl-names/`}>Girls</a>
-                <a href={`${NAMA_BAYI_BASE}/makna/`}>Name categories</a>
               </>
             ) : (
               <>
+                <a href={`${NAMA_BAYI_BASE}/makna/`}>Kategori Nama</a>
                 <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Lelaki</a>
                 <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Perempuan</a>
-                <a href={`${NAMA_BAYI_BASE}/makna/`}>Kategori Nama</a>
               </>
             )}
           </nav>
@@ -113,7 +113,8 @@ const isEn = lang === 'en';
       )}
     </header>
     <main id="main" class="wrap">
-      {onNamaBayi && <NamaBayiToolbar />}
+      {onNamaBayi && <NamaBayiToolbar lang="ms" />}
+      {isEn && onEnNames && <NamaBayiToolbar lang="en" />}
       <slot />
     </main>
     <footer class="site-footer">
