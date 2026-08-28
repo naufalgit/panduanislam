@@ -48,7 +48,10 @@ const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <title>{fullTitle}</title>
+    <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     {ADSENSE_CLIENT && (
       <script
         async
