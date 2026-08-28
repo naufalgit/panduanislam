@@ -62,7 +62,7 @@ const enPath = `/en/names/${name.slug}/`;
     <div class="tag-row">
       <span class="tag">{genderLabel(name.gender)}</span>
       <span class="tag">Asal: {name.origin}</span>
-      <a class="tag" href={`/nama-bayi/huruf/${letter.toLowerCase()}/`}>Huruf {letter}</a>
+      <a class="tag" href={`/nama-bayi/?huruf=${letter.toLowerCase()}`}>Huruf {letter}</a>
       {name.themes.map((t) =>
         THEMES[t] ? (
           <a class="tag" href={`/nama-bayi/makna/${t}/`}>{t}</a>
@@ -81,7 +81,7 @@ const enPath = `/en/names/${name.slug}/`;
       </p>
       <p>
         Lihat juga
-        <a href={`/nama-bayi/huruf/${letter.toLowerCase()}/`}>nama bermula dengan {letter}</a>
+        <a href={`/nama-bayi/?huruf=${letter.toLowerCase()}`}>nama bermula dengan {letter}</a>
         {name.themes[0] && THEMES[name.themes[0]] && (
           <>
             {' '}

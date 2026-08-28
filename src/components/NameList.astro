@@ -12,7 +12,11 @@ const { names, lang = 'ms' } = Astro.props;
 
 <ul class="name-list">
   {names.map((n) => (
-    <li>
+    <li
+      data-name-item
+      data-letter={n.name[0]!.toLowerCase()}
+      data-q={`${n.name} ${lang === 'en' ? n.meaningEn : n.meaning}`.toLowerCase()}
+    >
       <a href={lang === 'en' ? `${EN_BASE}/names/${n.slug}/` : `${NAMA_BAYI_BASE}/nama/${n.slug}/`}>
         <strong>{n.name}</strong>
         <span>

@@ -11,6 +11,7 @@ interface Props {
 }
 
 import '../styles/global.css';
+import NamaBayiToolbar from '../components/NamaBayiToolbar.astro';
 import {
   ADSENSE_CLIENT,
   EN_BASE,
@@ -34,11 +35,11 @@ const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}
 const ogLocale = lang === 'en' ? 'en_MY' : 'ms_MY';
 
 const path = Astro.url.pathname;
-const onNamaSection =
-  path === NAMA_BAYI_BASE ||
-  path.startsWith(`${NAMA_BAYI_BASE}/`) ||
+const onNamaBayi = path === NAMA_BAYI_BASE || path.startsWith(`${NAMA_BAYI_BASE}/`);
+const onEnNames =
   path === EN_BASE ||
   path.startsWith(`${EN_BASE}/`);
+const onNamaSection = onNamaBayi || onEnNames;
 const isEn = lang === 'en';
 ---
 
@@ -98,15 +99,13 @@ const isEn = lang === 'en';
               <>
                 <a href={`${EN_BASE}/muslim-boy-names/`}>Boys</a>
                 <a href={`${EN_BASE}/muslim-girl-names/`}>Girls</a>
-                <a href={`${NAMA_BAYI_BASE}/huruf/a/`}>Letters</a>
-                <a href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>Meanings</a>
+                <a href={`${NAMA_BAYI_BASE}/makna/`}>Name categories</a>
               </>
             ) : (
               <>
                 <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Lelaki</a>
                 <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Perempuan</a>
-                <a href={`${NAMA_BAYI_BASE}/huruf/a/`}>Huruf</a>
-                <a href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>Makna</a>
+                <a href={`${NAMA_BAYI_BASE}/makna/`}>Kategori Nama</a>
               </>
             )}
           </nav>
@@ -114,6 +113,7 @@ const isEn = lang === 'en';
       )}
     </header>
     <main id="main" class="wrap">
+      {onNamaBayi && <NamaBayiToolbar />}
       <slot />
     </main>
     <footer class="site-footer">
@@ -128,7 +128,6 @@ const isEn = lang === 'en';
           <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Nama lelaki</a>
           <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama perempuan</a>
           <a href={`${EN_BASE}/`}>English</a>
-          <a href="/sitemap-index.xml">Sitemap</a>
         </p>
       </div>
     </footer>

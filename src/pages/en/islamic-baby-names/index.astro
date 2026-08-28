@@ -75,16 +75,16 @@ const description = `${NAMES.length}+ Islamic baby names for boys and girls, wit
 
   <section>
     <h2>By letter</h2>
-    <p>Names from A to Z.</p>
+    <p>Filter on the Malay hub — letters A–Z.</p>
     <div class="letter-grid">
       {letters.map((L) => (
-        <a href={`${NAMA_BAYI_BASE}/huruf/${L.toLowerCase()}/`}>{L}</a>
+        <a href={`${NAMA_BAYI_BASE}/?huruf=${L.toLowerCase()}`}>{L}</a>
       ))}
     </div>
   </section>
 
   <section>
-    <h2>By meaning</h2>
+    <h2>By category</h2>
     <p>Common themes when picking a Muslim baby name.</p>
     <div class="card-grid">
       {featuredThemes.map(([slug, theme]) => {

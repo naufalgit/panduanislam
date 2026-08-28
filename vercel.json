@@ -1,5 +1,17 @@
 {
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/nama-bayi/huruf/:letter",
+      "destination": "/nama-bayi/?huruf=:letter",
+      "permanent": true
+    },
+    {
+      "source": "/nama-bayi/huruf/:letter/",
+      "destination": "/nama-bayi/?huruf=:letter",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

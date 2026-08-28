@@ -60,7 +60,7 @@ const enPath = `${EN_BASE}/names/${name.slug}/`;
     <div class="tag-row">
       <span class="tag">{genderLabelEn(name.gender)}</span>
       <span class="tag">Origin: {name.originEn}</span>
-      <a class="tag" href={`${NAMA_BAYI_BASE}/huruf/${letter.toLowerCase()}/`}>Letter {letter}</a>
+      <a class="tag" href={`${NAMA_BAYI_BASE}/?huruf=${letter.toLowerCase()}`}>Letter {letter}</a>
       {name.themes.map((t) =>
         THEMES[t] ? (
           <a class="tag" href={`${NAMA_BAYI_BASE}/makna/${t}/`}>{t}</a>

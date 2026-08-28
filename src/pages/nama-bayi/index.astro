@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { NAMES, getLettersWithNames, getNamesByTheme } from '../../data/names';
+import NameList from '../../components/NameList.astro';
+import { NAMES, getNamesByTheme } from '../../data/names';
 import {
   NAMA_BAYI_BASE,
   NAMA_BAYI_DESCRIPTION,
@@ -10,13 +11,10 @@ import {
   THEMES,
 } from '../../consts';
 
-const letters = getLettersWithNames();
 const lelakiCount = NAMES.filter((n) => n.gender === 'lelaki' || n.gender === 'unisex').length;
 const perempuanCount = NAMES.filter((n) => n.gender === 'perempuan' || n.gender === 'unisex').length;
 const featuredThemes = Object.entries(THEMES).slice(0, 6);
-const popular = [...NAMES]
-  .sort((a, b) => a.name.localeCompare(b.name, 'ms'))
-  .slice(0, 12);
+const allNames = [...NAMES].sort((a, b) => a.name.localeCompare(b.name, 'ms'));
 ---
 
 <BaseLayout title={`${NAMA_BAYI_TITLE} — Maksud & Senarai Nama`} description={NAMA_BAYI_DESCRIPTION} canonicalPath={`${NAMA_BAYI_BASE}/`}>
@@ -28,7 +26,7 @@ const popular = [...NAMES]
     <p class="eyebrow">{SITE_TITLE}</p>
     <h1>{NAMA_BAYI_TITLE}</h1>
     <p class="lead">
-      Cari nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan tema —
+      Cari nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan kategori —
       rezeki, rahmat, cahaya, soleh dan lagi.
     </p>
     <div class="hero-actions">
@@ -48,24 +46,14 @@ const popular = [...NAMES]
       <strong>{perempuanCount}</strong>
       <span>Nama perempuan &amp; unisex</span>
     </a>
-    <a href={`${NAMA_BAYI_BASE}/huruf/a/`} class="stat-card">
+    <a href={`${NAMA_BAYI_BASE}/makna/`} class="stat-card">
       <strong>{NAMES.length}</strong>
       <span>Jumlah nama dalam pangkalan</span>
     </a>
   </section>
 
   <section>
-    <h2>Cari mengikut huruf</h2>
-    <p>Senarai nama bayi Islam bermula dengan huruf A–Z.</p>
-    <div class="letter-grid">
-      {letters.map((L) => (
-        <a href={`${NAMA_BAYI_BASE}/huruf/${L.toLowerCase()}/`}>{L}</a>
-      ))}
-    </div>
-  </section>
-
-  <section>
-    <h2>Nama mengikut makna</h2>
+    <h2>Kategori nama</h2>
     <p>Pilih tema yang anda mahu abadikan dalam nama anak.</p>
     <div class="card-grid">
       {featuredThemes.map(([slug, theme]) => {
@@ -78,20 +66,15 @@ const popular = [...NAMES]
         );
       })}
     </div>
+    <p style="margin-top: 1rem">
+      <a href={`${NAMA_BAYI_BASE}/makna/`}>Semua kategori nama →</a>
+    </p>
   </section>
 
   <section>
-    <h2>Nama popular untuk dimulakan</h2>
-    <ul class="name-list">
-      {popular.map((n) => (
-        <li>
-          <a href={`${NAMA_BAYI_BASE}/nama/${n.slug}/`}>
-            <strong>{n.name}</strong>
-            <span>{n.meaning}</span>
-          </a>
-        </li>
-      ))}
-    </ul>
+    <h2>Semua nama</h2>
+    <p>Gunakan kotak carian atau huruf di atas untuk menapis senarai.</p>
+    <NameList names={allNames} />
   </section>
 
   <section>

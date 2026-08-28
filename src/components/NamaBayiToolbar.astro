@@ -1,0 +1,189 @@
+---
+import { NAMA_BAYI_BASE } from '../consts';
+import { NAMES, getLettersWithNames } from '../data/names';
+
+const letters = getLettersWithNames();
+const index = NAMES.map((n) => ({
+  name: n.name,
+  slug: n.slug,
+  meaning: n.meaning,
+  letter: n.name[0]!.toUpperCase(),
+}));
+---
+
+<section
+  class="nama-toolbar"
+  aria-label="Cari nama bayi"
+  data-nama-toolbar
+  data-nama-base={NAMA_BAYI_BASE}
+>
+  <label class="nama-search-label" for="nama-search">Cari nama</label>
+  <input
+    id="nama-search"
+    class="nama-search"
+    type="search"
+    name="q"
+    placeholder="Cari nama atau maksud…"
+    autocomplete="off"
+    enterkeyhint="search"
+  />
+  <div class="letter-grid nama-letters" role="group" aria-label="Tapis mengikut huruf">
+    <button type="button" class="letter-btn" data-letter="" aria-pressed="true">Semua</button>
+    {letters.map((L) => (
+      <button type="button" class="letter-btn" data-letter={L.toLowerCase()} aria-pressed="false">
+        {L}
+      </button>
+    ))}
+  </div>
+  <p class="nama-filter-meta meta" data-filter-meta hidden></p>
+  <ul class="name-list nama-search-results" data-search-results hidden></ul>
+</section>
+
+<script type="application/json" id="nama-search-index" set:html={JSON.stringify(index)} />
+
+<script is:inline>
+  (function () {
+    const toolbar = document.querySelector('[data-nama-toolbar]');
+    if (!toolbar) return;
+
+    const namaBase = toolbar.getAttribute('data-nama-base') || '/nama-bayi';
+    const input = toolbar.querySelector('#nama-search');
+    const results = toolbar.querySelector('[data-search-results]');
+    const meta = toolbar.querySelector('[data-filter-meta]');
+    const buttons = toolbar.querySelectorAll('.letter-btn[data-letter]');
+    const indexEl = document.getElementById('nama-search-index');
+    let names = [];
+    try {
+      names = JSON.parse(indexEl ? indexEl.textContent || '[]' : '[]');
+    } catch (e) {
+      names = [];
+    }
+
+    let activeLetter = '';
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('huruf')) {
+      activeLetter = String(params.get('huruf')).toLowerCase();
+    }
+
+    function pageItems() {
+      return Array.from(document.querySelectorAll('[data-name-item]'));
+    }
+
+    function setPressed() {
+      buttons.forEach(function (btn) {
+        const letter = btn.getAttribute('data-letter') || '';
+        const on = letter === activeLetter;
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        btn.classList.toggle('active', on);
+      });
+    }
+
+    function filterPageList(query) {
+      const items = pageItems();
+      if (!items.length) return 0;
+      const q = (query || '').trim().toLowerCase();
+      let visible = 0;
+      items.forEach(function (li) {
+        const letter = (li.getAttribute('data-letter') || '').toLowerCase();
+        const hay = (li.getAttribute('data-q') || '').toLowerCase();
+        const okLetter = !activeLetter || letter === activeLetter;
+        const okQuery = !q || hay.indexOf(q) !== -1;
+        const show = okLetter && okQuery;
+        li.hidden = !show;
+        if (show) visible += 1;
+      });
+      return visible;
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function renderSearchResults(query) {
+      const q = (query || '').trim().toLowerCase();
+      const hasPageList = pageItems().length > 0;
+
+      if (hasPageList) {
+        const visible = filterPageList(q);
+        results.hidden = true;
+        results.innerHTML = '';
+        if (activeLetter || q) {
+          meta.hidden = false;
+          meta.textContent =
+            visible +
+            ' nama pada halaman ini' +
+            (activeLetter ? ' · huruf ' + activeLetter.toUpperCase() : '');
+        } else {
+          meta.hidden = true;
+          meta.textContent = '';
+        }
+        return;
+      }
+
+      if (!q && !activeLetter) {
+        results.hidden = true;
+        results.innerHTML = '';
+        meta.hidden = true;
+        return;
+      }
+
+      const matched = names.filter(function (n) {
+        const okLetter = !activeLetter || n.letter.toLowerCase() === activeLetter;
+        if (!okLetter) return false;
+        if (!q) return true;
+        return (n.name + ' ' + n.meaning).toLowerCase().indexOf(q) !== -1;
+      });
+
+      const shown = matched.slice(0, 40);
+      results.innerHTML = shown
+        .map(function (n) {
+          return (
+            '<li><a href="' +
+            namaBase +
+            '/nama/' +
+            encodeURIComponent(n.slug) +
+            '/"><strong>' +
+            escapeHtml(n.name) +
+            '</strong><span>' +
+            escapeHtml(n.meaning) +
+            '</span></a></li>'
+          );
+        })
+        .join('');
+      results.hidden = shown.length === 0;
+      meta.hidden = false;
+      meta.textContent =
+        matched.length +
+        ' nama' +
+        (activeLetter ? ' · huruf ' + activeLetter.toUpperCase() : '') +
+        (matched.length > shown.length ? ' (tunjuk ' + shown.length + ' dahulu)' : '');
+    }
+
+    function apply() {
+      setPressed();
+      renderSearchResults(input.value);
+      const url = new URL(window.location.href);
+      if (activeLetter) url.searchParams.set('huruf', activeLetter);
+      else url.searchParams.delete('huruf');
+      window.history.replaceState({}, '', url);
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const letter = btn.getAttribute('data-letter') || '';
+        activeLetter = activeLetter === letter ? '' : letter;
+        apply();
+      });
+    });
+
+    input.addEventListener('input', function () {
+      renderSearchResults(input.value);
+    });
+
+    apply();
+  })();
+</script>
