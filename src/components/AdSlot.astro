@@ -9,9 +9,9 @@ const { slot: slotName = 'default' } = Astro.props;
 const ready = Boolean(ADSENSE_CLIENT);
 ---
 
-<aside class="ad-slot" data-ad-slot={slotName} aria-label="Ruang iklan">
-  {ready ? (
-    <>
+{
+  ready ? (
+    <aside class="ad-slot" data-ad-slot={slotName} aria-label="Iklan">
       <ins
         class="adsbygoogle"
         style="display:block"
@@ -24,10 +24,6 @@ const ready = Boolean(ADSENSE_CLIENT);
         window.adsbygoogle = window.adsbygoogle || [];
         window.adsbygoogle.push({});
       </script>
-    </>
-  ) : (
-    <p class="ad-placeholder">
-      Ruang AdSense — tetapkan <code>ADSENSE_CLIENT</code> dalam <code>src/consts.ts</code> selepas kelulusan.
-    </p>
-  )}
-</aside>
+    </aside>
+  ) : null
+}

@@ -5,7 +5,7 @@ import { EN_BASE, NAMA_BAYI_BASE, SITE_TITLE } from '../../consts';
 
 const title = `${SITE_TITLE} — English`;
 const description =
-  'Practical Islamic guides for Muslim families in Malaysia — starting with Islamic baby names with meaning. More topics coming soon.';
+  'Islamic baby names with meanings for Muslim families in Malaysia. More guides will be added over time.';
 ---
 
 <BaseLayout title={title} description={description} canonicalPath={`${EN_BASE}/`} lang="en">
@@ -17,8 +17,8 @@ const description =
     <p class="eyebrow">English · Malaysia</p>
     <h1>{SITE_TITLE}</h1>
     <p class="lead">
-      Practical guides for Muslim life in Malaysia. We start with
-      <strong>Islamic baby names</strong> — more topics like dua, prayer, and zakat will follow.
+      Guides for Muslim families in Malaysia. Right now the focus is
+      <strong>Islamic baby names</strong>; topics like dua, prayer, and zakat will come later.
     </p>
     <div class="hero-actions">
       <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a>
@@ -28,29 +28,29 @@ const description =
   </section>
 
   <section>
-    <h2>Start here</h2>
+    <h2>Islamic baby names</h2>
     <div class="card-grid">
       <a class="card" href={`${EN_BASE}/islamic-baby-names/`}>
-        <h3>Islamic baby names</h3>
-        <p>{NAMES.length}+ Muslim baby names with meanings for parents in Malaysia.</p>
+        <h3>All names</h3>
+        <p>{NAMES.length}+ names with English meanings.</p>
       </a>
       <a class="card" href={`${EN_BASE}/muslim-boy-names/`}>
-        <h3>Muslim boy names</h3>
-        <p>Islamic baby boy names with meaning — sample list and full catalogue.</p>
+        <h3>Boy names</h3>
+        <p>Muslim boy names with meaning.</p>
       </a>
       <a class="card" href={`${EN_BASE}/muslim-girl-names/`}>
-        <h3>Muslim girl names</h3>
-        <p>Islamic baby girl names with meaning — sample list and full catalogue.</p>
+        <h3>Girl names</h3>
+        <p>Muslim girl names with meaning.</p>
       </a>
     </div>
   </section>
 
   <section class="prose">
-    <h2>Prefer Bahasa Melayu?</h2>
+    <h2>Bahasa Melayu</h2>
     <p>
-      Most of this site is written in Malay.
-      <a href="/">Go to the main homepage</a>
-      or open
+      Most pages are in Malay —
+      <a href="/">homepage</a>
+      or
       <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.
     </p>
   </section>

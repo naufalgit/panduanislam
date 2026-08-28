@@ -71,27 +71,22 @@ const enPath = `${EN_BASE}/names/${name.slug}/`;
     <AdSlot slot={`en-nama-${name.slug}`} />
 
     <div class="prose">
-      <h2>About the name {name.name}</h2>
+      <h2>About {name.name}</h2>
       <p>
-        <strong>{name.name}</strong> is an Islamic baby name for a{' '}
-        {genderLabelEn(name.gender).toLowerCase()}, from <strong>{name.originEn}</strong>. The
-        meaning is “{name.meaningEn}”.
+        <strong>{name.name}</strong> is a {genderLabelEn(name.gender).toLowerCase()} Islamic baby
+        name from <strong>{name.originEn}</strong>. Meaning: “{name.meaningEn}”.
       </p>
       <p>
-        Muslim parents in Malaysia often look up names like <em>{name.name}</em> for a positive
-        meaning and a pronunciation that works in daily life. This page is a general naming guide —
-        not a religious ruling.
+        Malay page:
+        <a href={msPath}>{name.name}</a>
+        ·
+        <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a>
+        ·
+        <a href={`${EN_BASE}/muslim-boy-names/`}>Boy names</a>
+        ·
+        <a href={`${EN_BASE}/muslim-girl-names/`}>Girl names</a>
       </p>
-      <p>
-        Prefer Bahasa Melayu?
-        <a href={msPath}>Buka halaman nama {name.name}</a>.
-      </p>
-      <p>
-        Browse more
-        <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a>,
-        <a href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>, or
-        <a href={`${EN_BASE}/muslim-girl-names/`}>Muslim girl names</a>.
-      </p>
+      <p class="meta">General naming information only — not a fatwa.</p>
     </div>
 
     <section>

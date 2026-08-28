@@ -8,7 +8,7 @@ import { EN_BASE, NAMA_BAYI_BASE } from '../../../consts';
 const names = getNamesByGender('perempuan');
 const sample = names.slice(0, 24);
 const title = 'Muslim Girl Names with Meaning';
-const description = `Explore ${names.length} Muslim girl names (and unisex options) with meanings — Islamic baby names for daughters, popular with families in Malaysia.`;
+const description = `${names.length} Muslim girl names (including unisex) with English meanings — for families in Malaysia.`;
 ---
 
 <BaseLayout
@@ -25,35 +25,33 @@ const description = `Explore ${names.length} Muslim girl names (and unisex optio
 
   <h1>{title}</h1>
   <p class="lead">
-    Looking for Islamic baby girl names? Start with this sample of Muslim girl names with English
-    meanings, then open any name for the full entry ({names.length} names in the catalogue).
+    {names.length} Muslim girl names with English meanings. Sample list below; open a name for
+    details.
   </p>
 
   <AdSlot slot="en-muslim-girl-names" />
 
   <section class="prose">
-    <h2>Tips for choosing a Muslim girl name</h2>
+    <h2>Quick tips</h2>
     <p>
-      Choose a name with a kind, uplifting meaning — light, mercy, beauty, or nobility are popular
-      themes. Make sure it is easy to say in everyday Malay and English, and that the full name
-      flows with your family name.
+      Look for a good meaning, easy pronunciation in Malay and English, and a full name that
+      sounds right with your family name.
     </p>
     <p>
-      Full list (Bahasa Melayu catalogue):
+      Full Malay list:
       <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama bayi Islam perempuan</a>
-      · Also see
-      <a href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>
-      and the
-      <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names hub</a>.
+      ·
+      <a href={`${EN_BASE}/muslim-boy-names/`}>Boy names</a>
+      ·
+      <a href={`${EN_BASE}/islamic-baby-names/`}>All Islamic baby names</a>
     </p>
   </section>
 
   <section>
-    <h2>Sample Muslim girl names</h2>
-    <p>Meanings in English. Open a name for the full entry.</p>
+    <h2>Sample girl names</h2>
     <NameList names={sample} lang="en" />
     <p style="margin-top: 1.25rem">
-      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Browse all Islamic baby names</a>
+      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>All Islamic baby names</a>
     </p>
   </section>
 </BaseLayout>

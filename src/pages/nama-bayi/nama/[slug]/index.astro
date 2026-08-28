@@ -76,25 +76,25 @@ const enPath = `/en/names/${name.slug}/`;
       <h2>Tentang nama {name.name}</h2>
       <p>
         <strong>{name.name}</strong> ialah nama bayi Islam {genderLabel(name.gender).toLowerCase()}
-        yang berasal daripada bahasa <strong>{name.origin}</strong>. Maksudnya ialah
-        “{name.meaning}” (English: “{name.meaningEn}”).
+        daripada bahasa <strong>{name.origin}</strong>. Maksud: “{name.meaning}”. English:
+        “{name.meaningEn}”.
       </p>
       <p>
-        Ibu bapa di Malaysia sering mencari nama seperti <em>{name.name}</em> kerana bunyinya
-        indah dan maksudnya positif. Semak juga senarai
+        Lihat juga
         <a href={`/nama-bayi/huruf/${letter.toLowerCase()}/`}>nama bermula dengan {letter}</a>
-        dan tema berkaitan di bawah.
+        {name.themes[0] && THEMES[name.themes[0]] && (
+          <>
+            {' '}
+            dan
+            <a href={`/nama-bayi/makna/${name.themes[0]}/`}>
+              {' '}
+              {THEMES[name.themes[0]].title.toLowerCase()}
+            </a>
+          </>
+        )}
+        . Halaman English:
+        <a href={`/en/names/${name.slug}/`}>{name.name}</a>.
       </p>
-      <p>
-        English page:
-        <a href={`/en/names/${name.slug}/`}>{name.name} — meaning in English</a>.
-      </p>
-      {name.themes[0] && THEMES[name.themes[0]] && (
-        <p>
-          Jika anda suka tema <strong>{name.themes[0]}</strong>, lihat
-          <a href={`/nama-bayi/makna/${name.themes[0]}/`}>{THEMES[name.themes[0]].title.toLowerCase()}</a>.
-        </p>
-      )}
     </div>
 
     <section>

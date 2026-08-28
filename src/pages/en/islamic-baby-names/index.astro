@@ -12,7 +12,7 @@ const featuredThemes = Object.entries(THEMES).slice(0, 6);
 const popular = [...NAMES].sort((a, b) => a.name.localeCompare(b.name, 'en')).slice(0, 12);
 
 const title = 'Islamic Baby Names with Meaning';
-const description = `Browse ${NAMES.length}+ Islamic baby names for boys and girls with meanings — a practical guide for Muslim parents in Malaysia.`;
+const description = `${NAMES.length}+ Islamic baby names for boys and girls, with meanings in English — for Muslim parents in Malaysia.`;
 ---
 
 <BaseLayout
@@ -26,11 +26,11 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
   </nav>
 
   <section class="hero">
-    <p class="eyebrow">English guide · Malaysia</p>
+    <p class="eyebrow">English · Malaysia</p>
     <h1>{title}</h1>
     <p class="lead">
-      Looking for Islamic baby names with beautiful meanings? Start here with English meanings,
-      then explore boy and girl lists used by Muslim families in Malaysia.
+      Muslim baby names with English meanings. Use the boy and girl lists below, or jump by letter
+      and theme.
     </p>
     <div class="hero-actions">
       <a class="btn" href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>
@@ -56,26 +56,26 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
   </section>
 
   <section class="prose">
-    <h2>How to choose an Islamic baby name</h2>
+    <h2>Choosing a name</h2>
     <p>
-      A good Muslim baby name should have a positive meaning, be easy to pronounce in daily life,
-      and sit well with your family name. Many Malaysian parents search in English
-      (“Islamic baby names”) then shortlist names that still feel natural in Bahasa Melayu.
+      Check that the meaning is good, that you can say the name easily in Malay and English, and
+      that it fits with your family name. Many people in Malaysia search in English first, then
+      confirm the Malay meaning before deciding.
     </p>
     <ul>
-      <li>Prefer meanings tied to blessing, light, piety, wisdom, or kindness.</li>
-      <li>Say the full name out loud — at home, at school, and on official forms.</li>
-      <li>Keep 3–5 finalists before the baby arrives.</li>
+      <li>Good meanings: blessing, light, piety, wisdom, kindness.</li>
+      <li>Say the full name out loud — at home and on forms.</li>
+      <li>Keep a short list of a few options before the birth.</li>
     </ul>
     <p>
-      Prefer Bahasa Melayu?
-      <a href={`${NAMA_BAYI_BASE}/`}>Lihat panduan Nama Bayi Islam</a>.
+      Malay version:
+      <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.
     </p>
   </section>
 
   <section>
-    <h2>Browse by letter</h2>
-    <p>Islamic baby names starting with A–Z.</p>
+    <h2>By letter</h2>
+    <p>Names from A to Z.</p>
     <div class="letter-grid">
       {letters.map((L) => (
         <a href={`${NAMA_BAYI_BASE}/huruf/${L.toLowerCase()}/`}>{L}</a>
@@ -84,8 +84,8 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
   </section>
 
   <section>
-    <h2>Browse by meaning</h2>
-    <p>Themes many parents search for when choosing a Muslim baby name.</p>
+    <h2>By meaning</h2>
+    <p>Common themes when picking a Muslim baby name.</p>
     <div class="card-grid">
       {featuredThemes.map(([slug, theme]) => {
         const count = getNamesByTheme(slug).length;
@@ -100,25 +100,24 @@ const description = `Browse ${NAMES.length}+ Islamic baby names for boys and gir
   </section>
 
   <section>
-    <h2>Popular Islamic baby names to start with</h2>
-    <p>Open any name for the full English entry (Malay meaning included).</p>
+    <h2>Example names</h2>
     <NameList names={popular} lang="en" />
   </section>
 
   <section>
-    <h2>More guides</h2>
+    <h2>More</h2>
     <div class="card-grid">
       <a class="card" href={`${EN_BASE}/muslim-boy-names/`}>
         <h3>Muslim boy names</h3>
-        <p>Islamic baby boy names with meaning for parents in Malaysia.</p>
+        <p>Boy names with English meanings.</p>
       </a>
       <a class="card" href={`${EN_BASE}/muslim-girl-names/`}>
         <h3>Muslim girl names</h3>
-        <p>Islamic baby girl names with meaning and themes.</p>
+        <p>Girl names with English meanings.</p>
       </a>
       <a class="card" href={`${NAMA_BAYI_BASE}/blog/cara-pilih-nama-bayi-islam/`}>
-        <h3>How to choose (Malay guide)</h3>
-        <p>Practical tips for new parents — in Bahasa Melayu.</p>
+        <h3>How to choose (Malay)</h3>
+        <p>Short tips for new parents.</p>
       </a>
     </div>
   </section>
