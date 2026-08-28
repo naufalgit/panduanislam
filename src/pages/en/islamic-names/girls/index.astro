@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import NameList from '../../../../components/NameList.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import { getNamesByGender } from '../../../../data/names';
+import { EN_BASE, EN_NAMES_BASE, NAMA_ISLAM_BASE } from '../../../../consts';
+
+const names = getNamesByGender('perempuan');
+const title = 'Muslim Girl Names with Meaning';
+const description = `${names.length} Muslim girl names (including unisex) with English meanings — for families in Malaysia.`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={`${EN_NAMES_BASE}/girls/`}
+  lang="en"
+  alternates={[
+    { lang: 'en', path: `${EN_NAMES_BASE}/girls/` },
+    { lang: 'ms', path: `${NAMA_ISLAM_BASE}/perempuan/` },
+    { lang: 'x-default', path: `${NAMA_ISLAM_BASE}/perempuan/` },
+  ]}
+>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href={`${EN_BASE}/`}>English</a> /
+    <a href={`${EN_NAMES_BASE}/`}>Islamic names</a> /
+    <span>Girl names</span>
+  </nav>
+
+  <h1>{title}</h1>
+  <p class="lead">
+    {names.length} Muslim girl names with English meanings. Use search or letters above to filter.
+  </p>
+
+  <AdSlot slot="en-muslim-girl-names" />
+
+  <section class="prose">
+    <p>
+      Malay list:
+      <a href={`${NAMA_ISLAM_BASE}/perempuan/`}>Nama perempuan</a>
+      ·
+      <a href={`${EN_NAMES_BASE}/boys/`}>Boy names</a>
+      ·
+      <a href={`${EN_NAMES_BASE}/categories/`}>Name categories</a>
+    </p>
+  </section>
+
+  <NameList names={names} lang="en" />
+</BaseLayout>

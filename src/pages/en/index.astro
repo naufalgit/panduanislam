@@ -1,11 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { NAMES } from '../../data/names';
-import { EN_BASE, NAMA_BAYI_BASE, SITE_TITLE, THEMES } from '../../consts';
+import { EN_BASE, EN_NAMES_BASE, NAMA_ISLAM_BASE, SITE_TITLE, THEMES } from '../../consts';
 
 const title = `${SITE_TITLE} — English`;
 const description =
-  'Islamic baby names with meanings for Muslim families in Malaysia. More guides will be added over time.';
+  'Islamic names with meanings for Muslim families in Malaysia. More guides will be added over time.';
 ---
 
 <BaseLayout title={title} description={description} canonicalPath={`${EN_BASE}/`} lang="en">
@@ -18,30 +18,30 @@ const description =
     <h1>{SITE_TITLE}</h1>
     <p class="lead">
       Guides for Muslim families in Malaysia. Right now the focus is
-      <strong>Islamic baby names</strong>; topics like dua, prayer, and zakat will come later.
+      <strong>Islamic names</strong>; topics like dua, prayer, and zakat will come later.
     </p>
     <div class="hero-actions">
-      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a>
-      <a class="btn btn-ghost" href={`${EN_BASE}/categories/`}>Name categories</a>
+      <a class="btn" href={`${EN_NAMES_BASE}/`}>Islamic names</a>
+      <a class="btn btn-ghost" href={`${EN_NAMES_BASE}/categories/`}>Name categories</a>
     </div>
   </section>
 
   <section>
-    <h2>Islamic baby names</h2>
+    <h2>Islamic names</h2>
     <div class="card-grid">
-      <a class="card" href={`${EN_BASE}/islamic-baby-names/`}>
+      <a class="card" href={`${EN_NAMES_BASE}/`}>
         <h3>All names</h3>
         <p>{NAMES.length}+ names with English meanings.</p>
       </a>
-      <a class="card" href={`${EN_BASE}/muslim-boy-names/`}>
+      <a class="card" href={`${EN_NAMES_BASE}/boys/`}>
         <h3>Boy names</h3>
         <p>Muslim boy names with meaning.</p>
       </a>
-      <a class="card" href={`${EN_BASE}/muslim-girl-names/`}>
+      <a class="card" href={`${EN_NAMES_BASE}/girls/`}>
         <h3>Girl names</h3>
         <p>Muslim girl names with meaning.</p>
       </a>
-      <a class="card" href={`${EN_BASE}/categories/`}>
+      <a class="card" href={`${EN_NAMES_BASE}/categories/`}>
         <h3>Name categories</h3>
         <p>{Object.keys(THEMES).length} categories such as Provision, Mercy, and Light.</p>
       </a>
@@ -54,7 +54,7 @@ const description =
       Malay site:
       <a href="/">homepage</a>
       or
-      <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.
+      <a href={`${NAMA_ISLAM_BASE}/`}>Nama Islam</a>.
     </p>
   </section>
 </BaseLayout>

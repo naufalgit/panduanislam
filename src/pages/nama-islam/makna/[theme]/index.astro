@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import NameList from '../../../../components/NameList.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import { THEMES } from '../../../../consts';
+import { getNamesByTheme } from '../../../../data/names';
+
+export function getStaticPaths() {
+  return Object.keys(THEMES).map((theme) => ({
+    params: { theme },
+  }));
+}
+
+const { theme } = Astro.params;
+const themeKey = theme ?? 'rezeki';
+const meta = THEMES[themeKey];
+const names = getNamesByTheme(themeKey);
+const label = meta?.label ?? themeKey;
+const title = `${label} — Nama Bayi Islam`;
+const description =
+  meta?.description ?? `Senarai nama bayi Islam dalam kategori ${themeKey}.`;
+---
+
+<BaseLayout title={title} description={description} canonicalPath={`/nama-islam/makna/${themeKey}/`}
+  alternates={[
+    { lang: 'ms', path: `/nama-islam/makna/${themeKey}/` },
+    { lang: 'en', path: `/en/islamic-names/categories/${themeKey}/` },
+    { lang: 'x-default', path: `/nama-islam/makna/${themeKey}/` },
+  ]}
+>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> / <a href="/nama-islam/">Nama Islam</a> /
+    <a href="/nama-islam/makna/">Kategori Nama</a> / <span>{label}</span>
+  </nav>
+  <h1>{label}</h1>
+  <p class="lead">{description}</p>
+  <p class="meta">{names.length} nama dalam kategori ini.</p>
+  <AdSlot slot={`makna-${themeKey}`} />
+  <NameList names={names} />
+  <section>
+    <h2>Kategori lain</h2>
+    <div class="tag-row">
+      {Object.entries(THEMES).map(([t, th]) => (
+        <a class="tag" href={`/nama-islam/makna/${t}/`}>{th.label}</a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

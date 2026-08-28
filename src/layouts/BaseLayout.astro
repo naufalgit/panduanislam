@@ -15,7 +15,8 @@ import NamaBayiToolbar from '../components/NamaBayiToolbar.astro';
 import {
   ADSENSE_CLIENT,
   EN_BASE,
-  NAMA_BAYI_BASE,
+  EN_NAMES_BASE,
+  NAMA_ISLAM_BASE,
   SITE_LANG,
   SITE_TITLE,
   SITE_URL,
@@ -35,7 +36,7 @@ const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}
 const ogLocale = lang === 'en' ? 'en_MY' : 'ms_MY';
 
 const path = Astro.url.pathname;
-const onNamaBayi = path === NAMA_BAYI_BASE || path.startsWith(`${NAMA_BAYI_BASE}/`);
+const onNamaBayi = path === NAMA_ISLAM_BASE || path.startsWith(`${NAMA_ISLAM_BASE}/`);
 const onEnNames =
   path === EN_BASE ||
   path.startsWith(`${EN_BASE}/`);
@@ -86,7 +87,7 @@ const isEn = lang === 'en';
       <div class="wrap header-inner">
         <a class="logo" href={isEn ? `${EN_BASE}/` : '/'}>{SITE_TITLE}</a>
         <nav class="nav-primary" aria-label={isEn ? 'Primary' : 'Utama'}>
-          <a href={isEn ? `${EN_BASE}/islamic-baby-names/` : `${NAMA_BAYI_BASE}/`}>
+          <a href={isEn ? `${EN_NAMES_BASE}/` : `${NAMA_ISLAM_BASE}/`}>
             {isEn ? 'Names' : 'Nama-nama'}
           </a>
           {isEn ? <a href="/">BM</a> : <a href={`${EN_BASE}/`}>EN</a>}
@@ -97,15 +98,15 @@ const isEn = lang === 'en';
           <nav class="nav-secondary" aria-label={isEn ? 'Name sections' : 'Bahagian nama'}>
             {isEn ? (
               <>
-                <a href={`${EN_BASE}/categories/`}>Name categories</a>
-                <a href={`${EN_BASE}/muslim-boy-names/`}>Boys</a>
-                <a href={`${EN_BASE}/muslim-girl-names/`}>Girls</a>
+                <a href={`${EN_NAMES_BASE}/categories/`}>Name categories</a>
+                <a href={`${EN_NAMES_BASE}/boys/`}>Boys</a>
+                <a href={`${EN_NAMES_BASE}/girls/`}>Girls</a>
               </>
             ) : (
               <>
-                <a href={`${NAMA_BAYI_BASE}/makna/`}>Kategori Nama</a>
-                <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Lelaki</a>
-                <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Perempuan</a>
+                <a href={`${NAMA_ISLAM_BASE}/makna/`}>Kategori Nama</a>
+                <a href={`${NAMA_ISLAM_BASE}/lelaki/`}>Lelaki</a>
+                <a href={`${NAMA_ISLAM_BASE}/perempuan/`}>Perempuan</a>
               </>
             )}
           </nav>
@@ -121,13 +122,13 @@ const isEn = lang === 'en';
       <div class="wrap">
         <p>
           <strong>{SITE_TITLE}</strong> — panduan untuk Muslim di Malaysia.
-          Bermula dengan nama bayi Islam; topik lain akan ditambah kemudian.
+          Bermula dengan nama Islam untuk bayi dan anak; topik lain akan ditambah kemudian.
           Maklumat umum sahaja, bukan fatwa.
         </p>
         <p class="footer-links">
-          <a href={`${NAMA_BAYI_BASE}/`}>Nama bayi Islam</a>
-          <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Nama lelaki</a>
-          <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama perempuan</a>
+          <a href={`${NAMA_ISLAM_BASE}/`}>Nama Islam</a>
+          <a href={`${NAMA_ISLAM_BASE}/lelaki/`}>Nama lelaki</a>
+          <a href={`${NAMA_ISLAM_BASE}/perempuan/`}>Nama perempuan</a>
           <a href={`${EN_BASE}/`}>English</a>
         </p>
       </div>

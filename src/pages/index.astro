@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { NAMES } from '../data/names';
-import { NAMA_BAYI_BASE, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { NAMA_ISLAM_BASE, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
 
 <BaseLayout title={`${SITE_TITLE} — Panduan untuk Muslim Malaysia`} description={SITE_DESCRIPTION}>
@@ -10,28 +10,28 @@ import { NAMA_BAYI_BASE, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
     <h1>{SITE_TITLE}</h1>
     <p class="lead">
       Panduan praktikal untuk kehidupan Muslim di Malaysia. Kami mula dengan
-      <strong>nama bayi Islam</strong> — dan akan menambah topik lain seperti doa,
+      <strong>nama Islam</strong> untuk bayi dan anak — dan akan menambah topik lain seperti doa,
       solat dan zakat sepanjang tahun.
     </p>
     <div class="hero-actions">
-      <a class="btn" href={`${NAMA_BAYI_BASE}/`}>Teroka nama bayi Islam</a>
-      <a class="btn btn-ghost" href={`${NAMA_BAYI_BASE}/lelaki/`}>Nama lelaki</a>
-      <a class="btn btn-ghost" href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama perempuan</a>
+      <a class="btn" href={`${NAMA_ISLAM_BASE}/`}>Teroka nama Islam</a>
+      <a class="btn btn-ghost" href={`${NAMA_ISLAM_BASE}/lelaki/`}>Nama lelaki</a>
+      <a class="btn btn-ghost" href={`${NAMA_ISLAM_BASE}/perempuan/`}>Nama perempuan</a>
     </div>
   </section>
 
   <section>
     <h2>Fokus sekarang</h2>
     <div class="card-grid">
-      <a class="card" href={`${NAMA_BAYI_BASE}/`}>
-        <h3>Nama Bayi Islam</h3>
-        <p>{NAMES.length}+ nama dengan maksud, huruf A–Z, dan tema seperti rezeki &amp; cahaya.</p>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/`}>
+        <h3>Nama Islam</h3>
+        <p>{NAMES.length}+ nama untuk bayi &amp; anak, dengan maksud dan kategori.</p>
       </a>
-      <a class="card" href={`${NAMA_BAYI_BASE}/blog/cara-pilih-nama-bayi-islam/`}>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/blog/cara-pilih-nama-bayi-islam/`}>
         <h3>Cara pilih nama</h3>
         <p>Panduan ringkas untuk ibu bapa baharu di Malaysia.</p>
       </a>
-      <a class="card" href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/makna/rezeki/`}>
         <h3>Nama bermaksud rezeki</h3>
         <p>Satu tema yang kerap dicari.</p>
       </a>

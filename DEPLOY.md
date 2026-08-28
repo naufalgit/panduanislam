@@ -42,7 +42,7 @@ export const ADSENSE_CLIENT = 'ca-pub-xxxxxxxxxxxxxxxx';
 
 | Phase | Focus |
 |-------|--------|
-| Month 1–3 | Nama bayi only (`/nama-bayi/`) — rank long-tails |
+| Month 1–3 | Nama bayi only (`/nama-islam/`) — rank long-tails |
 | Month 4–6 | Expand names + start doa pillar |
 | Month 7–12 | Solat / zakat / more guides; grow AdSense |
 

@@ -1,16 +1,23 @@
 {
   "trailingSlash": true,
   "redirects": [
-    {
-      "source": "/nama-bayi/huruf/:letter",
-      "destination": "/nama-bayi/?huruf=:letter",
-      "permanent": true
-    },
-    {
-      "source": "/nama-bayi/huruf/:letter/",
-      "destination": "/nama-bayi/?huruf=:letter",
-      "permanent": true
-    }
+    { "source": "/nama-bayi", "destination": "/nama-islam/", "permanent": true },
+    { "source": "/nama-bayi/", "destination": "/nama-islam/", "permanent": true },
+    { "source": "/nama-bayi/:path*", "destination": "/nama-islam/:path*", "permanent": true },
+    { "source": "/nama-islam/huruf/:letter", "destination": "/nama-islam/?huruf=:letter", "permanent": true },
+    { "source": "/nama-islam/huruf/:letter/", "destination": "/nama-islam/?huruf=:letter", "permanent": true },
+    { "source": "/en/islamic-baby-names", "destination": "/en/islamic-names/", "permanent": true },
+    { "source": "/en/islamic-baby-names/", "destination": "/en/islamic-names/", "permanent": true },
+    { "source": "/en/muslim-boy-names", "destination": "/en/islamic-names/boys/", "permanent": true },
+    { "source": "/en/muslim-boy-names/", "destination": "/en/islamic-names/boys/", "permanent": true },
+    { "source": "/en/muslim-girl-names", "destination": "/en/islamic-names/girls/", "permanent": true },
+    { "source": "/en/muslim-girl-names/", "destination": "/en/islamic-names/girls/", "permanent": true },
+    { "source": "/en/categories", "destination": "/en/islamic-names/categories/", "permanent": true },
+    { "source": "/en/categories/", "destination": "/en/islamic-names/categories/", "permanent": true },
+    { "source": "/en/categories/:theme", "destination": "/en/islamic-names/categories/:theme/", "permanent": true },
+    { "source": "/en/categories/:theme/", "destination": "/en/islamic-names/categories/:theme/", "permanent": true },
+    { "source": "/en/names/:slug", "destination": "/en/islamic-names/name/:slug/", "permanent": true },
+    { "source": "/en/names/:slug/", "destination": "/en/islamic-names/name/:slug/", "permanent": true }
   ],
   "headers": [
     {

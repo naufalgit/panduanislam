@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import NameList from '../../../../../components/NameList.astro';
+import AdSlot from '../../../../../components/AdSlot.astro';
+import { EN_BASE, EN_NAMES_BASE, NAMA_ISLAM_BASE, THEMES } from '../../../../../consts';
+import { getNamesByTheme } from '../../../../../data/names';
+
+export function getStaticPaths() {
+  return Object.keys(THEMES).map((theme) => ({
+    params: { theme },
+  }));
+}
+
+const { theme } = Astro.params;
+const themeKey = theme ?? 'rezeki';
+const meta = THEMES[themeKey];
+const names = getNamesByTheme(themeKey);
+const label = meta?.labelEn ?? themeKey;
+const title = `${label} — Islamic Baby Names`;
+const description =
+  meta?.descriptionEn ?? `Islamic names in the ${themeKey} category.`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={`${EN_NAMES_BASE}/categories/${themeKey}/`}
+  lang="en"
+  alternates={[
+    { lang: 'en', path: `${EN_NAMES_BASE}/categories/${themeKey}/` },
+    { lang: 'ms', path: `${NAMA_ISLAM_BASE}/makna/${themeKey}/` },
+    { lang: 'x-default', path: `${NAMA_ISLAM_BASE}/makna/${themeKey}/` },
+  ]}
+>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href={`${EN_BASE}/`}>English</a> /
+    <a href={`${EN_NAMES_BASE}/`}>Islamic names</a> /
+    <a href={`${EN_NAMES_BASE}/categories/`}>Name categories</a> /
+    <span>{label}</span>
+  </nav>
+  <h1>{label}</h1>
+  <p class="lead">{description}</p>
+  <p class="meta">{names.length} names in this category.</p>
+  <AdSlot slot={`en-cat-${themeKey}`} />
+  <NameList names={names} lang="en" />
+  <section>
+    <h2>Other categories</h2>
+    <div class="tag-row">
+      {Object.entries(THEMES).map(([t, th]) => (
+        <a class="tag" href={`${EN_NAMES_BASE}/categories/${t}/`}>{th.labelEn}</a>
+      ))}
+    </div>
+  </section>
+  <p class="meta">
+    Malay page:
+    <a href={`${NAMA_ISLAM_BASE}/makna/${themeKey}/`}>{meta?.label ?? themeKey}</a>
+  </p>
+</BaseLayout>

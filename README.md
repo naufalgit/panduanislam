@@ -1,6 +1,6 @@
 # Panduan Islam (panduanislam.my)
 
-1-year Islamic guides site for Muslim Malaysia. **Year-1 pillar:** Nama Bayi Islam under `/nama-bayi/`.
+1-year Islamic guides site for Muslim Malaysia. **Year-1 pillar:** Nama Bayi Islam under `/nama-islam/`.
 
 ## Quick start
 
@@ -19,13 +19,13 @@ npm run preview
 ## Structure
 
 - `/` — Panduan Islam hub
-- `/nama-bayi/` — nama bayi pillar hub
-- `/nama-bayi/lelaki/`, `/nama-bayi/perempuan/`
-- `/nama-bayi/huruf/[a-z]/`, `/nama-bayi/makna/[theme]/`
-- `/nama-bayi/nama/[slug]/` — individual ranking pages
-- `/nama-bayi/blog/...` — guides
+- `/nama-islam/` — nama bayi pillar hub
+- `/nama-islam/lelaki/`, `/nama-islam/perempuan/`
+- `/nama-islam/huruf/[a-z]/`, `/nama-islam/makna/[theme]/`
+- `/nama-islam/nama/[slug]/` — individual ranking pages
+- `/nama-islam/blog/...` — guides
 
-Later pillars (doa, solat, zakat) can live beside `/nama-bayi/` without renaming the brand.
+Later pillars (doa, solat, zakat) can live beside `/nama-islam/` without renaming the brand.
 
 ## Domain & deploy
 

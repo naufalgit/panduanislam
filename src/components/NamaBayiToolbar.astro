@@ -1,5 +1,5 @@
 ---
-import { EN_BASE, NAMA_BAYI_BASE } from '../consts';
+import { EN_NAMES_BASE, NAMA_ISLAM_BASE } from '../consts';
 import { NAMES, getLettersWithNames } from '../data/names';
 
 interface Props {
@@ -9,7 +9,7 @@ interface Props {
 const { lang = 'ms' } = Astro.props;
 const isEn = lang === 'en';
 const letters = getLettersWithNames();
-const nameBase = isEn ? `${EN_BASE}/names` : `${NAMA_BAYI_BASE}/nama`;
+const nameBase = isEn ? `${EN_NAMES_BASE}/name` : `${NAMA_ISLAM_BASE}/nama`;
 const index = NAMES.map((n) => ({
   name: n.name,
   slug: n.slug,
@@ -56,7 +56,7 @@ const index = NAMES.map((n) => ({
     const toolbar = document.querySelector('[data-nama-toolbar]');
     if (!toolbar) return;
 
-    const namaBase = toolbar.getAttribute('data-nama-base') || '/nama-bayi/nama';
+    const namaBase = toolbar.getAttribute('data-nama-base') || '/nama-islam/nama';
     const isEn = toolbar.getAttribute('data-lang') === 'en';
     const input = toolbar.querySelector('#nama-search');
     const results = toolbar.querySelector('[data-search-results]');

@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import NameList from '../../components/NameList.astro';
+import { NAMES, getNamesByTheme } from '../../data/names';
+import {
+  NAMA_ISLAM_BASE,
+  NAMA_ISLAM_DESCRIPTION,
+  NAMA_ISLAM_TITLE,
+  SITE_TITLE,
+  THEMES,
+} from '../../consts';
+
+const lelakiCount = NAMES.filter((n) => n.gender === 'lelaki' || n.gender === 'unisex').length;
+const perempuanCount = NAMES.filter((n) => n.gender === 'perempuan' || n.gender === 'unisex').length;
+const featuredThemes = Object.entries(THEMES).slice(0, 6);
+const allNames = [...NAMES].sort((a, b) => a.name.localeCompare(b.name, 'ms'));
+---
+
+<BaseLayout title={`${NAMA_ISLAM_TITLE} — Maksud & Senarai Nama`} description={NAMA_ISLAM_DESCRIPTION} canonicalPath={`${NAMA_ISLAM_BASE}/`}>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> / <span>Nama Islam</span>
+  </nav>
+
+  <section class="hero">
+    <p class="eyebrow">{SITE_TITLE}</p>
+    <h1>{NAMA_ISLAM_TITLE}</h1>
+    <p class="lead">
+      Senarai nama Islam untuk bayi dan anak — lelaki dan perempuan — beserta maksud, asal usul
+      dan kategori seperti rezeki, rahmat, cahaya dan soleh.
+    </p>
+    <div class="hero-actions">
+      <a class="btn" href={`${NAMA_ISLAM_BASE}/lelaki/`}>Nama lelaki</a>
+      <a class="btn btn-ghost" href={`${NAMA_ISLAM_BASE}/perempuan/`}>Nama perempuan</a>
+    </div>
+  </section>
+
+  <AdSlot slot="nama-bayi-top" />
+
+  <section class="grid-stats">
+    <a href={`${NAMA_ISLAM_BASE}/lelaki/`} class="stat-card">
+      <strong>{lelakiCount}</strong>
+      <span>Nama lelaki &amp; unisex</span>
+    </a>
+    <a href={`${NAMA_ISLAM_BASE}/perempuan/`} class="stat-card">
+      <strong>{perempuanCount}</strong>
+      <span>Nama perempuan &amp; unisex</span>
+    </a>
+    <a href={`${NAMA_ISLAM_BASE}/makna/`} class="stat-card">
+      <strong>{NAMES.length}</strong>
+      <span>Jumlah nama dalam pangkalan</span>
+    </a>
+  </section>
+
+  <section>
+    <h2>Kategori nama</h2>
+    <p>Pilih tema yang anda mahu abadikan dalam nama anak.</p>
+    <div class="card-grid">
+      {featuredThemes.map(([slug, theme]) => {
+        const count = getNamesByTheme(slug).length;
+        return (
+          <a class="card" href={`${NAMA_ISLAM_BASE}/makna/${slug}/`}>
+            <h3>{theme.label}</h3>
+            <p>{count} nama · {theme.blurb}</p>
+          </a>
+        );
+      })}
+    </div>
+    <p style="margin-top: 1rem">
+      <a href={`${NAMA_ISLAM_BASE}/makna/`}>Semua kategori nama →</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Semua nama</h2>
+    <p>Gunakan kotak carian atau huruf di atas untuk menapis senarai.</p>
+    <NameList names={allNames} />
+  </section>
+
+  <section>
+    <h2>Panduan memilih nama</h2>
+    <div class="card-grid">
+      <a class="card" href={`${NAMA_ISLAM_BASE}/blog/cara-pilih-nama-bayi-islam/`}>
+        <h3>Cara pilih nama bayi Islam</h3>
+        <p>Panduan ringkas untuk ibu bapa baharu.</p>
+      </a>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/blog/nama-islam-islam-trending/`}>
+        <h3>Nama bayi Islam trending</h3>
+        <p>Trend nama yang sering dicari di Malaysia.</p>
+      </a>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/blog/elak-nama-bermasalah/`}>
+        <h3>Elak nama bermasalah</h3>
+        <p>Tips umum — bukan fatwa — semasa memilih nama.</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>English</h2>
+    <p>Same names, English meanings.</p>
+    <div class="card-grid">
+      <a class="card" href="/en/islamic-names/">
+        <h3>Islamic names</h3>
+        <p>Hub nama bayi Islam dalam Bahasa Inggeris.</p>
+      </a>
+      <a class="card" href="/en/islamic-names/boys/">
+        <h3>Muslim boy names</h3>
+        <p>Nama lelaki dengan maksud English.</p>
+      </a>
+      <a class="card" href="/en/islamic-names/girls/">
+        <h3>Muslim girl names</h3>
+        <p>Nama perempuan dengan maksud English.</p>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

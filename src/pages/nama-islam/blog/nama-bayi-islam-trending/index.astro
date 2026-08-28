@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+
+const title = 'Nama Bayi Islam Trending di Malaysia';
+const description =
+  'Gambaran nama bayi Islam yang sering dicari di Malaysia — ringkas, praktikal, dan dikaitkan dengan senarai nama bermaksud baik.';
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/nama-islam/blog/nama-islam-islam-trending/" type="article">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Laman utama</a> / <a href="/nama-islam/">Nama Islam</a> / <span>Panduan</span>
+  </nav>
+  <article class="prose">
+    <h1>{title}</h1>
+    <p class="meta">Trend berubah mengikut tahun — gunakan sebagai inspirasi, bukan tekanan.</p>
+    <AdSlot slot="blog-trending" />
+    <p>
+      Di Malaysia, ibu bapa sering mencari nama yang pendek, mudah disebut, dan bermaksud
+      indah. Corak carian biasanya tertumpu kepada:
+    </p>
+    <ul>
+      <li>Nama klasik seperti Ahmad, Aisha, Yusuf, Maryam</li>
+      <li>Nama bertema cahaya / Nur</li>
+      <li>Nama pendek 2–3 suku kata</li>
+      <li>Nama mengikut huruf tertentu (A, H, N, S, Z)</li>
+    </ul>
+    <h2>Inspirasi pantas</h2>
+    <ul>
+      <li><a href="/nama-islam/nama/ahmad/">Ahmad</a> — terpuji</li>
+      <li><a href="/nama-islam/nama/aisha/">Aisha</a> — hidup; makmur</li>
+      <li><a href="/nama-islam/nama/yusuf/">Yusuf</a> — Nabi Yusuf</li>
+      <li><a href="/nama-islam/nama/maryam/">Maryam</a> — suci; mulia</li>
+      <li><a href="/nama-islam/nama/rayyan/">Rayyan</a> — pintu syurga untuk yang berpuasa</li>
+      <li><a href="/nama-islam/nama/zahra/">Zahra</a> — bunga; berseri</li>
+    </ul>
+    <h2>Cara guna trend dengan bijak</h2>
+    <p>
+      Trend membantu anda jumpa idea, tetapi maksud dan keselesaan keluarga lebih penting.
+      Jika anda suka tema tertentu, mulakan dari
+      <a href="/nama-islam/makna/cahaya/">nama bermaksud cahaya</a> atau
+      <a href="/nama-islam/makna/rahmat/">nama bermaksud rahmat</a>.
+    </p>
+    <p>
+      Lihat juga <a href="/nama-islam/?huruf=a">nama bermula dengan A</a> dan
+      <a href="/nama-islam/blog/cara-pilih-nama-bayi-islam/">cara pilih nama bayi Islam</a>.
+    </p>
+  </article>
+</BaseLayout>

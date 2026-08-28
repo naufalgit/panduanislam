@@ -1,5 +1,5 @@
 ---
-import { EN_BASE, NAMA_BAYI_BASE } from '../consts';
+import { EN_NAMES_BASE, NAMA_ISLAM_BASE } from '../consts';
 import { genderLabel, genderLabelEn, type BabyName } from '../data/names';
 
 interface Props {
@@ -17,7 +17,7 @@ const { names, lang = 'ms' } = Astro.props;
       data-letter={n.name[0]!.toLowerCase()}
       data-q={`${n.name} ${lang === 'en' ? n.meaningEn : n.meaning}`.toLowerCase()}
     >
-      <a href={lang === 'en' ? `${EN_BASE}/names/${n.slug}/` : `${NAMA_BAYI_BASE}/nama/${n.slug}/`}>
+      <a href={lang === 'en' ? `${EN_NAMES_BASE}/name/${n.slug}/` : `${NAMA_ISLAM_BASE}/nama/${n.slug}/`}>
         <strong>{n.name}</strong>
         <span>
           {lang === 'en' ? genderLabelEn(n.gender) : genderLabel(n.gender)} ·{' '}
