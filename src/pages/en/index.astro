@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { NAMES } from '../../data/names';
+import { EN_BASE, NAMA_BAYI_BASE, SITE_TITLE } from '../../consts';
+
+const title = `${SITE_TITLE} — English`;
+const description =
+  'Practical Islamic guides for Muslim families in Malaysia — starting with Islamic baby names with meaning. More topics coming soon.';
+---
+
+<BaseLayout title={title} description={description} canonicalPath={`${EN_BASE}/`} lang="en">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Bahasa Melayu</a> / <span>English</span>
+  </nav>
+
+  <section class="hero">
+    <p class="eyebrow">English · Malaysia</p>
+    <h1>{SITE_TITLE}</h1>
+    <p class="lead">
+      Practical guides for Muslim life in Malaysia. We start with
+      <strong>Islamic baby names</strong> — more topics like dua, prayer, and zakat will follow.
+    </p>
+    <div class="hero-actions">
+      <a class="btn" href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a>
+      <a class="btn btn-ghost" href={`${EN_BASE}/muslim-boy-names/`}>Boy names</a>
+      <a class="btn btn-ghost" href={`${EN_BASE}/muslim-girl-names/`}>Girl names</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Start here</h2>
+    <div class="card-grid">
+      <a class="card" href={`${EN_BASE}/islamic-baby-names/`}>
+        <h3>Islamic baby names</h3>
+        <p>{NAMES.length}+ Muslim baby names with meanings for parents in Malaysia.</p>
+      </a>
+      <a class="card" href={`${EN_BASE}/muslim-boy-names/`}>
+        <h3>Muslim boy names</h3>
+        <p>Islamic baby boy names with meaning — sample list and full catalogue.</p>
+      </a>
+      <a class="card" href={`${EN_BASE}/muslim-girl-names/`}>
+        <h3>Muslim girl names</h3>
+        <p>Islamic baby girl names with meaning — sample list and full catalogue.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2>Prefer Bahasa Melayu?</h2>
+    <p>
+      Most of this site is written in Malay.
+      <a href="/">Go to the main homepage</a>
+      or open
+      <a href={`${NAMA_BAYI_BASE}/`}>Nama Bayi Islam</a>.
+    </p>
+  </section>
+</BaseLayout>

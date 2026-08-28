@@ -1,12 +1,22 @@
 ---
 import { NAMA_BAYI_BASE } from '../consts';
-import { genderLabel, type BabyName } from '../data/names';
+import { genderLabel, type BabyName, type Gender } from '../data/names';
 
 interface Props {
   names: BabyName[];
+  lang?: 'ms' | 'en';
 }
 
-const { names } = Astro.props;
+const { names, lang = 'ms' } = Astro.props;
+
+function label(gender: Gender): string {
+  if (lang === 'en') {
+    if (gender === 'lelaki') return 'Boy';
+    if (gender === 'perempuan') return 'Girl';
+    return 'Unisex';
+  }
+  return genderLabel(gender);
+}
 ---
 
 <ul class="name-list">
@@ -14,7 +24,7 @@ const { names } = Astro.props;
     <li>
       <a href={`${NAMA_BAYI_BASE}/nama/${n.slug}/`}>
         <strong>{n.name}</strong>
-        <span>{genderLabel(n.gender)} · {n.meaning}</span>
+        <span>{label(n.gender)} · {n.meaning}</span>
       </a>
     </li>
   ))}

@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NameList from '../../../components/NameList.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import { getNamesByGender } from '../../../data/names';
+import { EN_BASE, NAMA_BAYI_BASE } from '../../../consts';
+
+const names = getNamesByGender('lelaki');
+const sample = names.slice(0, 24);
+const title = 'Muslim Boy Names with Meaning';
+const description = `Explore ${names.length} Muslim boy names (and unisex options) with meanings — Islamic baby names for sons, popular with families in Malaysia.`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={`${EN_BASE}/muslim-boy-names/`}
+  lang="en"
+>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href={`${EN_BASE}/`}>English</a> /
+    <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a> /
+    <span>Boy names</span>
+  </nav>
+
+  <h1>{title}</h1>
+  <p class="lead">
+    Looking for Islamic baby boy names? Here is a starter list of Muslim boy names with meanings,
+    plus links to the full Malay catalogue of {names.length} names.
+  </p>
+
+  <AdSlot slot="en-muslim-boy-names" />
+
+  <section class="prose">
+    <h2>Tips for choosing a Muslim boy name</h2>
+    <p>
+      Shortlist names with clear, positive meanings — strength, wisdom, blessing, or piety are
+      common themes. Check pronunciation in English and Bahasa Melayu so the name works at home
+      and on official documents.
+    </p>
+    <p>
+      Full list in Malay:
+      <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Nama bayi Islam lelaki</a>
+      · Also see
+      <a href={`${EN_BASE}/muslim-girl-names/`}>Muslim girl names</a>
+      and the
+      <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names hub</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Sample Muslim boy names</h2>
+    <p>Meanings shown in Malay. Open a name for details, or browse the full list.</p>
+    <NameList names={sample} lang="en" />
+    <p style="margin-top: 1.25rem">
+      <a class="btn" href={`${NAMA_BAYI_BASE}/lelaki/`}>See all {names.length} boy names</a>
+    </p>
+  </section>
+</BaseLayout>

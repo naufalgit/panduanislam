@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NameList from '../../../components/NameList.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import { getNamesByGender } from '../../../data/names';
+import { EN_BASE, NAMA_BAYI_BASE } from '../../../consts';
+
+const names = getNamesByGender('perempuan');
+const sample = names.slice(0, 24);
+const title = 'Muslim Girl Names with Meaning';
+const description = `Explore ${names.length} Muslim girl names (and unisex options) with meanings — Islamic baby names for daughters, popular with families in Malaysia.`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={`${EN_BASE}/muslim-girl-names/`}
+  lang="en"
+>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href={`${EN_BASE}/`}>English</a> /
+    <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names</a> /
+    <span>Girl names</span>
+  </nav>
+
+  <h1>{title}</h1>
+  <p class="lead">
+    Looking for Islamic baby girl names? Start with this sample of Muslim girl names with meanings,
+    then open the full Malay list of {names.length} names.
+  </p>
+
+  <AdSlot slot="en-muslim-girl-names" />
+
+  <section class="prose">
+    <h2>Tips for choosing a Muslim girl name</h2>
+    <p>
+      Choose a name with a kind, uplifting meaning — light, mercy, beauty, or nobility are popular
+      themes. Make sure it is easy to say in everyday Malay and English, and that the full name
+      flows with your family name.
+    </p>
+    <p>
+      Full list in Malay:
+      <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama bayi Islam perempuan</a>
+      · Also see
+      <a href={`${EN_BASE}/muslim-boy-names/`}>Muslim boy names</a>
+      and the
+      <a href={`${EN_BASE}/islamic-baby-names/`}>Islamic baby names hub</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Sample Muslim girl names</h2>
+    <p>Meanings shown in Malay. Open a name for details, or browse the full list.</p>
+    <NameList names={sample} lang="en" />
+    <p style="margin-top: 1.25rem">
+      <a class="btn" href={`${NAMA_BAYI_BASE}/perempuan/`}>See all {names.length} girl names</a>
+    </p>
+  </section>
+</BaseLayout>

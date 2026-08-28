@@ -11,6 +11,9 @@ export const NAMA_BAYI_TITLE = 'Nama Bayi Islam';
 export const NAMA_BAYI_DESCRIPTION =
   'Senarai nama bayi Islam lelaki dan perempuan beserta maksud, asal usul dan tema. Panduan memilih nama Islam yang indah untuk bayi anda.';
 
+/** English section */
+export const EN_BASE = '/en';
+
 /** Set your AdSense publisher ID after approval, e.g. ca-pub-xxxxxxxx */
 export const ADSENSE_CLIENT = '';
 

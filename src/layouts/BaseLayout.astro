@@ -4,11 +4,14 @@ interface Props {
   description: string;
   canonicalPath?: string;
   type?: 'website' | 'article';
+  /** Page language; defaults to site Malay */
+  lang?: string;
 }
 
 import '../styles/global.css';
 import {
   ADSENSE_CLIENT,
+  EN_BASE,
   NAMA_BAYI_BASE,
   SITE_LANG,
   SITE_TITLE,
@@ -20,14 +23,16 @@ const {
   description,
   canonicalPath = Astro.url.pathname,
   type = 'website',
+  lang = SITE_LANG,
 } = Astro.props;
 
 const canonical = new URL(canonicalPath, SITE_URL).toString();
 const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}`;
+const ogLocale = lang === 'en' ? 'en_MY' : 'ms_MY';
 ---
 
 <!doctype html>
-<html lang={SITE_LANG}>
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -42,7 +47,7 @@ const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content="ms_MY" />
+    <meta property="og:locale" content={ogLocale} />
     <meta property="og:site_name" content={SITE_TITLE} />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={fullTitle} />
@@ -71,6 +76,7 @@ const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}
           <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Perempuan</a>
           <a href={`${NAMA_BAYI_BASE}/huruf/a/`}>Huruf</a>
           <a href={`${NAMA_BAYI_BASE}/makna/rezeki/`}>Makna</a>
+          <a href={`${EN_BASE}/`}>EN</a>
         </nav>
       </div>
     </header>
@@ -88,6 +94,7 @@ const fullTitle = title.includes(SITE_TITLE) ? title : `${title} | ${SITE_TITLE}
           <a href={`${NAMA_BAYI_BASE}/`}>Nama bayi Islam</a>
           <a href={`${NAMA_BAYI_BASE}/lelaki/`}>Nama lelaki</a>
           <a href={`${NAMA_BAYI_BASE}/perempuan/`}>Nama perempuan</a>
+          <a href={`${EN_BASE}/`}>English</a>
           <a href="/sitemap-index.xml">Sitemap</a>
         </p>
       </div>
