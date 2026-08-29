@@ -216,6 +216,18 @@ h3 {
   color: var(--brand);
 }
 
+.pronounce {
+  margin: 0.85rem 0 1.25rem;
+}
+
+.pronounce-btn {
+  font-size: 0.95rem;
+}
+
+.pronounce-hint {
+  margin: 0.4rem 0 0;
+}
+
 .grid-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

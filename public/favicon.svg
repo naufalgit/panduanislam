@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Panduan Islam">
-  <!-- full green background -->
   <rect width="64" height="64" rx="14" fill="#0f5c4c"/>
-  <!-- soft green leaf fill -->
+  <!-- soft green leaf wash -->
   <path
-    d="M32 8c16 7 24 20 24 34-9 2-17 2-24-3-7 5-15 5-24 3C8 28 16 15 32 8z"
-    fill="#7dcea0"
+    d="M32 10c14 6 22 18 22 32-8 2-15 2-22-2-7 4-14 4-22 2C10 28 18 16 32 10z"
+    fill="#2a7a5c"
   />
-  <!-- lighter soft-green highlight -->
+  <!-- white leaf outline + veins -->
   <path
-    d="M32 12c11 5 17 15 18 26-6 1-12 1-18-3"
-    fill="#b8e6c8"
-    opacity="0.85"
+    d="M32 12c13 6 20 17 20 30-7 1.5-14 1.5-20-2.5-6 4-13 4-20 2.5C12 29 19 18 32 12z"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2.6"
+    stroke-linejoin="round"
   />
-  <!-- white stem and veins -->
   <path
-    d="M32 16v30M32 28c-6 4-10 10-12 16M32 28c6 4 10 10 12 16"
+    d="M32 18v28M32 30c-5.5 3.5-9.5 9-11.5 15M32 30c5.5 3.5 9.5 9 11.5 15"
     fill="none"
     stroke="#ffffff"
     stroke-width="2.4"

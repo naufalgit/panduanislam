@@ -1,0 +1,69 @@
+---
+interface Props {
+  text: string;
+  lang?: 'ms' | 'en';
+}
+
+const { text, lang = 'ms' } = Astro.props;
+const label = lang === 'en' ? 'Play pronunciation' : 'Dengar sebutan';
+const hint =
+  lang === 'en'
+    ? 'Uses your device voice (Malay if available).'
+    : 'Menggunakan suara peranti anda (Bahasa Melayu jika ada).';
+---
+
+<div class="pronounce" data-pronounce data-text={text} data-lang={lang}>
+  <button type="button" class="btn btn-ghost pronounce-btn" data-pronounce-btn>
+    {label}
+  </button>
+  <p class="meta pronounce-hint">{hint}</p>
+</div>
+
+<script is:inline>
+  (function () {
+    var root = document.querySelector('[data-pronounce]');
+    if (!root || !window.speechSynthesis) return;
+
+    var btn = root.querySelector('[data-pronounce-btn]');
+    var text = root.getAttribute('data-text') || '';
+    var pageLang = root.getAttribute('data-lang') || 'ms';
+    if (!btn || !text) return;
+
+    function pickVoice() {
+      var voices = window.speechSynthesis.getVoices() || [];
+      var prefer = pageLang === 'en' ? ['ms-MY', 'ms', 'id-ID', 'id'] : ['ms-MY', 'ms', 'id-ID', 'id'];
+      for (var i = 0; i < prefer.length; i++) {
+        var code = prefer[i].toLowerCase();
+        for (var j = 0; j < voices.length; j++) {
+          var v = voices[j];
+          var lang = (v.lang || '').toLowerCase();
+          if (lang === code || lang.indexOf(code) === 0) return v;
+        }
+      }
+      for (var k = 0; k < voices.length; k++) {
+        var name = (voices[k].name || '').toLowerCase();
+        if (name.indexOf('malay') !== -1 || name.indexOf('indonesia') !== -1) return voices[k];
+      }
+      return null;
+    }
+
+    function speak() {
+      window.speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'ms-MY';
+      u.rate = 0.9;
+      var voice = pickVoice();
+      if (voice) {
+        u.voice = voice;
+        u.lang = voice.lang || 'ms-MY';
+      }
+      window.speechSynthesis.speak(u);
+    }
+
+    btn.addEventListener('click', speak);
+    // Some browsers load voices asynchronously
+    if (typeof window.speechSynthesis.onvoiceschanged !== 'undefined') {
+      window.speechSynthesis.onvoiceschanged = function () {};
+    }
+  })();
+</script>

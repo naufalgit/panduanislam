@@ -2,6 +2,7 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import AdSlot from '../../../../components/AdSlot.astro';
 import AffiliateNote from '../../../../components/AffiliateNote.astro';
+import PronounceButton from '../../../../components/PronounceButton.astro';
 import { THEMES } from '../../../../consts';
 import {
   genderLabel,
@@ -52,6 +53,7 @@ const enPath = `/en/islamic-names/name/${name.slug}/`;
 
   <article>
     <h1>Nama {name.name}</h1>
+    <PronounceButton text={name.name} lang="ms" />
     <p class="lead">
       <strong>Maksud:</strong> {name.meaning}
     </p>
