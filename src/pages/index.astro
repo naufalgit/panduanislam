@@ -9,9 +9,8 @@ import { NAMA_ISLAM_BASE, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
     <p class="eyebrow">Malaysia · Bahasa Melayu</p>
     <h1>{SITE_TITLE}</h1>
     <p class="lead">
-      Panduan praktikal untuk kehidupan Muslim di Malaysia. Kami mula dengan
-      <strong>nama Islam</strong> untuk bayi dan anak — dan akan menambah topik lain seperti doa,
-      solat dan zakat sepanjang tahun.
+      Panduan praktikal untuk Muslim di Malaysia. Mula dengan
+      <strong>nama Islam</strong> untuk bayi dan anak — maksud, kategori, dan tip memilih nama.
     </p>
     <div class="hero-actions">
       <a class="btn" href={`${NAMA_ISLAM_BASE}/`}>Teroka nama Islam</a>
@@ -21,27 +20,32 @@ import { NAMA_ISLAM_BASE, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
   </section>
 
   <section>
-    <h2>Fokus sekarang</h2>
+    <h2>Teroka</h2>
     <div class="card-grid">
       <a class="card" href={`${NAMA_ISLAM_BASE}/`}>
         <h3>Nama Islam</h3>
         <p>{NAMES.length}+ nama untuk bayi &amp; anak, dengan maksud dan kategori.</p>
+      </a>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/lelaki/`}>
+        <h3>Nama lelaki</h3>
+        <p>Senarai nama Islam lelaki dan unisex.</p>
+      </a>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/perempuan/`}>
+        <h3>Nama perempuan</h3>
+        <p>Senarai nama Islam perempuan dan unisex.</p>
+      </a>
+      <a class="card" href={`${NAMA_ISLAM_BASE}/makna/`}>
+        <h3>Kategori nama</h3>
+        <p>Rezeki, rahmat, cahaya, soleh dan lagi.</p>
       </a>
       <a class="card" href={`${NAMA_ISLAM_BASE}/blog/cara-pilih-nama-bayi-islam/`}>
         <h3>Cara pilih nama</h3>
         <p>Panduan ringkas untuk ibu bapa baharu di Malaysia.</p>
       </a>
       <a class="card" href={`${NAMA_ISLAM_BASE}/makna/rezeki/`}>
-        <h3>Nama bermaksud rezeki</h3>
-        <p>Satu tema yang kerap dicari.</p>
+        <h3>Rezeki</h3>
+        <p>Nama dalam kategori rezeki.</p>
       </a>
     </div>
-  </section>
-
-  <section>
-    <h2>Akan datang</h2>
-    <p class="lead">
-      Doa harian, waktu solat, zakat dan panduan lain — selepas bahagian nama bayi lebih lengkap.
-    </p>
   </section>
 </BaseLayout>

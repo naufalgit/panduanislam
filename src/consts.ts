@@ -1,6 +1,6 @@
 export const SITE_TITLE = 'Panduan Islam';
 export const SITE_DESCRIPTION =
-  'Panduan Islam untuk Muslim Malaysia — mula dengan nama Islam untuk bayi dan anak, maksud, dan tip memilih nama. Panduan lain akan ditambah dari semasa ke semasa.';
+  'Panduan Islam untuk Muslim Malaysia — nama Islam untuk bayi dan anak, maksud, kategori, dan tip memilih nama.';
 /** Production domain */
 export const SITE_URL = (import.meta.env.SITE || 'https://panduanislam.my').replace(/\/$/, '');
 export const SITE_LANG = 'ms';
