@@ -5,6 +5,10 @@ interface Props {
 }
 
 const { text, lang = 'ms' } = Astro.props;
+const speakText =
+  lang === 'en'
+    ? `Assalamualaikum, my name is ${text}.`
+    : `Assalamualaikum, nama saya ${text}.`;
 const label = lang === 'en' ? 'Play pronunciation' : 'Dengar sebutan';
 const hint =
   lang === 'en'
@@ -12,7 +16,7 @@ const hint =
     : 'Menggunakan suara peranti anda (Bahasa Melayu jika ada).';
 ---
 
-<div class="pronounce" data-pronounce data-text={text} data-lang={lang}>
+<div class="pronounce" data-pronounce data-text={speakText} data-lang={lang}>
   <button type="button" class="btn btn-ghost pronounce-btn" data-pronounce-btn>
     {label}
   </button>
@@ -31,7 +35,10 @@ const hint =
 
     function pickVoice() {
       var voices = window.speechSynthesis.getVoices() || [];
-      var prefer = pageLang === 'en' ? ['ms-MY', 'ms', 'id-ID', 'id'] : ['ms-MY', 'ms', 'id-ID', 'id'];
+      var prefer =
+        pageLang === 'en'
+          ? ['en-MY', 'en-GB', 'en-US', 'en', 'ms-MY', 'ms']
+          : ['ms-MY', 'ms', 'id-ID', 'id'];
       for (var i = 0; i < prefer.length; i++) {
         var code = prefer[i].toLowerCase();
         for (var j = 0; j < voices.length; j++) {
@@ -50,12 +57,12 @@ const hint =
     function speak() {
       window.speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'ms-MY';
+      u.lang = pageLang === 'en' ? 'en-MY' : 'ms-MY';
       u.rate = 0.9;
       var voice = pickVoice();
       if (voice) {
         u.voice = voice;
-        u.lang = voice.lang || 'ms-MY';
+        u.lang = voice.lang || u.lang;
       }
       window.speechSynthesis.speak(u);
     }
