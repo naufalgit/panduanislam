@@ -6,12 +6,12 @@ interface Props {
 }
 
 const { text, slug, lang = 'ms' } = Astro.props;
-const audioSrc = `/audio/nama/${slug}.mp3`;
+const audioSrc = `/audio/nama/${lang}/${slug}.mp3`;
 const label = lang === 'en' ? 'Play pronunciation' : 'Dengar sebutan';
 const hint =
   lang === 'en'
-    ? 'Clear Malay pronunciation of the name.'
-    : 'Sebutan jelas nama dalam Bahasa Melayu.';
+    ? 'English greeting with the name.'
+    : 'Ucapan Bahasa Melayu dengan nama.';
 ---
 
 <div class="pronounce" data-pronounce data-audio={audioSrc} data-name={text}>

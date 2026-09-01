@@ -2,2296 +2,4132 @@
   {
     "name": "Aadam",
     "slug": "aadam",
-    "file": "/audio/nama/aadam.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/aadam.mp3",
+    "en": "/audio/nama/en/aadam.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aaliyah",
     "slug": "aaliyah",
-    "file": "/audio/nama/aaliyah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aaliyah.mp3",
+    "en": "/audio/nama/en/aaliyah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aamir",
     "slug": "aamir",
-    "file": "/audio/nama/aamir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/aamir.mp3",
+    "en": "/audio/nama/en/aamir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aariz",
     "slug": "aariz",
-    "file": "/audio/nama/aariz.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/aariz.mp3",
+    "en": "/audio/nama/en/aariz.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aasyiyah",
     "slug": "aasyiyah",
-    "file": "/audio/nama/aasyiyah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aasyiyah.mp3",
+    "en": "/audio/nama/en/aasyiyah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Abbas",
     "slug": "abbas",
-    "file": "/audio/nama/abbas.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/abbas.mp3",
+    "en": "/audio/nama/en/abbas.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Abdullah",
     "slug": "abdullah",
-    "file": "/audio/nama/abdullah.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/abdullah.mp3",
+    "en": "/audio/nama/en/abdullah.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Abdul Rahman",
     "slug": "abdul-rahman",
-    "file": "/audio/nama/abdul-rahman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/abdul-rahman.mp3",
+    "en": "/audio/nama/en/abdul-rahman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Abdul Aziz",
     "slug": "abdul-aziz",
-    "file": "/audio/nama/abdul-aziz.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/abdul-aziz.mp3",
+    "en": "/audio/nama/en/abdul-aziz.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Abdul Hakim",
     "slug": "abdul-hakim",
-    "file": "/audio/nama/abdul-hakim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/abdul-hakim.mp3",
+    "en": "/audio/nama/en/abdul-hakim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Abrar",
     "slug": "abrar",
-    "file": "/audio/nama/abrar.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/abrar.mp3",
+    "en": "/audio/nama/en/abrar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Adib",
     "slug": "adib",
-    "file": "/audio/nama/adib.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/adib.mp3",
+    "en": "/audio/nama/en/adib.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Adiba",
     "slug": "adiba",
-    "file": "/audio/nama/adiba.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/adiba.mp3",
+    "en": "/audio/nama/en/adiba.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Adil",
     "slug": "adil",
-    "file": "/audio/nama/adil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/adil.mp3",
+    "en": "/audio/nama/en/adil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Adila",
     "slug": "adila",
-    "file": "/audio/nama/adila.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/adila.mp3",
+    "en": "/audio/nama/en/adila.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Afif",
     "slug": "afif",
-    "file": "/audio/nama/afif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/afif.mp3",
+    "en": "/audio/nama/en/afif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Afifah",
     "slug": "afifah",
-    "file": "/audio/nama/afifah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/afifah.mp3",
+    "en": "/audio/nama/en/afifah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ahad",
     "slug": "ahad",
-    "file": "/audio/nama/ahad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ahad.mp3",
+    "en": "/audio/nama/en/ahad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ahmad",
     "slug": "ahmad",
-    "file": "/audio/nama/ahmad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ahmad.mp3",
+    "en": "/audio/nama/en/ahmad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aiman",
     "slug": "aiman",
-    "file": "/audio/nama/aiman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/aiman.mp3",
+    "en": "/audio/nama/en/aiman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aina",
     "slug": "aina",
-    "file": "/audio/nama/aina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aina.mp3",
+    "en": "/audio/nama/en/aina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aini",
     "slug": "aini",
-    "file": "/audio/nama/aini.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aini.mp3",
+    "en": "/audio/nama/en/aini.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aisha",
     "slug": "aisha",
-    "file": "/audio/nama/aisha.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aisha.mp3",
+    "en": "/audio/nama/en/aisha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Akmal",
     "slug": "akmal",
-    "file": "/audio/nama/akmal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/akmal.mp3",
+    "en": "/audio/nama/en/akmal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Alia",
     "slug": "alia",
-    "file": "/audio/nama/alia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/alia.mp3",
+    "en": "/audio/nama/en/alia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ali",
     "slug": "ali",
-    "file": "/audio/nama/ali.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ali.mp3",
+    "en": "/audio/nama/en/ali.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Alif",
     "slug": "alif",
-    "file": "/audio/nama/alif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/alif.mp3",
+    "en": "/audio/nama/en/alif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Amelia",
     "slug": "amelia",
-    "file": "/audio/nama/amelia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/amelia.mp3",
+    "en": "/audio/nama/en/amelia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Amin",
     "slug": "amin",
-    "file": "/audio/nama/amin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/amin.mp3",
+    "en": "/audio/nama/en/amin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aminah",
     "slug": "aminah",
-    "file": "/audio/nama/aminah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aminah.mp3",
+    "en": "/audio/nama/en/aminah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Amir",
     "slug": "amir",
-    "file": "/audio/nama/amir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/amir.mp3",
+    "en": "/audio/nama/en/amir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Amira",
     "slug": "amira",
-    "file": "/audio/nama/amira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/amira.mp3",
+    "en": "/audio/nama/en/amira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Anas",
     "slug": "anas",
-    "file": "/audio/nama/anas.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/anas.mp3",
+    "en": "/audio/nama/en/anas.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Anisa",
     "slug": "anisa",
-    "file": "/audio/nama/anisa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/anisa.mp3",
+    "en": "/audio/nama/en/anisa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aqil",
     "slug": "aqil",
-    "file": "/audio/nama/aqil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/aqil.mp3",
+    "en": "/audio/nama/en/aqil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aqilah",
     "slug": "aqilah",
-    "file": "/audio/nama/aqilah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aqilah.mp3",
+    "en": "/audio/nama/en/aqilah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Arif",
     "slug": "arif",
-    "file": "/audio/nama/arif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/arif.mp3",
+    "en": "/audio/nama/en/arif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Arifa",
     "slug": "arifa",
-    "file": "/audio/nama/arifa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/arifa.mp3",
+    "en": "/audio/nama/en/arifa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Arya",
     "slug": "arya",
-    "file": "/audio/nama/arya.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/arya.mp3",
+    "en": "/audio/nama/en/arya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Asad",
     "slug": "asad",
-    "file": "/audio/nama/asad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/asad.mp3",
+    "en": "/audio/nama/en/asad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Asiah",
     "slug": "asiah",
-    "file": "/audio/nama/asiah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/asiah.mp3",
+    "en": "/audio/nama/en/asiah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Asma",
     "slug": "asma",
-    "file": "/audio/nama/asma.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/asma.mp3",
+    "en": "/audio/nama/en/asma.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Atikah",
     "slug": "atikah",
-    "file": "/audio/nama/atikah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/atikah.mp3",
+    "en": "/audio/nama/en/atikah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Auni",
     "slug": "auni",
-    "file": "/audio/nama/auni.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/auni.mp3",
+    "en": "/audio/nama/en/auni.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Auniya",
     "slug": "auniya",
-    "file": "/audio/nama/auniya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/auniya.mp3",
+    "en": "/audio/nama/en/auniya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aya",
     "slug": "aya",
-    "file": "/audio/nama/aya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aya.mp3",
+    "en": "/audio/nama/en/aya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ayman",
     "slug": "ayman",
-    "file": "/audio/nama/ayman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ayman.mp3",
+    "en": "/audio/nama/en/ayman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ayyub",
     "slug": "ayyub",
-    "file": "/audio/nama/ayyub.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ayyub.mp3",
+    "en": "/audio/nama/en/ayyub.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Azim",
     "slug": "azim",
-    "file": "/audio/nama/azim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/azim.mp3",
+    "en": "/audio/nama/en/azim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aziza",
     "slug": "aziza",
-    "file": "/audio/nama/aziza.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aziza.mp3",
+    "en": "/audio/nama/en/aziza.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Badr",
     "slug": "badr",
-    "file": "/audio/nama/badr.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/badr.mp3",
+    "en": "/audio/nama/en/badr.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Badriah",
     "slug": "badriah",
-    "file": "/audio/nama/badriah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/badriah.mp3",
+    "en": "/audio/nama/en/badriah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Bahir",
     "slug": "bahir",
-    "file": "/audio/nama/bahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/bahir.mp3",
+    "en": "/audio/nama/en/bahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Bahira",
     "slug": "bahira",
-    "file": "/audio/nama/bahira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/bahira.mp3",
+    "en": "/audio/nama/en/bahira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Balqis",
     "slug": "balqis",
-    "file": "/audio/nama/balqis.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/balqis.mp3",
+    "en": "/audio/nama/en/balqis.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Barakah",
     "slug": "barakah",
-    "file": "/audio/nama/barakah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/barakah.mp3",
+    "en": "/audio/nama/en/barakah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Barra",
     "slug": "barra",
-    "file": "/audio/nama/barra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/barra.mp3",
+    "en": "/audio/nama/en/barra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Basel",
     "slug": "basel",
-    "file": "/audio/nama/basel.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/basel.mp3",
+    "en": "/audio/nama/en/basel.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Basil",
     "slug": "basil",
-    "file": "/audio/nama/basil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/basil.mp3",
+    "en": "/audio/nama/en/basil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Batrisyia",
     "slug": "batrisyia",
-    "file": "/audio/nama/batrisyia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/batrisyia.mp3",
+    "en": "/audio/nama/en/batrisyia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Bayyan",
     "slug": "bayyan",
-    "file": "/audio/nama/bayyan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/bayyan.mp3",
+    "en": "/audio/nama/en/bayyan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Bilal",
     "slug": "bilal",
-    "file": "/audio/nama/bilal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/bilal.mp3",
+    "en": "/audio/nama/en/bilal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Bisma",
     "slug": "bisma",
-    "file": "/audio/nama/bisma.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/bisma.mp3",
+    "en": "/audio/nama/en/bisma.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Bukhari",
     "slug": "bukhari",
-    "file": "/audio/nama/bukhari.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/bukhari.mp3",
+    "en": "/audio/nama/en/bukhari.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Bushra",
     "slug": "bushra",
-    "file": "/audio/nama/bushra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/bushra.mp3",
+    "en": "/audio/nama/en/bushra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Camelia",
     "slug": "camelia",
-    "file": "/audio/nama/camelia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/camelia.mp3",
+    "en": "/audio/nama/en/camelia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Cempaka",
     "slug": "cempaka",
-    "file": "/audio/nama/cempaka.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/cempaka.mp3",
+    "en": "/audio/nama/en/cempaka.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Dalia",
     "slug": "dalia",
-    "file": "/audio/nama/dalia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/dalia.mp3",
+    "en": "/audio/nama/en/dalia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Damia",
     "slug": "damia",
-    "file": "/audio/nama/damia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/damia.mp3",
+    "en": "/audio/nama/en/damia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Danish",
     "slug": "danish",
-    "file": "/audio/nama/danish.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/danish.mp3",
+    "en": "/audio/nama/en/danish.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Dania",
     "slug": "dania",
-    "file": "/audio/nama/dania.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/dania.mp3",
+    "en": "/audio/nama/en/dania.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Darwish",
     "slug": "darwish",
-    "file": "/audio/nama/darwish.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/darwish.mp3",
+    "en": "/audio/nama/en/darwish.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Daud",
     "slug": "daud",
-    "file": "/audio/nama/daud.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/daud.mp3",
+    "en": "/audio/nama/en/daud.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Dayana",
     "slug": "dayana",
-    "file": "/audio/nama/dayana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/dayana.mp3",
+    "en": "/audio/nama/en/dayana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Diyana",
     "slug": "diyana",
-    "file": "/audio/nama/diyana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/diyana.mp3",
+    "en": "/audio/nama/en/diyana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Dina",
     "slug": "dina",
-    "file": "/audio/nama/dina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/dina.mp3",
+    "en": "/audio/nama/en/dina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Diya",
     "slug": "diya",
-    "file": "/audio/nama/diya.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/diya.mp3",
+    "en": "/audio/nama/en/diya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Dzakwan",
     "slug": "dzakwan",
-    "file": "/audio/nama/dzakwan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/dzakwan.mp3",
+    "en": "/audio/nama/en/dzakwan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Dzaki",
     "slug": "dzaki",
-    "file": "/audio/nama/dzaki.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/dzaki.mp3",
+    "en": "/audio/nama/en/dzaki.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Dzakira",
     "slug": "dzakira",
-    "file": "/audio/nama/dzakira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/dzakira.mp3",
+    "en": "/audio/nama/en/dzakira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ehsan",
     "slug": "ehsan",
-    "file": "/audio/nama/ehsan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ehsan.mp3",
+    "en": "/audio/nama/en/ehsan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Elina",
     "slug": "elina",
-    "file": "/audio/nama/elina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/elina.mp3",
+    "en": "/audio/nama/en/elina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Emir",
     "slug": "emir",
-    "file": "/audio/nama/emir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/emir.mp3",
+    "en": "/audio/nama/en/emir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Emira",
     "slug": "emira",
-    "file": "/audio/nama/emira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/emira.mp3",
+    "en": "/audio/nama/en/emira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Esra",
     "slug": "esra",
-    "file": "/audio/nama/esra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/esra.mp3",
+    "en": "/audio/nama/en/esra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fadhil",
     "slug": "fadhil",
-    "file": "/audio/nama/fadhil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fadhil.mp3",
+    "en": "/audio/nama/en/fadhil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fadhilah",
     "slug": "fadhilah",
-    "file": "/audio/nama/fadhilah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/fadhilah.mp3",
+    "en": "/audio/nama/en/fadhilah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fahim",
     "slug": "fahim",
-    "file": "/audio/nama/fahim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fahim.mp3",
+    "en": "/audio/nama/en/fahim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fahimah",
     "slug": "fahimah",
-    "file": "/audio/nama/fahimah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/fahimah.mp3",
+    "en": "/audio/nama/en/fahimah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Faiz",
     "slug": "faiz",
-    "file": "/audio/nama/faiz.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/faiz.mp3",
+    "en": "/audio/nama/en/faiz.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Faizah",
     "slug": "faizah",
-    "file": "/audio/nama/faizah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/faizah.mp3",
+    "en": "/audio/nama/en/faizah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fajar",
     "slug": "fajar",
-    "file": "/audio/nama/fajar.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/fajar.mp3",
+    "en": "/audio/nama/en/fajar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fakhri",
     "slug": "fakhri",
-    "file": "/audio/nama/fakhri.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fakhri.mp3",
+    "en": "/audio/nama/en/fakhri.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Farah",
     "slug": "farah",
-    "file": "/audio/nama/farah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/farah.mp3",
+    "en": "/audio/nama/en/farah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Farhan",
     "slug": "farhan",
-    "file": "/audio/nama/farhan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/farhan.mp3",
+    "en": "/audio/nama/en/farhan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Farhana",
     "slug": "farhana",
-    "file": "/audio/nama/farhana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/farhana.mp3",
+    "en": "/audio/nama/en/farhana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Faris",
     "slug": "faris",
-    "file": "/audio/nama/faris.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/faris.mp3",
+    "en": "/audio/nama/en/faris.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Faruq",
     "slug": "faruq",
-    "file": "/audio/nama/faruq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/faruq.mp3",
+    "en": "/audio/nama/en/faruq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fatin",
     "slug": "fatin",
-    "file": "/audio/nama/fatin.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/fatin.mp3",
+    "en": "/audio/nama/en/fatin.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fatihah",
     "slug": "fatihah",
-    "file": "/audio/nama/fatihah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/fatihah.mp3",
+    "en": "/audio/nama/en/fatihah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fauzan",
     "slug": "fauzan",
-    "file": "/audio/nama/fauzan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fauzan.mp3",
+    "en": "/audio/nama/en/fauzan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fawzi",
     "slug": "fawzi",
-    "file": "/audio/nama/fawzi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fawzi.mp3",
+    "en": "/audio/nama/en/fawzi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fayyad",
     "slug": "fayyad",
-    "file": "/audio/nama/fayyad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fayyad.mp3",
+    "en": "/audio/nama/en/fayyad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Firdaus",
     "slug": "firdaus",
-    "file": "/audio/nama/firdaus.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/firdaus.mp3",
+    "en": "/audio/nama/en/firdaus.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Firman",
     "slug": "firman",
-    "file": "/audio/nama/firman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/firman.mp3",
+    "en": "/audio/nama/en/firman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fitri",
     "slug": "fitri",
-    "file": "/audio/nama/fitri.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/fitri.mp3",
+    "en": "/audio/nama/en/fitri.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ghazi",
     "slug": "ghazi",
-    "file": "/audio/nama/ghazi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ghazi.mp3",
+    "en": "/audio/nama/en/ghazi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ghazala",
     "slug": "ghazala",
-    "file": "/audio/nama/ghazala.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/ghazala.mp3",
+    "en": "/audio/nama/en/ghazala.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ghani",
     "slug": "ghani",
-    "file": "/audio/nama/ghani.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ghani.mp3",
+    "en": "/audio/nama/en/ghani.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ghayda",
     "slug": "ghayda",
-    "file": "/audio/nama/ghayda.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/ghayda.mp3",
+    "en": "/audio/nama/en/ghayda.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Habib",
     "slug": "habib",
-    "file": "/audio/nama/habib.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/habib.mp3",
+    "en": "/audio/nama/en/habib.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Habibah",
     "slug": "habibah",
-    "file": "/audio/nama/habibah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/habibah.mp3",
+    "en": "/audio/nama/en/habibah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hadi",
     "slug": "hadi",
-    "file": "/audio/nama/hadi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hadi.mp3",
+    "en": "/audio/nama/en/hadi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hadia",
     "slug": "hadia",
-    "file": "/audio/nama/hadia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hadia.mp3",
+    "en": "/audio/nama/en/hadia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hafiz",
     "slug": "hafiz",
-    "file": "/audio/nama/hafiz.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hafiz.mp3",
+    "en": "/audio/nama/en/hafiz.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hafizah",
     "slug": "hafizah",
-    "file": "/audio/nama/hafizah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hafizah.mp3",
+    "en": "/audio/nama/en/hafizah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hakeem",
     "slug": "hakeem",
-    "file": "/audio/nama/hakeem.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hakeem.mp3",
+    "en": "/audio/nama/en/hakeem.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Halim",
     "slug": "halim",
-    "file": "/audio/nama/halim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/halim.mp3",
+    "en": "/audio/nama/en/halim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Halimah",
     "slug": "halimah",
-    "file": "/audio/nama/halimah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/halimah.mp3",
+    "en": "/audio/nama/en/halimah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hamdan",
     "slug": "hamdan",
-    "file": "/audio/nama/hamdan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hamdan.mp3",
+    "en": "/audio/nama/en/hamdan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hamzah",
     "slug": "hamzah",
-    "file": "/audio/nama/hamzah.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hamzah.mp3",
+    "en": "/audio/nama/en/hamzah.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hana",
     "slug": "hana",
-    "file": "/audio/nama/hana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hana.mp3",
+    "en": "/audio/nama/en/hana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hanan",
     "slug": "hanan",
-    "file": "/audio/nama/hanan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/hanan.mp3",
+    "en": "/audio/nama/en/hanan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hanif",
     "slug": "hanif",
-    "file": "/audio/nama/hanif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hanif.mp3",
+    "en": "/audio/nama/en/hanif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hanis",
     "slug": "hanis",
-    "file": "/audio/nama/hanis.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/hanis.mp3",
+    "en": "/audio/nama/en/hanis.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Harith",
     "slug": "harith",
-    "file": "/audio/nama/harith.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/harith.mp3",
+    "en": "/audio/nama/en/harith.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Harun",
     "slug": "harun",
-    "file": "/audio/nama/harun.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/harun.mp3",
+    "en": "/audio/nama/en/harun.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hasan",
     "slug": "hasan",
-    "file": "/audio/nama/hasan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hasan.mp3",
+    "en": "/audio/nama/en/hasan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hashim",
     "slug": "hashim",
-    "file": "/audio/nama/hashim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hashim.mp3",
+    "en": "/audio/nama/en/hashim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hawa",
     "slug": "hawa",
-    "file": "/audio/nama/hawa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hawa.mp3",
+    "en": "/audio/nama/en/hawa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hayat",
     "slug": "hayat",
-    "file": "/audio/nama/hayat.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/hayat.mp3",
+    "en": "/audio/nama/en/hayat.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Haziq",
     "slug": "haziq",
-    "file": "/audio/nama/haziq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/haziq.mp3",
+    "en": "/audio/nama/en/haziq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hidayah",
     "slug": "hidayah",
-    "file": "/audio/nama/hidayah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hidayah.mp3",
+    "en": "/audio/nama/en/hidayah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hikmah",
     "slug": "hikmah",
-    "file": "/audio/nama/hikmah.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/hikmah.mp3",
+    "en": "/audio/nama/en/hikmah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hilal",
     "slug": "hilal",
-    "file": "/audio/nama/hilal.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/hilal.mp3",
+    "en": "/audio/nama/en/hilal.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Husna",
     "slug": "husna",
-    "file": "/audio/nama/husna.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/husna.mp3",
+    "en": "/audio/nama/en/husna.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hussein",
     "slug": "hussein",
-    "file": "/audio/nama/hussein.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hussein.mp3",
+    "en": "/audio/nama/en/hussein.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ibrahim",
     "slug": "ibrahim",
-    "file": "/audio/nama/ibrahim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ibrahim.mp3",
+    "en": "/audio/nama/en/ibrahim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Idris",
     "slug": "idris",
-    "file": "/audio/nama/idris.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/idris.mp3",
+    "en": "/audio/nama/en/idris.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Iffah",
     "slug": "iffah",
-    "file": "/audio/nama/iffah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/iffah.mp3",
+    "en": "/audio/nama/en/iffah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ihsan",
     "slug": "ihsan",
-    "file": "/audio/nama/ihsan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ihsan.mp3",
+    "en": "/audio/nama/en/ihsan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ikhlas",
     "slug": "ikhlas",
-    "file": "/audio/nama/ikhlas.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ikhlas.mp3",
+    "en": "/audio/nama/en/ikhlas.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ikram",
     "slug": "ikram",
-    "file": "/audio/nama/ikram.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ikram.mp3",
+    "en": "/audio/nama/en/ikram.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ilham",
     "slug": "ilham",
-    "file": "/audio/nama/ilham.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ilham.mp3",
+    "en": "/audio/nama/en/ilham.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Iman",
     "slug": "iman",
-    "file": "/audio/nama/iman.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/iman.mp3",
+    "en": "/audio/nama/en/iman.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Imran",
     "slug": "imran",
-    "file": "/audio/nama/imran.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/imran.mp3",
+    "en": "/audio/nama/en/imran.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Inara",
     "slug": "inara",
-    "file": "/audio/nama/inara.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/inara.mp3",
+    "en": "/audio/nama/en/inara.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Insan",
     "slug": "insan",
-    "file": "/audio/nama/insan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/insan.mp3",
+    "en": "/audio/nama/en/insan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Iqbal",
     "slug": "iqbal",
-    "file": "/audio/nama/iqbal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/iqbal.mp3",
+    "en": "/audio/nama/en/iqbal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Irfan",
     "slug": "irfan",
-    "file": "/audio/nama/irfan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/irfan.mp3",
+    "en": "/audio/nama/en/irfan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Isa",
     "slug": "isa",
-    "file": "/audio/nama/isa.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/isa.mp3",
+    "en": "/audio/nama/en/isa.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ishak",
     "slug": "ishak",
-    "file": "/audio/nama/ishak.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ishak.mp3",
+    "en": "/audio/nama/en/ishak.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ismail",
     "slug": "ismail",
-    "file": "/audio/nama/ismail.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ismail.mp3",
+    "en": "/audio/nama/en/ismail.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Isra",
     "slug": "isra",
-    "file": "/audio/nama/isra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/isra.mp3",
+    "en": "/audio/nama/en/isra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Izzah",
     "slug": "izzah",
-    "file": "/audio/nama/izzah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/izzah.mp3",
+    "en": "/audio/nama/en/izzah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Izzuddin",
     "slug": "izzuddin",
-    "file": "/audio/nama/izzuddin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/izzuddin.mp3",
+    "en": "/audio/nama/en/izzuddin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jabir",
     "slug": "jabir",
-    "file": "/audio/nama/jabir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/jabir.mp3",
+    "en": "/audio/nama/en/jabir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jalal",
     "slug": "jalal",
-    "file": "/audio/nama/jalal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/jalal.mp3",
+    "en": "/audio/nama/en/jalal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jamal",
     "slug": "jamal",
-    "file": "/audio/nama/jamal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/jamal.mp3",
+    "en": "/audio/nama/en/jamal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jamil",
     "slug": "jamil",
-    "file": "/audio/nama/jamil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/jamil.mp3",
+    "en": "/audio/nama/en/jamil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jamilah",
     "slug": "jamilah",
-    "file": "/audio/nama/jamilah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/jamilah.mp3",
+    "en": "/audio/nama/en/jamilah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Jannah",
     "slug": "jannah",
-    "file": "/audio/nama/jannah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/jannah.mp3",
+    "en": "/audio/nama/en/jannah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Jasmin",
     "slug": "jasmin",
-    "file": "/audio/nama/jasmin.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/jasmin.mp3",
+    "en": "/audio/nama/en/jasmin.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Jauhar",
     "slug": "jauhar",
-    "file": "/audio/nama/jauhar.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/jauhar.mp3",
+    "en": "/audio/nama/en/jauhar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Jawad",
     "slug": "jawad",
-    "file": "/audio/nama/jawad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/jawad.mp3",
+    "en": "/audio/nama/en/jawad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jihan",
     "slug": "jihan",
-    "file": "/audio/nama/jihan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/jihan.mp3",
+    "en": "/audio/nama/en/jihan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Jibril",
     "slug": "jibril",
-    "file": "/audio/nama/jibril.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/jibril.mp3",
+    "en": "/audio/nama/en/jibril.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Kamil",
     "slug": "kamil",
-    "file": "/audio/nama/kamil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/kamil.mp3",
+    "en": "/audio/nama/en/kamil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Kamila",
     "slug": "kamila",
-    "file": "/audio/nama/kamila.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/kamila.mp3",
+    "en": "/audio/nama/en/kamila.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Karim",
     "slug": "karim",
-    "file": "/audio/nama/karim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/karim.mp3",
+    "en": "/audio/nama/en/karim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Karimah",
     "slug": "karimah",
-    "file": "/audio/nama/karimah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/karimah.mp3",
+    "en": "/audio/nama/en/karimah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Kasim",
     "slug": "kasim",
-    "file": "/audio/nama/kasim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/kasim.mp3",
+    "en": "/audio/nama/en/kasim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Khadijah",
     "slug": "khadijah",
-    "file": "/audio/nama/khadijah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/khadijah.mp3",
+    "en": "/audio/nama/en/khadijah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Khalid",
     "slug": "khalid",
-    "file": "/audio/nama/khalid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/khalid.mp3",
+    "en": "/audio/nama/en/khalid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Khalil",
     "slug": "khalil",
-    "file": "/audio/nama/khalil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/khalil.mp3",
+    "en": "/audio/nama/en/khalil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Khairul",
     "slug": "khairul",
-    "file": "/audio/nama/khairul.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/khairul.mp3",
+    "en": "/audio/nama/en/khairul.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Khairunnisa",
     "slug": "khairunnisa",
-    "file": "/audio/nama/khairunnisa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/khairunnisa.mp3",
+    "en": "/audio/nama/en/khairunnisa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Laila",
     "slug": "laila",
-    "file": "/audio/nama/laila.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/laila.mp3",
+    "en": "/audio/nama/en/laila.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Lamya",
     "slug": "lamya",
-    "file": "/audio/nama/lamya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/lamya.mp3",
+    "en": "/audio/nama/en/lamya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Latif",
     "slug": "latif",
-    "file": "/audio/nama/latif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/latif.mp3",
+    "en": "/audio/nama/en/latif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Latifah",
     "slug": "latifah",
-    "file": "/audio/nama/latifah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/latifah.mp3",
+    "en": "/audio/nama/en/latifah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Layyan",
     "slug": "layyan",
-    "file": "/audio/nama/layyan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/layyan.mp3",
+    "en": "/audio/nama/en/layyan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Luqman",
     "slug": "luqman",
-    "file": "/audio/nama/luqman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/luqman.mp3",
+    "en": "/audio/nama/en/luqman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Luthfi",
     "slug": "luthfi",
-    "file": "/audio/nama/luthfi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/luthfi.mp3",
+    "en": "/audio/nama/en/luthfi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mahdi",
     "slug": "mahdi",
-    "file": "/audio/nama/mahdi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mahdi.mp3",
+    "en": "/audio/nama/en/mahdi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mahir",
     "slug": "mahir",
-    "file": "/audio/nama/mahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mahir.mp3",
+    "en": "/audio/nama/en/mahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Maisarah",
     "slug": "maisarah",
-    "file": "/audio/nama/maisarah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/maisarah.mp3",
+    "en": "/audio/nama/en/maisarah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Malik",
     "slug": "malik",
-    "file": "/audio/nama/malik.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/malik.mp3",
+    "en": "/audio/nama/en/malik.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Malika",
     "slug": "malika",
-    "file": "/audio/nama/malika.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/malika.mp3",
+    "en": "/audio/nama/en/malika.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Marwan",
     "slug": "marwan",
-    "file": "/audio/nama/marwan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/marwan.mp3",
+    "en": "/audio/nama/en/marwan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Maryam",
     "slug": "maryam",
-    "file": "/audio/nama/maryam.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/maryam.mp3",
+    "en": "/audio/nama/en/maryam.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mas",
     "slug": "mas",
-    "file": "/audio/nama/mas.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/mas.mp3",
+    "en": "/audio/nama/en/mas.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mashaal",
     "slug": "mashaal",
-    "file": "/audio/nama/mashaal.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/mashaal.mp3",
+    "en": "/audio/nama/en/mashaal.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Maya",
     "slug": "maya",
-    "file": "/audio/nama/maya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/maya.mp3",
+    "en": "/audio/nama/en/maya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mikael",
     "slug": "mikael",
-    "file": "/audio/nama/mikael.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mikael.mp3",
+    "en": "/audio/nama/en/mikael.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mikail",
     "slug": "mikail",
-    "file": "/audio/nama/mikail.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mikail.mp3",
+    "en": "/audio/nama/en/mikail.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mina",
     "slug": "mina",
-    "file": "/audio/nama/mina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/mina.mp3",
+    "en": "/audio/nama/en/mina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mirza",
     "slug": "mirza",
-    "file": "/audio/nama/mirza.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mirza.mp3",
+    "en": "/audio/nama/en/mirza.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Misbah",
     "slug": "misbah",
-    "file": "/audio/nama/misbah.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/misbah.mp3",
+    "en": "/audio/nama/en/misbah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mohamad",
     "slug": "mohamad",
-    "file": "/audio/nama/mohamad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mohamad.mp3",
+    "en": "/audio/nama/en/mohamad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Muaz",
     "slug": "muaz",
-    "file": "/audio/nama/muaz.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/muaz.mp3",
+    "en": "/audio/nama/en/muaz.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mubin",
     "slug": "mubin",
-    "file": "/audio/nama/mubin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mubin.mp3",
+    "en": "/audio/nama/en/mubin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Muhaimin",
     "slug": "muhaimin",
-    "file": "/audio/nama/muhaimin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/muhaimin.mp3",
+    "en": "/audio/nama/en/muhaimin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mukhlis",
     "slug": "mukhlis",
-    "file": "/audio/nama/mukhlis.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mukhlis.mp3",
+    "en": "/audio/nama/en/mukhlis.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Munir",
     "slug": "munir",
-    "file": "/audio/nama/munir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/munir.mp3",
+    "en": "/audio/nama/en/munir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Munira",
     "slug": "munira",
-    "file": "/audio/nama/munira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/munira.mp3",
+    "en": "/audio/nama/en/munira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Musa",
     "slug": "musa",
-    "file": "/audio/nama/musa.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/musa.mp3",
+    "en": "/audio/nama/en/musa.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Mustafa",
     "slug": "mustafa",
-    "file": "/audio/nama/mustafa.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mustafa.mp3",
+    "en": "/audio/nama/en/mustafa.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Muthmainnah",
     "slug": "muthmainnah",
-    "file": "/audio/nama/muthmainnah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/muthmainnah.mp3",
+    "en": "/audio/nama/en/muthmainnah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nabil",
     "slug": "nabil",
-    "file": "/audio/nama/nabil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nabil.mp3",
+    "en": "/audio/nama/en/nabil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nabila",
     "slug": "nabila",
-    "file": "/audio/nama/nabila.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nabila.mp3",
+    "en": "/audio/nama/en/nabila.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nadim",
     "slug": "nadim",
-    "file": "/audio/nama/nadim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nadim.mp3",
+    "en": "/audio/nama/en/nadim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nadia",
     "slug": "nadia",
-    "file": "/audio/nama/nadia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nadia.mp3",
+    "en": "/audio/nama/en/nadia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nadir",
     "slug": "nadir",
-    "file": "/audio/nama/nadir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nadir.mp3",
+    "en": "/audio/nama/en/nadir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nafis",
     "slug": "nafis",
-    "file": "/audio/nama/nafis.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nafis.mp3",
+    "en": "/audio/nama/en/nafis.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nafisah",
     "slug": "nafisah",
-    "file": "/audio/nama/nafisah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nafisah.mp3",
+    "en": "/audio/nama/en/nafisah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Naila",
     "slug": "naila",
-    "file": "/audio/nama/naila.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/naila.mp3",
+    "en": "/audio/nama/en/naila.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Najih",
     "slug": "najih",
-    "file": "/audio/nama/najih.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/najih.mp3",
+    "en": "/audio/nama/en/najih.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Najwa",
     "slug": "najwa",
-    "file": "/audio/nama/najwa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/najwa.mp3",
+    "en": "/audio/nama/en/najwa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nashita",
     "slug": "nashita",
-    "file": "/audio/nama/nashita.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nashita.mp3",
+    "en": "/audio/nama/en/nashita.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nasir",
     "slug": "nasir",
-    "file": "/audio/nama/nasir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nasir.mp3",
+    "en": "/audio/nama/en/nasir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Naufal",
     "slug": "naufal",
-    "file": "/audio/nama/naufal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/naufal.mp3",
+    "en": "/audio/nama/en/naufal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nawar",
     "slug": "nawar",
-    "file": "/audio/nama/nawar.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/nawar.mp3",
+    "en": "/audio/nama/en/nawar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nazir",
     "slug": "nazir",
-    "file": "/audio/nama/nazir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nazir.mp3",
+    "en": "/audio/nama/en/nazir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nazirah",
     "slug": "nazirah",
-    "file": "/audio/nama/nazirah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nazirah.mp3",
+    "en": "/audio/nama/en/nazirah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nida",
     "slug": "nida",
-    "file": "/audio/nama/nida.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nida.mp3",
+    "en": "/audio/nama/en/nida.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nikmah",
     "slug": "nikmah",
-    "file": "/audio/nama/nikmah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nikmah.mp3",
+    "en": "/audio/nama/en/nikmah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nimrah",
     "slug": "nimrah",
-    "file": "/audio/nama/nimrah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nimrah.mp3",
+    "en": "/audio/nama/en/nimrah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nizar",
     "slug": "nizar",
-    "file": "/audio/nama/nizar.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nizar.mp3",
+    "en": "/audio/nama/en/nizar.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Noor",
     "slug": "noor",
-    "file": "/audio/nama/noor.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/noor.mp3",
+    "en": "/audio/nama/en/noor.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nura",
     "slug": "nura",
-    "file": "/audio/nama/nura.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nura.mp3",
+    "en": "/audio/nama/en/nura.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nuraini",
     "slug": "nuraini",
-    "file": "/audio/nama/nuraini.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nuraini.mp3",
+    "en": "/audio/nama/en/nuraini.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nurfadhilah",
     "slug": "nurfadhilah",
-    "file": "/audio/nama/nurfadhilah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nurfadhilah.mp3",
+    "en": "/audio/nama/en/nurfadhilah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nurhaliza",
     "slug": "nurhaliza",
-    "file": "/audio/nama/nurhaliza.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nurhaliza.mp3",
+    "en": "/audio/nama/en/nurhaliza.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nurul",
     "slug": "nurul",
-    "file": "/audio/nama/nurul.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/nurul.mp3",
+    "en": "/audio/nama/en/nurul.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nusaibah",
     "slug": "nusaibah",
-    "file": "/audio/nama/nusaibah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nusaibah.mp3",
+    "en": "/audio/nama/en/nusaibah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Omar",
     "slug": "omar",
-    "file": "/audio/nama/omar.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/omar.mp3",
+    "en": "/audio/nama/en/omar.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Osman",
     "slug": "osman",
-    "file": "/audio/nama/osman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/osman.mp3",
+    "en": "/audio/nama/en/osman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Puteri",
     "slug": "puteri",
-    "file": "/audio/nama/puteri.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/puteri.mp3",
+    "en": "/audio/nama/en/puteri.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Qais",
     "slug": "qais",
-    "file": "/audio/nama/qais.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/qais.mp3",
+    "en": "/audio/nama/en/qais.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Qamar",
     "slug": "qamar",
-    "file": "/audio/nama/qamar.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/qamar.mp3",
+    "en": "/audio/nama/en/qamar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Qasim",
     "slug": "qasim",
-    "file": "/audio/nama/qasim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/qasim.mp3",
+    "en": "/audio/nama/en/qasim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Qistina",
     "slug": "qistina",
-    "file": "/audio/nama/qistina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/qistina.mp3",
+    "en": "/audio/nama/en/qistina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Qudsiah",
     "slug": "qudsiah",
-    "file": "/audio/nama/qudsiah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/qudsiah.mp3",
+    "en": "/audio/nama/en/qudsiah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rabi",
     "slug": "rabi",
-    "file": "/audio/nama/rabi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rabi.mp3",
+    "en": "/audio/nama/en/rabi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rabiah",
     "slug": "rabiah",
-    "file": "/audio/nama/rabiah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/rabiah.mp3",
+    "en": "/audio/nama/en/rabiah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rafi",
     "slug": "rafi",
-    "file": "/audio/nama/rafi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rafi.mp3",
+    "en": "/audio/nama/en/rafi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rafidah",
     "slug": "rafidah",
-    "file": "/audio/nama/rafidah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/rafidah.mp3",
+    "en": "/audio/nama/en/rafidah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rahim",
     "slug": "rahim",
-    "file": "/audio/nama/rahim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rahim.mp3",
+    "en": "/audio/nama/en/rahim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rahimah",
     "slug": "rahimah",
-    "file": "/audio/nama/rahimah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/rahimah.mp3",
+    "en": "/audio/nama/en/rahimah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rahman",
     "slug": "rahman",
-    "file": "/audio/nama/rahman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rahman.mp3",
+    "en": "/audio/nama/en/rahman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Raidah",
     "slug": "raidah",
-    "file": "/audio/nama/raidah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/raidah.mp3",
+    "en": "/audio/nama/en/raidah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rais",
     "slug": "rais",
-    "file": "/audio/nama/rais.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rais.mp3",
+    "en": "/audio/nama/en/rais.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Raja",
     "slug": "raja",
-    "file": "/audio/nama/raja.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/raja.mp3",
+    "en": "/audio/nama/en/raja.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ramli",
     "slug": "ramli",
-    "file": "/audio/nama/ramli.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ramli.mp3",
+    "en": "/audio/nama/en/ramli.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rania",
     "slug": "rania",
-    "file": "/audio/nama/rania.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/rania.mp3",
+    "en": "/audio/nama/en/rania.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ranya",
     "slug": "ranya",
-    "file": "/audio/nama/ranya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/ranya.mp3",
+    "en": "/audio/nama/en/ranya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rashid",
     "slug": "rashid",
-    "file": "/audio/nama/rashid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rashid.mp3",
+    "en": "/audio/nama/en/rashid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rasyidah",
     "slug": "rasyidah",
-    "file": "/audio/nama/rasyidah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/rasyidah.mp3",
+    "en": "/audio/nama/en/rasyidah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rayyan",
     "slug": "rayyan",
-    "file": "/audio/nama/rayyan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/rayyan.mp3",
+    "en": "/audio/nama/en/rayyan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Razak",
     "slug": "razak",
-    "file": "/audio/nama/razak.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/razak.mp3",
+    "en": "/audio/nama/en/razak.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rehan",
     "slug": "rehan",
-    "file": "/audio/nama/rehan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/rehan.mp3",
+    "en": "/audio/nama/en/rehan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ridha",
     "slug": "ridha",
-    "file": "/audio/nama/ridha.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ridha.mp3",
+    "en": "/audio/nama/en/ridha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ridwan",
     "slug": "ridwan",
-    "file": "/audio/nama/ridwan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ridwan.mp3",
+    "en": "/audio/nama/en/ridwan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rizq",
     "slug": "rizq",
-    "file": "/audio/nama/rizq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/rizq.mp3",
+    "en": "/audio/nama/en/rizq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Rizqi",
     "slug": "rizqi",
-    "file": "/audio/nama/rizqi.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/rizqi.mp3",
+    "en": "/audio/nama/en/rizqi.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ruhaya",
     "slug": "ruhaya",
-    "file": "/audio/nama/ruhaya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/ruhaya.mp3",
+    "en": "/audio/nama/en/ruhaya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ruqayyah",
     "slug": "ruqayyah",
-    "file": "/audio/nama/ruqayyah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/ruqayyah.mp3",
+    "en": "/audio/nama/en/ruqayyah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sabir",
     "slug": "sabir",
-    "file": "/audio/nama/sabir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sabir.mp3",
+    "en": "/audio/nama/en/sabir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sabrina",
     "slug": "sabrina",
-    "file": "/audio/nama/sabrina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sabrina.mp3",
+    "en": "/audio/nama/en/sabrina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Safa",
     "slug": "safa",
-    "file": "/audio/nama/safa.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/safa.mp3",
+    "en": "/audio/nama/en/safa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Safiyah",
     "slug": "safiyah",
-    "file": "/audio/nama/safiyah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/safiyah.mp3",
+    "en": "/audio/nama/en/safiyah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sahir",
     "slug": "sahir",
-    "file": "/audio/nama/sahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sahir.mp3",
+    "en": "/audio/nama/en/sahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Said",
     "slug": "said",
-    "file": "/audio/nama/said.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/said.mp3",
+    "en": "/audio/nama/en/said.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Saidah",
     "slug": "saidah",
-    "file": "/audio/nama/saidah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/saidah.mp3",
+    "en": "/audio/nama/en/saidah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Saif",
     "slug": "saif",
-    "file": "/audio/nama/saif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/saif.mp3",
+    "en": "/audio/nama/en/saif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sajid",
     "slug": "sajid",
-    "file": "/audio/nama/sajid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sajid.mp3",
+    "en": "/audio/nama/en/sajid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sakti",
     "slug": "sakti",
-    "file": "/audio/nama/sakti.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/sakti.mp3",
+    "en": "/audio/nama/en/sakti.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Salim",
     "slug": "salim",
-    "file": "/audio/nama/salim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/salim.mp3",
+    "en": "/audio/nama/en/salim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Salma",
     "slug": "salma",
-    "file": "/audio/nama/salma.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/salma.mp3",
+    "en": "/audio/nama/en/salma.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Salman",
     "slug": "salman",
-    "file": "/audio/nama/salman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/salman.mp3",
+    "en": "/audio/nama/en/salman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sami",
     "slug": "sami",
-    "file": "/audio/nama/sami.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sami.mp3",
+    "en": "/audio/nama/en/sami.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Samira",
     "slug": "samira",
-    "file": "/audio/nama/samira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/samira.mp3",
+    "en": "/audio/nama/en/samira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sana",
     "slug": "sana",
-    "file": "/audio/nama/sana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sana.mp3",
+    "en": "/audio/nama/en/sana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sara",
     "slug": "sara",
-    "file": "/audio/nama/sara.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sara.mp3",
+    "en": "/audio/nama/en/sara.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sarfina",
     "slug": "sarfina",
-    "file": "/audio/nama/sarfina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sarfina.mp3",
+    "en": "/audio/nama/en/sarfina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Shafiq",
     "slug": "shafiq",
-    "file": "/audio/nama/shafiq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/shafiq.mp3",
+    "en": "/audio/nama/en/shafiq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Shakir",
     "slug": "shakir",
-    "file": "/audio/nama/shakir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/shakir.mp3",
+    "en": "/audio/nama/en/shakir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Shukri",
     "slug": "shukri",
-    "file": "/audio/nama/shukri.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/shukri.mp3",
+    "en": "/audio/nama/en/shukri.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sofia",
     "slug": "sofia",
-    "file": "/audio/nama/sofia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sofia.mp3",
+    "en": "/audio/nama/en/sofia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sufyan",
     "slug": "sufyan",
-    "file": "/audio/nama/sufyan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sufyan.mp3",
+    "en": "/audio/nama/en/sufyan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Suhail",
     "slug": "suhail",
-    "file": "/audio/nama/suhail.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/suhail.mp3",
+    "en": "/audio/nama/en/suhail.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Suhaila",
     "slug": "suhaila",
-    "file": "/audio/nama/suhaila.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/suhaila.mp3",
+    "en": "/audio/nama/en/suhaila.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sulaiman",
     "slug": "sulaiman",
-    "file": "/audio/nama/sulaiman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sulaiman.mp3",
+    "en": "/audio/nama/en/sulaiman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syafiq",
     "slug": "syafiq",
-    "file": "/audio/nama/syafiq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syafiq.mp3",
+    "en": "/audio/nama/en/syafiq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syahir",
     "slug": "syahir",
-    "file": "/audio/nama/syahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syahir.mp3",
+    "en": "/audio/nama/en/syahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syahira",
     "slug": "syahira",
-    "file": "/audio/nama/syahira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/syahira.mp3",
+    "en": "/audio/nama/en/syahira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Syakira",
     "slug": "syakira",
-    "file": "/audio/nama/syakira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/syakira.mp3",
+    "en": "/audio/nama/en/syakira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Syamsul",
     "slug": "syamsul",
-    "file": "/audio/nama/syamsul.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syamsul.mp3",
+    "en": "/audio/nama/en/syamsul.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syed",
     "slug": "syed",
-    "file": "/audio/nama/syed.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syed.mp3",
+    "en": "/audio/nama/en/syed.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syukran",
     "slug": "syukran",
-    "file": "/audio/nama/syukran.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/syukran.mp3",
+    "en": "/audio/nama/en/syukran.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Taha",
     "slug": "taha",
-    "file": "/audio/nama/taha.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/taha.mp3",
+    "en": "/audio/nama/en/taha.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Tahir",
     "slug": "tahir",
-    "file": "/audio/nama/tahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/tahir.mp3",
+    "en": "/audio/nama/en/tahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Tahira",
     "slug": "tahira",
-    "file": "/audio/nama/tahira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/tahira.mp3",
+    "en": "/audio/nama/en/tahira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Talib",
     "slug": "talib",
-    "file": "/audio/nama/talib.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/talib.mp3",
+    "en": "/audio/nama/en/talib.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Tariq",
     "slug": "tariq",
-    "file": "/audio/nama/tariq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/tariq.mp3",
+    "en": "/audio/nama/en/tariq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Tasneem",
     "slug": "tasneem",
-    "file": "/audio/nama/tasneem.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/tasneem.mp3",
+    "en": "/audio/nama/en/tasneem.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Thalia",
     "slug": "thalia",
-    "file": "/audio/nama/thalia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/thalia.mp3",
+    "en": "/audio/nama/en/thalia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Thaqib",
     "slug": "thaqib",
-    "file": "/audio/nama/thaqib.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/thaqib.mp3",
+    "en": "/audio/nama/en/thaqib.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Taufik",
     "slug": "taufik",
-    "file": "/audio/nama/taufik.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/taufik.mp3",
+    "en": "/audio/nama/en/taufik.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Tayyib",
     "slug": "tayyib",
-    "file": "/audio/nama/tayyib.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/tayyib.mp3",
+    "en": "/audio/nama/en/tayyib.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ubaid",
     "slug": "ubaid",
-    "file": "/audio/nama/ubaid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ubaid.mp3",
+    "en": "/audio/nama/en/ubaid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Umar",
     "slug": "umar",
-    "file": "/audio/nama/umar.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/umar.mp3",
+    "en": "/audio/nama/en/umar.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Usman",
     "slug": "usman",
-    "file": "/audio/nama/usman.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/usman.mp3",
+    "en": "/audio/nama/en/usman.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Uwais",
     "slug": "uwais",
-    "file": "/audio/nama/uwais.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/uwais.mp3",
+    "en": "/audio/nama/en/uwais.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Wafa",
     "slug": "wafa",
-    "file": "/audio/nama/wafa.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/wafa.mp3",
+    "en": "/audio/nama/en/wafa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Wafi",
     "slug": "wafi",
-    "file": "/audio/nama/wafi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/wafi.mp3",
+    "en": "/audio/nama/en/wafi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Wahid",
     "slug": "wahid",
-    "file": "/audio/nama/wahid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/wahid.mp3",
+    "en": "/audio/nama/en/wahid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Warda",
     "slug": "warda",
-    "file": "/audio/nama/warda.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/warda.mp3",
+    "en": "/audio/nama/en/warda.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Wasim",
     "slug": "wasim",
-    "file": "/audio/nama/wasim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/wasim.mp3",
+    "en": "/audio/nama/en/wasim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Widad",
     "slug": "widad",
-    "file": "/audio/nama/widad.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/widad.mp3",
+    "en": "/audio/nama/en/widad.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Yafi",
     "slug": "yafi",
-    "file": "/audio/nama/yafi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yafi.mp3",
+    "en": "/audio/nama/en/yafi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Yahya",
     "slug": "yahya",
-    "file": "/audio/nama/yahya.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yahya.mp3",
+    "en": "/audio/nama/en/yahya.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Yamin",
     "slug": "yamin",
-    "file": "/audio/nama/yamin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yamin.mp3",
+    "en": "/audio/nama/en/yamin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Yasir",
     "slug": "yasir",
-    "file": "/audio/nama/yasir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yasir.mp3",
+    "en": "/audio/nama/en/yasir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Yasmin",
     "slug": "yasmin",
-    "file": "/audio/nama/yasmin.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/yasmin.mp3",
+    "en": "/audio/nama/en/yasmin.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Yazan",
     "slug": "yazan",
-    "file": "/audio/nama/yazan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yazan.mp3",
+    "en": "/audio/nama/en/yazan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Yusra",
     "slug": "yusra",
-    "file": "/audio/nama/yusra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/yusra.mp3",
+    "en": "/audio/nama/en/yusra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Yusuf",
     "slug": "yusuf",
-    "file": "/audio/nama/yusuf.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yusuf.mp3",
+    "en": "/audio/nama/en/yusuf.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zafir",
     "slug": "zafir",
-    "file": "/audio/nama/zafir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zafir.mp3",
+    "en": "/audio/nama/en/zafir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zahir",
     "slug": "zahir",
-    "file": "/audio/nama/zahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zahir.mp3",
+    "en": "/audio/nama/en/zahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zahra",
     "slug": "zahra",
-    "file": "/audio/nama/zahra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zahra.mp3",
+    "en": "/audio/nama/en/zahra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zaid",
     "slug": "zaid",
-    "file": "/audio/nama/zaid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zaid.mp3",
+    "en": "/audio/nama/en/zaid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zain",
     "slug": "zain",
-    "file": "/audio/nama/zain.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zain.mp3",
+    "en": "/audio/nama/en/zain.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zainab",
     "slug": "zainab",
-    "file": "/audio/nama/zainab.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zainab.mp3",
+    "en": "/audio/nama/en/zainab.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zaki",
     "slug": "zaki",
-    "file": "/audio/nama/zaki.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zaki.mp3",
+    "en": "/audio/nama/en/zaki.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zakia",
     "slug": "zakia",
-    "file": "/audio/nama/zakia.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zakia.mp3",
+    "en": "/audio/nama/en/zakia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zakaria",
     "slug": "zakaria",
-    "file": "/audio/nama/zakaria.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zakaria.mp3",
+    "en": "/audio/nama/en/zakaria.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zara",
     "slug": "zara",
-    "file": "/audio/nama/zara.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zara.mp3",
+    "en": "/audio/nama/en/zara.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zarif",
     "slug": "zarif",
-    "file": "/audio/nama/zarif.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zarif.mp3",
+    "en": "/audio/nama/en/zarif.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zayd",
     "slug": "zayd",
-    "file": "/audio/nama/zayd.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zayd.mp3",
+    "en": "/audio/nama/en/zayd.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zeeshan",
     "slug": "zeeshan",
-    "file": "/audio/nama/zeeshan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zeeshan.mp3",
+    "en": "/audio/nama/en/zeeshan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zia",
     "slug": "zia",
-    "file": "/audio/nama/zia.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/zia.mp3",
+    "en": "/audio/nama/en/zia.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zubair",
     "slug": "zubair",
-    "file": "/audio/nama/zubair.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zubair.mp3",
+    "en": "/audio/nama/en/zubair.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zuhair",
     "slug": "zuhair",
-    "file": "/audio/nama/zuhair.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zuhair.mp3",
+    "en": "/audio/nama/en/zuhair.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zuhra",
     "slug": "zuhra",
-    "file": "/audio/nama/zuhra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zuhra.mp3",
+    "en": "/audio/nama/en/zuhra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zulaikha",
     "slug": "zulaikha",
-    "file": "/audio/nama/zulaikha.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zulaikha.mp3",
+    "en": "/audio/nama/en/zulaikha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aarizah",
     "slug": "aarizah",
-    "file": "/audio/nama/aarizah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aarizah.mp3",
+    "en": "/audio/nama/en/aarizah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Abid",
     "slug": "abid",
-    "file": "/audio/nama/abid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/abid.mp3",
+    "en": "/audio/nama/en/abid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Adara",
     "slug": "adara",
-    "file": "/audio/nama/adara.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/adara.mp3",
+    "en": "/audio/nama/en/adara.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Afifuddin",
     "slug": "afifuddin",
-    "file": "/audio/nama/afifuddin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/afifuddin.mp3",
+    "en": "/audio/nama/en/afifuddin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Aimanah",
     "slug": "aimanah",
-    "file": "/audio/nama/aimanah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aimanah.mp3",
+    "en": "/audio/nama/en/aimanah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Aleeya",
     "slug": "aleeya",
-    "file": "/audio/nama/aleeya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/aleeya.mp3",
+    "en": "/audio/nama/en/aleeya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Alisha",
     "slug": "alisha",
-    "file": "/audio/nama/alisha.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/alisha.mp3",
+    "en": "/audio/nama/en/alisha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ammar",
     "slug": "ammar",
-    "file": "/audio/nama/ammar.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ammar.mp3",
+    "en": "/audio/nama/en/ammar.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Anwar",
     "slug": "anwar",
-    "file": "/audio/nama/anwar.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/anwar.mp3",
+    "en": "/audio/nama/en/anwar.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Arissa",
     "slug": "arissa",
-    "file": "/audio/nama/arissa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/arissa.mp3",
+    "en": "/audio/nama/en/arissa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ashraf",
     "slug": "ashraf",
-    "file": "/audio/nama/ashraf.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ashraf.mp3",
+    "en": "/audio/nama/en/ashraf.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Asyraf",
     "slug": "asyraf",
-    "file": "/audio/nama/asyraf.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/asyraf.mp3",
+    "en": "/audio/nama/en/asyraf.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Azlan",
     "slug": "azlan",
-    "file": "/audio/nama/azlan.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/azlan.mp3",
+    "en": "/audio/nama/en/azlan.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Azri",
     "slug": "azri",
-    "file": "/audio/nama/azri.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/azri.mp3",
+    "en": "/audio/nama/en/azri.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Baqir",
     "slug": "baqir",
-    "file": "/audio/nama/baqir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/baqir.mp3",
+    "en": "/audio/nama/en/baqir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Basir",
     "slug": "basir",
-    "file": "/audio/nama/basir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/basir.mp3",
+    "en": "/audio/nama/en/basir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Batul",
     "slug": "batul",
-    "file": "/audio/nama/batul.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/batul.mp3",
+    "en": "/audio/nama/en/batul.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Basyir",
     "slug": "basyir",
-    "file": "/audio/nama/basyir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/basyir.mp3",
+    "en": "/audio/nama/en/basyir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Cahaya",
     "slug": "cahaya",
-    "file": "/audio/nama/cahaya.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/cahaya.mp3",
+    "en": "/audio/nama/en/cahaya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Damir",
     "slug": "damir",
-    "file": "/audio/nama/damir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/damir.mp3",
+    "en": "/audio/nama/en/damir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Danisha",
     "slug": "danisha",
-    "file": "/audio/nama/danisha.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/danisha.mp3",
+    "en": "/audio/nama/en/danisha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Delima",
     "slug": "delima",
-    "file": "/audio/nama/delima.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/delima.mp3",
+    "en": "/audio/nama/en/delima.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Dhiya",
     "slug": "dhiya",
-    "file": "/audio/nama/dhiya.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/dhiya.mp3",
+    "en": "/audio/nama/en/dhiya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Elham",
     "slug": "elham",
-    "file": "/audio/nama/elham.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/elham.mp3",
+    "en": "/audio/nama/en/elham.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Emran",
     "slug": "emran",
-    "file": "/audio/nama/emran.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/emran.mp3",
+    "en": "/audio/nama/en/emran.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fadil",
     "slug": "fadil",
-    "file": "/audio/nama/fadil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fadil.mp3",
+    "en": "/audio/nama/en/fadil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Faiq",
     "slug": "faiq",
-    "file": "/audio/nama/faiq.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/faiq.mp3",
+    "en": "/audio/nama/en/faiq.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Faiqa",
     "slug": "faiqa",
-    "file": "/audio/nama/faiqa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/faiqa.mp3",
+    "en": "/audio/nama/en/faiqa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fajr",
     "slug": "fajr",
-    "file": "/audio/nama/fajr.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/fajr.mp3",
+    "en": "/audio/nama/en/fajr.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Fareez",
     "slug": "fareez",
-    "file": "/audio/nama/fareez.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fareez.mp3",
+    "en": "/audio/nama/en/fareez.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fasih",
     "slug": "fasih",
-    "file": "/audio/nama/fasih.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/fasih.mp3",
+    "en": "/audio/nama/en/fasih.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Fatinah",
     "slug": "fatinah",
-    "file": "/audio/nama/fatinah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/fatinah.mp3",
+    "en": "/audio/nama/en/fatinah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ghaith",
     "slug": "ghaith",
-    "file": "/audio/nama/ghaith.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ghaith.mp3",
+    "en": "/audio/nama/en/ghaith.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Habibi",
     "slug": "habibi",
-    "file": "/audio/nama/habibi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/habibi.mp3",
+    "en": "/audio/nama/en/habibi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hadirah",
     "slug": "hadirah",
-    "file": "/audio/nama/hadirah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hadirah.mp3",
+    "en": "/audio/nama/en/hadirah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Haikal",
     "slug": "haikal",
-    "file": "/audio/nama/haikal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/haikal.mp3",
+    "en": "/audio/nama/en/haikal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hakeema",
     "slug": "hakeema",
-    "file": "/audio/nama/hakeema.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hakeema.mp3",
+    "en": "/audio/nama/en/hakeema.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hamdi",
     "slug": "hamdi",
-    "file": "/audio/nama/hamdi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hamdi.mp3",
+    "en": "/audio/nama/en/hamdi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Hanafi",
     "slug": "hanafi",
-    "file": "/audio/nama/hanafi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/hanafi.mp3",
+    "en": "/audio/nama/en/hanafi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Harithah",
     "slug": "harithah",
-    "file": "/audio/nama/harithah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/harithah.mp3",
+    "en": "/audio/nama/en/harithah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Hasnah",
     "slug": "hasnah",
-    "file": "/audio/nama/hasnah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/hasnah.mp3",
+    "en": "/audio/nama/en/hasnah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Haykal",
     "slug": "haykal",
-    "file": "/audio/nama/haykal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/haykal.mp3",
+    "en": "/audio/nama/en/haykal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Humaira",
     "slug": "humaira",
-    "file": "/audio/nama/humaira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/humaira.mp3",
+    "en": "/audio/nama/en/humaira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ibtihal",
     "slug": "ibtihal",
-    "file": "/audio/nama/ibtihal.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/ibtihal.mp3",
+    "en": "/audio/nama/en/ibtihal.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Iffat",
     "slug": "iffat",
-    "file": "/audio/nama/iffat.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/iffat.mp3",
+    "en": "/audio/nama/en/iffat.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ikmal",
     "slug": "ikmal",
-    "file": "/audio/nama/ikmal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ikmal.mp3",
+    "en": "/audio/nama/en/ikmal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ilhan",
     "slug": "ilhan",
-    "file": "/audio/nama/ilhan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/ilhan.mp3",
+    "en": "/audio/nama/en/ilhan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Imtiyaz",
     "slug": "imtiyaz",
-    "file": "/audio/nama/imtiyaz.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/imtiyaz.mp3",
+    "en": "/audio/nama/en/imtiyaz.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Insyirah",
     "slug": "insyirah",
-    "file": "/audio/nama/insyirah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/insyirah.mp3",
+    "en": "/audio/nama/en/insyirah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Intan",
     "slug": "intan",
-    "file": "/audio/nama/intan.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/intan.mp3",
+    "en": "/audio/nama/en/intan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Iqra",
     "slug": "iqra",
-    "file": "/audio/nama/iqra.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/iqra.mp3",
+    "en": "/audio/nama/en/iqra.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Iskandar",
     "slug": "iskandar",
-    "file": "/audio/nama/iskandar.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/iskandar.mp3",
+    "en": "/audio/nama/en/iskandar.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Jauhari",
     "slug": "jauhari",
-    "file": "/audio/nama/jauhari.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/jauhari.mp3",
+    "en": "/audio/nama/en/jauhari.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Juwairiyah",
     "slug": "juwairiyah",
-    "file": "/audio/nama/juwairiyah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/juwairiyah.mp3",
+    "en": "/audio/nama/en/juwairiyah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Kamal",
     "slug": "kamal",
-    "file": "/audio/nama/kamal.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/kamal.mp3",
+    "en": "/audio/nama/en/kamal.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Kamilah",
     "slug": "kamilah",
-    "file": "/audio/nama/kamilah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/kamilah.mp3",
+    "en": "/audio/nama/en/kamilah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Khairani",
     "slug": "khairani",
-    "file": "/audio/nama/khairani.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/khairani.mp3",
+    "en": "/audio/nama/en/khairani.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Liyana",
     "slug": "liyana",
-    "file": "/audio/nama/liyana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/liyana.mp3",
+    "en": "/audio/nama/en/liyana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mahfuz",
     "slug": "mahfuz",
-    "file": "/audio/nama/mahfuz.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/mahfuz.mp3",
+    "en": "/audio/nama/en/mahfuz.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Maisara",
     "slug": "maisara",
-    "file": "/audio/nama/maisara.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/maisara.mp3",
+    "en": "/audio/nama/en/maisara.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Manar",
     "slug": "manar",
-    "file": "/audio/nama/manar.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/manar.mp3",
+    "en": "/audio/nama/en/manar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mawar",
     "slug": "mawar",
-    "file": "/audio/nama/mawar.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/mawar.mp3",
+    "en": "/audio/nama/en/mawar.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Miftah",
     "slug": "miftah",
-    "file": "/audio/nama/miftah.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/miftah.mp3",
+    "en": "/audio/nama/en/miftah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mika",
     "slug": "mika",
-    "file": "/audio/nama/mika.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/mika.mp3",
+    "en": "/audio/nama/en/mika.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Mizan",
     "slug": "mizan",
-    "file": "/audio/nama/mizan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/mizan.mp3",
+    "en": "/audio/nama/en/mizan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Muhsin",
     "slug": "muhsin",
-    "file": "/audio/nama/muhsin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/muhsin.mp3",
+    "en": "/audio/nama/en/muhsin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Muneeb",
     "slug": "muneeb",
-    "file": "/audio/nama/muneeb.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/muneeb.mp3",
+    "en": "/audio/nama/en/muneeb.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Murshid",
     "slug": "murshid",
-    "file": "/audio/nama/murshid.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/murshid.mp3",
+    "en": "/audio/nama/en/murshid.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nadhir",
     "slug": "nadhir",
-    "file": "/audio/nama/nadhir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/nadhir.mp3",
+    "en": "/audio/nama/en/nadhir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Nafeesa",
     "slug": "nafeesa",
-    "file": "/audio/nama/nafeesa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nafeesa.mp3",
+    "en": "/audio/nama/en/nafeesa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Naim",
     "slug": "naim",
-    "file": "/audio/nama/naim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/naim.mp3",
+    "en": "/audio/nama/en/naim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Naimah",
     "slug": "naimah",
-    "file": "/audio/nama/naimah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/naimah.mp3",
+    "en": "/audio/nama/en/naimah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Naufa",
     "slug": "naufa",
-    "file": "/audio/nama/naufa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/naufa.mp3",
+    "en": "/audio/nama/en/naufa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nazifa",
     "slug": "nazifa",
-    "file": "/audio/nama/nazifa.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nazifa.mp3",
+    "en": "/audio/nama/en/nazifa.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nuha",
     "slug": "nuha",
-    "file": "/audio/nama/nuha.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nuha.mp3",
+    "en": "/audio/nama/en/nuha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nurain",
     "slug": "nurain",
-    "file": "/audio/nama/nurain.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nurain.mp3",
+    "en": "/audio/nama/en/nurain.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Nurin",
     "slug": "nurin",
-    "file": "/audio/nama/nurin.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/nurin.mp3",
+    "en": "/audio/nama/en/nurin.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Qays",
     "slug": "qays",
-    "file": "/audio/nama/qays.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/qays.mp3",
+    "en": "/audio/nama/en/qays.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Raihan",
     "slug": "raihan",
-    "file": "/audio/nama/raihan.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/raihan.mp3",
+    "en": "/audio/nama/en/raihan.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Raihana",
     "slug": "raihana",
-    "file": "/audio/nama/raihana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/raihana.mp3",
+    "en": "/audio/nama/en/raihana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Raudhah",
     "slug": "raudhah",
-    "file": "/audio/nama/raudhah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/raudhah.mp3",
+    "en": "/audio/nama/en/raudhah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Rizwana",
     "slug": "rizwana",
-    "file": "/audio/nama/rizwana.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/rizwana.mp3",
+    "en": "/audio/nama/en/rizwana.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sabreen",
     "slug": "sabreen",
-    "file": "/audio/nama/sabreen.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sabreen.mp3",
+    "en": "/audio/nama/en/sabreen.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Safi",
     "slug": "safi",
-    "file": "/audio/nama/safi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/safi.mp3",
+    "en": "/audio/nama/en/safi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sahira",
     "slug": "sahira",
-    "file": "/audio/nama/sahira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/sahira.mp3",
+    "en": "/audio/nama/en/sahira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Saleh",
     "slug": "saleh",
-    "file": "/audio/nama/saleh.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/saleh.mp3",
+    "en": "/audio/nama/en/saleh.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Saleha",
     "slug": "saleha",
-    "file": "/audio/nama/saleha.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/saleha.mp3",
+    "en": "/audio/nama/en/saleha.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Sameer",
     "slug": "sameer",
-    "file": "/audio/nama/sameer.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sameer.mp3",
+    "en": "/audio/nama/en/sameer.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Shafira",
     "slug": "shafira",
-    "file": "/audio/nama/shafira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/shafira.mp3",
+    "en": "/audio/nama/en/shafira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Shahir",
     "slug": "shahir",
-    "file": "/audio/nama/shahir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/shahir.mp3",
+    "en": "/audio/nama/en/shahir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Sofian",
     "slug": "sofian",
-    "file": "/audio/nama/sofian.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/sofian.mp3",
+    "en": "/audio/nama/en/sofian.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syafi",
     "slug": "syafi",
-    "file": "/audio/nama/syafi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syafi.mp3",
+    "en": "/audio/nama/en/syafi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syahmi",
     "slug": "syahmi",
-    "file": "/audio/nama/syahmi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syahmi.mp3",
+    "en": "/audio/nama/en/syahmi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syamil",
     "slug": "syamil",
-    "file": "/audio/nama/syamil.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/syamil.mp3",
+    "en": "/audio/nama/en/syamil.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Syamsiah",
     "slug": "syamsiah",
-    "file": "/audio/nama/syamsiah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/syamsiah.mp3",
+    "en": "/audio/nama/en/syamsiah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Syedina",
     "slug": "syedina",
-    "file": "/audio/nama/syedina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/syedina.mp3",
+    "en": "/audio/nama/en/syedina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Tamim",
     "slug": "tamim",
-    "file": "/audio/nama/tamim.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/tamim.mp3",
+    "en": "/audio/nama/en/tamim.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Thamir",
     "slug": "thamir",
-    "file": "/audio/nama/thamir.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/thamir.mp3",
+    "en": "/audio/nama/en/thamir.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Ubay",
     "slug": "ubay",
-    "file": "/audio/nama/ubay.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ubay.mp3",
+    "en": "/audio/nama/en/ubay.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Uzair",
     "slug": "uzair",
-    "file": "/audio/nama/uzair.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/uzair.mp3",
+    "en": "/audio/nama/en/uzair.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Wafiya",
     "slug": "wafiya",
-    "file": "/audio/nama/wafiya.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/wafiya.mp3",
+    "en": "/audio/nama/en/wafiya.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Wajdi",
     "slug": "wajdi",
-    "file": "/audio/nama/wajdi.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/wajdi.mp3",
+    "en": "/audio/nama/en/wajdi.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Yaqeen",
     "slug": "yaqeen",
-    "file": "/audio/nama/yaqeen.mp3"
+    "gender": "unisex",
+    "ms": "/audio/nama/ms/yaqeen.mp3",
+    "en": "/audio/nama/en/yaqeen.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Yasmeen",
     "slug": "yasmeen",
-    "file": "/audio/nama/yasmeen.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/yasmeen.mp3",
+    "en": "/audio/nama/en/yasmeen.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Yusri",
     "slug": "yusri",
-    "file": "/audio/nama/yusri.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/yusri.mp3",
+    "en": "/audio/nama/en/yusri.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zaara",
     "slug": "zaara",
-    "file": "/audio/nama/zaara.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zaara.mp3",
+    "en": "/audio/nama/en/zaara.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zafira",
     "slug": "zafira",
-    "file": "/audio/nama/zafira.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zafira.mp3",
+    "en": "/audio/nama/en/zafira.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zahirah",
     "slug": "zahirah",
-    "file": "/audio/nama/zahirah.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zahirah.mp3",
+    "en": "/audio/nama/en/zahirah.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Zainuddin",
     "slug": "zainuddin",
-    "file": "/audio/nama/zainuddin.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zainuddin.mp3",
+    "en": "/audio/nama/en/zainuddin.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zarina",
     "slug": "zarina",
-    "file": "/audio/nama/zarina.mp3"
+    "gender": "perempuan",
+    "ms": "/audio/nama/ms/zarina.mp3",
+    "en": "/audio/nama/en/zarina.mp3",
+    "voiceMs": "ms-MY-YasminNeural",
+    "voiceEn": "en-US-JennyNeural"
   },
   {
     "name": "Ziyad",
     "slug": "ziyad",
-    "file": "/audio/nama/ziyad.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/ziyad.mp3",
+    "en": "/audio/nama/en/ziyad.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   },
   {
     "name": "Zuhayr",
     "slug": "zuhayr",
-    "file": "/audio/nama/zuhayr.mp3"
+    "gender": "lelaki",
+    "ms": "/audio/nama/ms/zuhayr.mp3",
+    "en": "/audio/nama/en/zuhayr.mp3",
+    "voiceMs": "ms-MY-OsmanNeural",
+    "voiceEn": "en-US-GuyNeural"
   }
 ]
