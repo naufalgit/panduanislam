@@ -1,22 +1,20 @@
 ---
 interface Props {
   text: string;
+  slug: string;
   lang?: 'ms' | 'en';
 }
 
-const { text, lang = 'ms' } = Astro.props;
-const speakText =
-  lang === 'en'
-    ? `Assalamualaikum, my name is ${text}.`
-    : `Assalamualaikum, nama saya ${text}.`;
+const { text, slug, lang = 'ms' } = Astro.props;
+const audioSrc = `/audio/nama/${slug}.mp3`;
 const label = lang === 'en' ? 'Play pronunciation' : 'Dengar sebutan';
 const hint =
   lang === 'en'
-    ? 'Uses your device voice (Malay if available).'
-    : 'Menggunakan suara peranti anda (Bahasa Melayu jika ada).';
+    ? 'Clear Malay pronunciation of the name.'
+    : 'Sebutan jelas nama dalam Bahasa Melayu.';
 ---
 
-<div class="pronounce" data-pronounce data-text={speakText} data-lang={lang}>
+<div class="pronounce" data-pronounce data-audio={audioSrc} data-name={text}>
   <button type="button" class="btn btn-ghost pronounce-btn" data-pronounce-btn>
     {label}
   </button>
@@ -26,51 +24,30 @@ const hint =
 <script is:inline>
   (function () {
     var root = document.querySelector('[data-pronounce]');
-    if (!root || !window.speechSynthesis) return;
+    if (!root) return;
 
     var btn = root.querySelector('[data-pronounce-btn]');
-    var text = root.getAttribute('data-text') || '';
-    var pageLang = root.getAttribute('data-lang') || 'ms';
-    if (!btn || !text) return;
+    var src = root.getAttribute('data-audio') || '';
+    if (!btn || !src) return;
 
-    function pickVoice() {
-      var voices = window.speechSynthesis.getVoices() || [];
-      var prefer =
-        pageLang === 'en'
-          ? ['en-MY', 'en-GB', 'en-US', 'en', 'ms-MY', 'ms']
-          : ['ms-MY', 'ms', 'id-ID', 'id'];
-      for (var i = 0; i < prefer.length; i++) {
-        var code = prefer[i].toLowerCase();
-        for (var j = 0; j < voices.length; j++) {
-          var v = voices[j];
-          var lang = (v.lang || '').toLowerCase();
-          if (lang === code || lang.indexOf(code) === 0) return v;
-        }
+    var audio = null;
+
+    function play() {
+      if (!audio) {
+        audio = new Audio(src);
+        audio.preload = 'none';
       }
-      for (var k = 0; k < voices.length; k++) {
-        var name = (voices[k].name || '').toLowerCase();
-        if (name.indexOf('malay') !== -1 || name.indexOf('indonesia') !== -1) return voices[k];
+      audio.pause();
+      audio.currentTime = 0;
+      var p = audio.play();
+      if (p && typeof p.catch === 'function') {
+        p.catch(function () {
+          btn.disabled = true;
+          btn.textContent = btn.textContent.indexOf('Play') === 0 ? 'Audio unavailable' : 'Audio tidak tersedia';
+        });
       }
-      return null;
     }
 
-    function speak() {
-      window.speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(text);
-      u.lang = pageLang === 'en' ? 'en-MY' : 'ms-MY';
-      u.rate = 0.9;
-      var voice = pickVoice();
-      if (voice) {
-        u.voice = voice;
-        u.lang = voice.lang || u.lang;
-      }
-      window.speechSynthesis.speak(u);
-    }
-
-    btn.addEventListener('click', speak);
-    // Some browsers load voices asynchronously
-    if (typeof window.speechSynthesis.onvoiceschanged !== 'undefined') {
-      window.speechSynthesis.onvoiceschanged = function () {};
-    }
+    btn.addEventListener('click', play);
   })();
 </script>

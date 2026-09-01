@@ -51,7 +51,7 @@ const enPath = `${EN_NAMES_BASE}/name/${name.slug}/`;
 
   <article>
     <h1>{name.name}</h1>
-    <PronounceButton text={name.name} lang="en" />
+    <PronounceButton text={name.name} slug={name.slug} lang="en" />
     <p class="lead">
       <strong>Meaning:</strong> {name.meaningEn}
     </p>
